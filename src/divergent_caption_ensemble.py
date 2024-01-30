@@ -16,8 +16,6 @@ from datasets import CIRRDataset, CIRCODataset
 from utils import extract_image_features, device, collate_fn, PROJECT_ROOT, targetpad_transform
 
 
-
-
 @torch.no_grad()
 def cirr_generate_test_submission_file(dataset_path: str, clip_model_name: str, preprocess: callable, submission_name: str) -> None:
     """

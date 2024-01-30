@@ -6,6 +6,7 @@ from tqdm import tqdm
 import openai
 from pathlib import Path
 
+openai.api_key = "your_api_key"
 
 DATASET = 'circo' # 'cirr', 'fashioniq'
 
@@ -23,8 +24,6 @@ MULTI_CAPTION = True
 NUM_CAPTION = 15
 with open(input_json, "r") as f:
     annotations = json.load(f)
-
-openai.api_key = "your_api_key"
 
 for ans in tqdm(annotations):
     if DATASET == 'circo':
