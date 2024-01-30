@@ -1,0 +1,4802 @@
+[
+    {
+        "reference_img_id": 281438,
+        "relative_caption": "has a higher quality and is taken during the daytime",
+        "shared_concept": "a man sitting on an outdoor toilet",
+        "id": 0
+    },
+    {
+        "reference_img_id": 251485,
+        "relative_caption": "is in a room with wooden walls",
+        "shared_concept": "a double bed",
+        "id": 1
+    },
+    {
+        "reference_img_id": 232621,
+        "relative_caption": "is sitting on the ground",
+        "shared_concept": "a person looking at his laptop",
+        "id": 2
+    },
+    {
+        "reference_img_id": 258030,
+        "relative_caption": "is wearing sunglasses",
+        "shared_concept": "a man wearing a tie, a shirt and a hat",
+        "id": 3
+    },
+    {
+        "reference_img_id": 114366,
+        "relative_caption": "shows only one box placed inside a car",
+        "shared_concept": "a box of donuts",
+        "id": 4
+    },
+    {
+        "reference_img_id": 19155,
+        "relative_caption": "shows a person in the foreground",
+        "shared_concept": "an open refrigerator filled with mostly alcoholic beverages",
+        "id": 5
+    },
+    {
+        "reference_img_id": 23567,
+        "relative_caption": "has more colorful apron and he is looking at the camera",
+        "shared_concept": "a child wearing a chef's hat and an apron",
+        "id": 6
+    },
+    {
+        "reference_img_id": 400924,
+        "relative_caption": "is taken from the same angle and shows a spiral staircase",
+        "shared_concept": "a clock in a big hall",
+        "id": 7
+    },
+    {
+        "reference_img_id": 455504,
+        "relative_caption": "is only one and is seen from the side",
+        "shared_concept": "a glass bottle on a bench",
+        "id": 8
+    },
+    {
+        "reference_img_id": 240265,
+        "relative_caption": "has blue blankets and a CRT TV next to it",
+        "shared_concept": "a double bed",
+        "id": 9
+    },
+    {
+        "reference_img_id": 433496,
+        "relative_caption": "shows the dining wagon",
+        "shared_concept": "a train wagon seen from the inside",
+        "id": 10
+    },
+    {
+        "reference_img_id": 549870,
+        "relative_caption": "has only one person and he is lying down",
+        "shared_concept": "a person talking on the phone with water in the background",
+        "id": 11
+    },
+    {
+        "reference_img_id": 451179,
+        "relative_caption": "has bananas sliced in half, apples, more fruit and no peach",
+        "shared_concept": "a bowl of fruit in the foreground",
+        "id": 12
+    },
+    {
+        "reference_img_id": 539540,
+        "relative_caption": "is on a wooden cutting board with a different arrangement",
+        "shared_concept": "a sliced carrot",
+        "id": 13
+    },
+    {
+        "reference_img_id": 67430,
+        "relative_caption": "is shot from the same angle and has buildings on both the sides",
+        "shared_concept": "a canal with boats seen from a river view",
+        "id": 14
+    },
+    {
+        "reference_img_id": 117864,
+        "relative_caption": "are dressed more formally and the photo is taken indoors",
+        "shared_concept": "two people looking at their phones",
+        "id": 15
+    },
+    {
+        "reference_img_id": 61617,
+        "relative_caption": "is shot from the side and has several clothes in the background",
+        "shared_concept": "a laptop on a desk",
+        "id": 16
+    },
+    {
+        "reference_img_id": 119135,
+        "relative_caption": "has multiple moving boxes",
+        "shared_concept": "a living room",
+        "id": 17
+    },
+    {
+        "reference_img_id": 490966,
+        "relative_caption": "is mainly blue and the photo is taken from a different angle",
+        "shared_concept": "a kitchen",
+        "id": 18
+    },
+    {
+        "reference_img_id": 90604,
+        "relative_caption": "is a statue and the photo is set outdoors",
+        "shared_concept": "a dog with a Santa hat",
+        "id": 19
+    },
+    {
+        "reference_img_id": 158745,
+        "relative_caption": "has a bridge in the background",
+        "shared_concept": "some kites in the sky",
+        "id": 20
+    },
+    {
+        "reference_img_id": 210061,
+        "relative_caption": "is holding an umbrella instead of a suitcase and the photo is taken from the same angle and has no other people in the foreground",
+        "shared_concept": "a person seen from the back in greyscale",
+        "id": 21
+    },
+    {
+        "reference_img_id": 69753,
+        "relative_caption": "is half immersed in the water and no buildings are visible in the background",
+        "shared_concept": "a person riding a horse",
+        "id": 22
+    },
+    {
+        "reference_img_id": 281885,
+        "relative_caption": "is shot from the same angle and shows only one person",
+        "shared_concept": "a person seen from the front sitting on a bench using a laptop",
+        "id": 23
+    },
+    {
+        "reference_img_id": 152478,
+        "relative_caption": "has a bus instead of a horse",
+        "shared_concept": "a birthday cake",
+        "id": 24
+    },
+    {
+        "reference_img_id": 471574,
+        "relative_caption": "is not set and has a clear vase with more white flowers in it",
+        "shared_concept": "a dining table",
+        "id": 25
+    },
+    {
+        "reference_img_id": 330427,
+        "relative_caption": "is of a different color and the photo shows a traffic cone",
+        "shared_concept": "a fire hydrant surrounded by snow",
+        "id": 26
+    },
+    {
+        "reference_img_id": 32201,
+        "relative_caption": "shows fewer people and one parked motor-scooter",
+        "shared_concept": "a person sitting on a bench",
+        "id": 27
+    },
+    {
+        "reference_img_id": 472616,
+        "relative_caption": "has only one person and she is wearing a black t-shirt",
+        "shared_concept": "a woman taking a selfie in a bathroom mirror",
+        "id": 28
+    },
+    {
+        "reference_img_id": 94878,
+        "relative_caption": "is in the water and the photo is zoomed out",
+        "shared_concept": "an abandoned bike",
+        "id": 29
+    },
+    {
+        "reference_img_id": 194017,
+        "relative_caption": "shows three of them and there is a forest in the background",
+        "shared_concept": "people riding horses",
+        "id": 30
+    },
+    {
+        "reference_img_id": 438039,
+        "relative_caption": "is shot in greyscale, the photo has a different background and the woman is looking at a phone",
+        "shared_concept": "a woman on a bench",
+        "id": 31
+    },
+    {
+        "reference_img_id": 574169,
+        "relative_caption": "is of a different breed and the book is open",
+        "shared_concept": "a dog with a book in front of him",
+        "id": 32
+    },
+    {
+        "reference_img_id": 510439,
+        "relative_caption": "shows only one of them and it is on a metal railing instead of power lines",
+        "shared_concept": "a small bird",
+        "id": 33
+    },
+    {
+        "reference_img_id": 21141,
+        "relative_caption": "has the same color and is standing still on the shoreline",
+        "shared_concept": "a white and grey bird",
+        "id": 34
+    },
+    {
+        "reference_img_id": 157409,
+        "relative_caption": "is blue and has more objects attached to the walls",
+        "shared_concept": "a kitchen",
+        "id": 35
+    },
+    {
+        "reference_img_id": 20668,
+        "relative_caption": "is only one and it is touched by a cat",
+        "shared_concept": "a white Wii controller",
+        "id": 36
+    },
+    {
+        "reference_img_id": 66227,
+        "relative_caption": "is more stocked and the photo has one person in the foreground",
+        "shared_concept": "a close-up open refrigerator seen from the front",
+        "id": 37
+    },
+    {
+        "reference_img_id": 430952,
+        "relative_caption": "is crossing a river and has one person on its back",
+        "shared_concept": "an elephant",
+        "id": 38
+    },
+    {
+        "reference_img_id": 76394,
+        "relative_caption": "has walls of a similar color and there is a guitar",
+        "shared_concept": "a living room with a sofa and blue walls",
+        "id": 39
+    },
+    {
+        "reference_img_id": 577363,
+        "relative_caption": "has the same color, shows no chair and the photo is taken from a closer distance",
+        "shared_concept": "a white egret",
+        "id": 40
+    },
+    {
+        "reference_img_id": 57799,
+        "relative_caption": "shows no people and the photo is zoomed in",
+        "shared_concept": "a green parrot in a cage",
+        "id": 41
+    },
+    {
+        "reference_img_id": 18405,
+        "relative_caption": "shows no buildings and there are trees on both sides of the road",
+        "shared_concept": "a stop sign",
+        "id": 42
+    },
+    {
+        "reference_img_id": 49671,
+        "relative_caption": "shows two people that are wearing a similar outfit",
+        "shared_concept": "a person wearing a shirt, a tie and a hat",
+        "id": 43
+    },
+    {
+        "reference_img_id": 460358,
+        "relative_caption": "is set in a wood and the photo is taken from a different angle",
+        "shared_concept": "a person throwing a baseball at a child who is holding a bat",
+        "id": 44
+    },
+    {
+        "reference_img_id": 177458,
+        "relative_caption": "is a woman instead of a man",
+        "shared_concept": "a greyscale close-up portrait of a person looking at the camera",
+        "id": 45
+    },
+    {
+        "reference_img_id": 187578,
+        "relative_caption": "is shaped like a backpack and is being worn",
+        "shared_concept": "a child with a teddy bear",
+        "id": 46
+    },
+    {
+        "reference_img_id": 363900,
+        "relative_caption": "has a carpet instead of grass and the photo is shot from the same angle",
+        "shared_concept": "a handbag with its contents displayed next to it",
+        "id": 47
+    },
+    {
+        "reference_img_id": 268574,
+        "relative_caption": "are more colorful, have a different shape and they are seen from the top",
+        "shared_concept": "a lot of scissors stacked messily",
+        "id": 48
+    },
+    {
+        "reference_img_id": 218732,
+        "relative_caption": "is shot in greyscale from a similar distance and shows more of them",
+        "shared_concept": "children wearing school uniforms seen from a close distance",
+        "id": 49
+    },
+    {
+        "reference_img_id": 38542,
+        "relative_caption": "are eating in a garden and the umbrellas are colored",
+        "shared_concept": "multiple people eating at a table with rain umbrellas",
+        "id": 50
+    },
+    {
+        "reference_img_id": 12900,
+        "relative_caption": "shows a person filling the glasses and the wine is white instead of red",
+        "shared_concept": "several wine glasses next to each other",
+        "id": 51
+    },
+    {
+        "reference_img_id": 575061,
+        "relative_caption": "is shot from the same angle and the car is a red pickup",
+        "shared_concept": "a car in a snowy street",
+        "id": 52
+    },
+    {
+        "reference_img_id": 566434,
+        "relative_caption": "is viewed from a closer distance and from the side",
+        "shared_concept": "a rusty truck",
+        "id": 53
+    },
+    {
+        "reference_img_id": 343973,
+        "relative_caption": "is resting on a table and the photo shows only one person in the foreground",
+        "shared_concept": "a person sitting outdoors and using a laptop",
+        "id": 54
+    },
+    {
+        "reference_img_id": 312971,
+        "relative_caption": "shows the same number of people sitting on a bed and bare feet in the foreground",
+        "shared_concept": "three people using a computer seen from the front",
+        "id": 55
+    },
+    {
+        "reference_img_id": 128913,
+        "relative_caption": "shows no people",
+        "shared_concept": "several snowboards on a wall",
+        "id": 56
+    },
+    {
+        "reference_img_id": 481114,
+        "relative_caption": "has plain white sheets and the room looks cheaper",
+        "shared_concept": "a double bed with turned on lamps on the sides",
+        "id": 57
+    },
+    {
+        "reference_img_id": 342900,
+        "relative_caption": "is surrounded by snow and the trees are bare",
+        "shared_concept": "a person riding a horse",
+        "id": 58
+    },
+    {
+        "reference_img_id": 507897,
+        "relative_caption": "has a similar color and has fog in the background",
+        "shared_concept": "a dark horse",
+        "id": 59
+    },
+    {
+        "reference_img_id": 460017,
+        "relative_caption": "has more toys and the blankets are darker",
+        "shared_concept": "a plushy toy on a double bed",
+        "id": 60
+    },
+    {
+        "reference_img_id": 526851,
+        "relative_caption": "has a red semaphore instead of a green one",
+        "shared_concept": "a man standing next to a semaphore",
+        "id": 61
+    },
+    {
+        "reference_img_id": 80239,
+        "relative_caption": "has an open laptop with the screen visible on it",
+        "shared_concept": "a kitchen counter",
+        "id": 62
+    },
+    {
+        "reference_img_id": 199973,
+        "relative_caption": "is of the same brand and is placed on an outdoor table",
+        "shared_concept": "a Dell laptop on a table",
+        "id": 63
+    },
+    {
+        "reference_img_id": 407154,
+        "relative_caption": "is shot from behind and shows the catcher",
+        "shared_concept": "a kid with a baseball bat",
+        "id": 64
+    },
+    {
+        "reference_img_id": 114181,
+        "relative_caption": "has a different color and a magnet depicting a flag attached to it",
+        "shared_concept": "a fridge with magnets",
+        "id": 65
+    },
+    {
+        "reference_img_id": 297636,
+        "relative_caption": "is empty and there are several bottles of alcohol next to it",
+        "shared_concept": "a mixer",
+        "id": 66
+    },
+    {
+        "reference_img_id": 287965,
+        "relative_caption": "has a car instead of a truck",
+        "shared_concept": "a vehicle filled with bananas",
+        "id": 67
+    },
+    {
+        "reference_img_id": 433177,
+        "relative_caption": "is set on a train instead of a bedroom",
+        "shared_concept": "people looking at their laptop",
+        "id": 68
+    },
+    {
+        "reference_img_id": 434831,
+        "relative_caption": "shows only one type of fruit",
+        "shared_concept": "a close-up bowl filled with fruit",
+        "id": 69
+    },
+    {
+        "reference_img_id": 7731,
+        "relative_caption": "is only one and is inside a display case",
+        "shared_concept": "a close-up feature phone",
+        "id": 70
+    },
+    {
+        "reference_img_id": 556629,
+        "relative_caption": "shows more of them and they are for sale",
+        "shared_concept": "scissors",
+        "id": 71
+    },
+    {
+        "reference_img_id": 426704,
+        "relative_caption": "shows a plate with food and has a whiter background",
+        "shared_concept": "a man looking at a computer screen sitting at a desk",
+        "id": 72
+    },
+    {
+        "reference_img_id": 430426,
+        "relative_caption": "is of a different color and is viewed from the back",
+        "shared_concept": "a garbage truck",
+        "id": 73
+    },
+    {
+        "reference_img_id": 425417,
+        "relative_caption": "are sliced in a different shapes and inside a clear glass bowl",
+        "shared_concept": "sliced carrots",
+        "id": 74
+    },
+    {
+        "reference_img_id": 393793,
+        "relative_caption": "has a different color and is surrounded by flowers",
+        "shared_concept": "a fire hydrant",
+        "id": 75
+    },
+    {
+        "reference_img_id": 527187,
+        "relative_caption": "is an older woman and there is a door in the background",
+        "shared_concept": "a person holding a white hair drier",
+        "id": 76
+    },
+    {
+        "reference_img_id": 575542,
+        "relative_caption": "has colorful magnets shaped like letters and a few photos",
+        "shared_concept": "a white refrigerator seen from the front",
+        "id": 77
+    },
+    {
+        "reference_img_id": 255336,
+        "relative_caption": "is in color and shows the person using a phone",
+        "shared_concept": "a person in a hospital bed",
+        "id": 78
+    },
+    {
+        "reference_img_id": 282212,
+        "relative_caption": "is a man, is dressed in the same color and has his feet in the air",
+        "shared_concept": "a tennis player serving on a grass court",
+        "id": 79
+    },
+    {
+        "reference_img_id": 502080,
+        "relative_caption": "has a suspended cookware display and the walls are not white",
+        "shared_concept": "a kitchen with an island",
+        "id": 80
+    },
+    {
+        "reference_img_id": 482717,
+        "relative_caption": "has similar shoes and is holding an umbrella",
+        "shared_concept": "a woman wearing rubber boots",
+        "id": 81
+    },
+    {
+        "reference_img_id": 503659,
+        "relative_caption": "is playing on clay and is hitting a backhand volley",
+        "shared_concept": "a female tennis player",
+        "id": 82
+    },
+    {
+        "reference_img_id": 92103,
+        "relative_caption": "has shorter hair, is wearing a hoodie and no other people are visible",
+        "shared_concept": "a man standing and playing with the Wii",
+        "id": 83
+    },
+    {
+        "reference_img_id": 538354,
+        "relative_caption": "has the same color but has green tiles",
+        "shared_concept": "a brown kitchen",
+        "id": 84
+    },
+    {
+        "reference_img_id": 121703,
+        "relative_caption": "has more toppings and is next to a hot dog",
+        "shared_concept": "a single slice of pizza on a plate",
+        "id": 85
+    },
+    {
+        "reference_img_id": 486024,
+        "relative_caption": "is full of bottles instead of food",
+        "shared_concept": "an open white fridge",
+        "id": 86
+    },
+    {
+        "reference_img_id": 191601,
+        "relative_caption": "has the shape of two numbers and is shot from the same angle",
+        "shared_concept": "a birthday cake seen from the top",
+        "id": 87
+    },
+    {
+        "reference_img_id": 256907,
+        "relative_caption": "is shot indoors and the umbrellas are more colored",
+        "shared_concept": "an umbrellas roof",
+        "id": 88
+    },
+    {
+        "reference_img_id": 378336,
+        "relative_caption": "is more modern and white and grey",
+        "shared_concept": "a kitchen with appliances",
+        "id": 89
+    },
+    {
+        "reference_img_id": 242024,
+        "relative_caption": "is in the middle of a road and there is a car in the background",
+        "shared_concept": "a zebra",
+        "id": 90
+    },
+    {
+        "reference_img_id": 349993,
+        "relative_caption": "is white and has a microwave oven resting on the counter next to it",
+        "shared_concept": "a fridge",
+        "id": 91
+    },
+    {
+        "reference_img_id": 501301,
+        "relative_caption": "are seen from the top and are the same number",
+        "shared_concept": "three suitcases",
+        "id": 92
+    },
+    {
+        "reference_img_id": 2505,
+        "relative_caption": "is inside an enclosure and a blue sky is visible in the background",
+        "shared_concept": "a young girl riding a horse seen from the front",
+        "id": 93
+    },
+    {
+        "reference_img_id": 177844,
+        "relative_caption": "has more beds and shows no people on them",
+        "shared_concept": "a furniture store",
+        "id": 94
+    },
+    {
+        "reference_img_id": 223021,
+        "relative_caption": "shows only one girl and she is using a laptop",
+        "shared_concept": "a girl laying on a bed",
+        "id": 95
+    },
+    {
+        "reference_img_id": 483524,
+        "relative_caption": "has white animals and palaces in the background",
+        "shared_concept": "two horses pulling a wagon with people on it",
+        "id": 96
+    },
+    {
+        "reference_img_id": 398147,
+        "relative_caption": "is painted with a different flag",
+        "shared_concept": "a fire hydrant painted with the design of a flag",
+        "id": 97
+    },
+    {
+        "reference_img_id": 408038,
+        "relative_caption": "are seen from a higher angle and the photo shows a roundabout",
+        "shared_concept": "an intersection with cars",
+        "id": 98
+    },
+    {
+        "reference_img_id": 555735,
+        "relative_caption": "is of a different color and has the hood open",
+        "shared_concept": "an old truck",
+        "id": 99
+    },
+    {
+        "reference_img_id": 34952,
+        "relative_caption": "is wearing a t-shirt of a different color, the photo has no people in the background and is shot from the same angle",
+        "shared_concept": "a child wearing a baseball hat and a baseball glove in the foreground seen from the front",
+        "id": 100
+    },
+    {
+        "reference_img_id": 427950,
+        "relative_caption": "shows the entrance door and has no animals",
+        "shared_concept": "a living room with a sofa and a TV",
+        "id": 101
+    },
+    {
+        "reference_img_id": 412231,
+        "relative_caption": "has colorful pants and one hand over his head",
+        "shared_concept": "a person on a snowboard in the air",
+        "id": 102
+    },
+    {
+        "reference_img_id": 401920,
+        "relative_caption": "is a child and is looking at the camera",
+        "shared_concept": "a person biting a banana in the foreground",
+        "id": 103
+    },
+    {
+        "reference_img_id": 80132,
+        "relative_caption": "is taken from a closer distance and the front and has a kettle on it",
+        "shared_concept": "a stove",
+        "id": 104
+    },
+    {
+        "reference_img_id": 433011,
+        "relative_caption": "is in the foreground and has at least a bird on it",
+        "shared_concept": "a bench shot in greyscale",
+        "id": 105
+    },
+    {
+        "reference_img_id": 159383,
+        "relative_caption": "is white without a windshield and has a similar shape",
+        "shared_concept": "a scooter with nobody on it seen from the side",
+        "id": 106
+    },
+    {
+        "reference_img_id": 26618,
+        "relative_caption": "has a truck instead of a train and is set on a city road",
+        "shared_concept": "a graffiti on the side of a vehicle",
+        "id": 107
+    },
+    {
+        "reference_img_id": 275670,
+        "relative_caption": "is playing with a tablet",
+        "shared_concept": "a little girl on a bed",
+        "id": 108
+    },
+    {
+        "reference_img_id": 330946,
+        "relative_caption": "has a person standing behind it and is seen from a farther distance",
+        "shared_concept": "a dog on a surfboard",
+        "id": 109
+    },
+    {
+        "reference_img_id": 538392,
+        "relative_caption": "is open-top and the photo is shot from the same angle",
+        "shared_concept": "a bus with people sitting seen from the back",
+        "id": 110
+    },
+    {
+        "reference_img_id": 533939,
+        "relative_caption": "has one man instead of two women and the photo is not taken on the set of a TV show",
+        "shared_concept": "a person behind a kitchen counter seen from the front",
+        "id": 111
+    },
+    {
+        "reference_img_id": 159689,
+        "relative_caption": "shows only one person and more luggage",
+        "shared_concept": "a person in public transport with luggage",
+        "id": 112
+    },
+    {
+        "reference_img_id": 258845,
+        "relative_caption": "is talking on the phone and the person is a man instead of a woman",
+        "shared_concept": "a close-up person holding a glass of red wine in their hand",
+        "id": 113
+    },
+    {
+        "reference_img_id": 492721,
+        "relative_caption": "has a child sitting at a dining table in front of it",
+        "shared_concept": "a pizza on a plate",
+        "id": 114
+    },
+    {
+        "reference_img_id": 84632,
+        "relative_caption": "is wearing a life jacket and is near a body of water",
+        "shared_concept": "a dog",
+        "id": 115
+    },
+    {
+        "reference_img_id": 572797,
+        "relative_caption": "is on the shoreline, has a surfboard next to him and there is the sea in the background",
+        "shared_concept": "a man seen from the back",
+        "id": 116
+    },
+    {
+        "reference_img_id": 533954,
+        "relative_caption": "is of a different color and there is snow on the ground",
+        "shared_concept": "a plane at the airport with a boarding bridge attached to it",
+        "id": 117
+    },
+    {
+        "reference_img_id": 355004,
+        "relative_caption": "has lighter walls and a ceiling fan",
+        "shared_concept": "a bedroom with two windows",
+        "id": 118
+    },
+    {
+        "reference_img_id": 79809,
+        "relative_caption": "is a woman seen from a closer distance and she is wearing a bikini",
+        "shared_concept": "a person riding a surfboard",
+        "id": 119
+    },
+    {
+        "reference_img_id": 345525,
+        "relative_caption": "has fewer animals and more cats",
+        "shared_concept": "a person under the covers with animals on a bed",
+        "id": 120
+    },
+    {
+        "reference_img_id": 117384,
+        "relative_caption": "is shaped like an animal and has candles on it",
+        "shared_concept": "a cake",
+        "id": 121
+    },
+    {
+        "reference_img_id": 366400,
+        "relative_caption": "is shot in greyscale and shows more people playing",
+        "shared_concept": "a person playing beach volley",
+        "id": 122
+    },
+    {
+        "reference_img_id": 29447,
+        "relative_caption": "is darker and is next to one pair of shoes",
+        "shared_concept": "a cat looking at the camera",
+        "id": 123
+    },
+    {
+        "reference_img_id": 192353,
+        "relative_caption": "has no backpack and the photo shows also a single car",
+        "shared_concept": "a person riding a skateboard shot in greyscale",
+        "id": 124
+    },
+    {
+        "reference_img_id": 560304,
+        "relative_caption": "is taken in greyscale and from the back",
+        "shared_concept": "a close-up man talking on the phone",
+        "id": 125
+    },
+    {
+        "reference_img_id": 495424,
+        "relative_caption": "has two of them, the photo is taken from a different angle, shows a window and the floor is darker",
+        "shared_concept": "a toilet",
+        "id": 126
+    },
+    {
+        "reference_img_id": 69201,
+        "relative_caption": "has a body of water in the background",
+        "shared_concept": "a man talking on the phone in the foreground",
+        "id": 127
+    },
+    {
+        "reference_img_id": 34654,
+        "relative_caption": "shows a pot instead of a baking tray",
+        "shared_concept": "an open oven in the foreground with cookware in it",
+        "id": 128
+    },
+    {
+        "reference_img_id": 278039,
+        "relative_caption": "has the same color and the photo is set next to a door",
+        "shared_concept": "a pink umbrella held by a person",
+        "id": 129
+    },
+    {
+        "reference_img_id": 271109,
+        "relative_caption": "has the same color and there is no bottle next to it",
+        "shared_concept": "a wine glass filled with a light clear red beverage",
+        "id": 130
+    },
+    {
+        "reference_img_id": 86659,
+        "relative_caption": "has a book on it and the table is made of wood",
+        "shared_concept": "a closed laptop on an empty table in the foreground",
+        "id": 131
+    },
+    {
+        "reference_img_id": 185803,
+        "relative_caption": "is younger, wears a black suit and the photo is shot from the same angle",
+        "shared_concept": "a man wearing a suit checking his phone",
+        "id": 132
+    },
+    {
+        "reference_img_id": 260641,
+        "relative_caption": "is farther from the mirror and the photo has only one of them",
+        "shared_concept": "a dog in the foreground reflected in a mirror in the background",
+        "id": 133
+    },
+    {
+        "reference_img_id": 467282,
+        "relative_caption": "has more of them in multiple colors",
+        "shared_concept": "a microwave oven",
+        "id": 134
+    },
+    {
+        "reference_img_id": 289452,
+        "relative_caption": "are of different colors and are placed outdoors",
+        "shared_concept": "several fridges next to each other",
+        "id": 135
+    },
+    {
+        "reference_img_id": 476440,
+        "relative_caption": "is seen from the same angle and is wearing sunglasses",
+        "shared_concept": "a person with an umbrella indoors seen from the front",
+        "id": 136
+    },
+    {
+        "reference_img_id": 323897,
+        "relative_caption": "has the same color and there is snow around it",
+        "shared_concept": "a yellow school bus",
+        "id": 137
+    },
+    {
+        "reference_img_id": 406398,
+        "relative_caption": "is looking into the camera and the photo is shot from the same angle",
+        "shared_concept": "a man making a pizza in a home kitchen",
+        "id": 138
+    },
+    {
+        "reference_img_id": 13618,
+        "relative_caption": "has more trees in the background and the umbrella is darker",
+        "shared_concept": "a standing woman holding an umbrella seen from the front",
+        "id": 139
+    },
+    {
+        "reference_img_id": 177681,
+        "relative_caption": "is wearing a helmet with the visor down and there are no traffic cones",
+        "shared_concept": "a man skateboarding",
+        "id": 140
+    },
+    {
+        "reference_img_id": 124865,
+        "relative_caption": "is on a plate and has a bottle of ketchup in the background",
+        "shared_concept": "an hot dog in the foreground",
+        "id": 141
+    },
+    {
+        "reference_img_id": 335558,
+        "relative_caption": "has an umbrella instead of a teddy bear and the photo is shot outdoors",
+        "shared_concept": "a woman cosplaying",
+        "id": 142
+    },
+    {
+        "reference_img_id": 67212,
+        "relative_caption": "is shot on a beach and has one person next to it",
+        "shared_concept": "two people on top of an elephant",
+        "id": 143
+    },
+    {
+        "reference_img_id": 116632,
+        "relative_caption": "has the same number of adults and there is a child",
+        "shared_concept": "three adults cooking in a home kitchen",
+        "id": 144
+    },
+    {
+        "reference_img_id": 449128,
+        "relative_caption": "shows only a person seen from the front",
+        "shared_concept": "a birthday cake with lit candles",
+        "id": 145
+    },
+    {
+        "reference_img_id": 188210,
+        "relative_caption": "is taken from the front, has only one of them and there is a sign over it",
+        "shared_concept": "a urinal",
+        "id": 146
+    },
+    {
+        "reference_img_id": 8112,
+        "relative_caption": "has the laptop on its knees and is seen from behind",
+        "shared_concept": "a boy using a laptop",
+        "id": 147
+    },
+    {
+        "reference_img_id": 569120,
+        "relative_caption": "are Apple products and the photo has a different background color",
+        "shared_concept": "a keyboard and a mouse on a solid background",
+        "id": 148
+    },
+    {
+        "reference_img_id": 155609,
+        "relative_caption": "has the same number of animals and no people and no boats in the background",
+        "shared_concept": "three horses on a beach",
+        "id": 149
+    },
+    {
+        "reference_img_id": 361882,
+        "relative_caption": "has a single car next to it",
+        "shared_concept": "a white private jet",
+        "id": 150
+    },
+    {
+        "reference_img_id": 431955,
+        "relative_caption": "shows the sky in the background, has more of them and they are open",
+        "shared_concept": "a food truck",
+        "id": 151
+    },
+    {
+        "reference_img_id": 11125,
+        "relative_caption": "is open with its back on top",
+        "shared_concept": "a cat on a bed next to a book",
+        "id": 152
+    },
+    {
+        "reference_img_id": 490296,
+        "relative_caption": "is inside an open oven and the photo is zoomed in and shows no people",
+        "shared_concept": "a raw turkey",
+        "id": 153
+    },
+    {
+        "reference_img_id": 241335,
+        "relative_caption": "has only two of them, the photo is taken from a different angle, has a bluer sky and there are people on the wagon",
+        "shared_concept": "a pair of horses pulling a wagon",
+        "id": 154
+    },
+    {
+        "reference_img_id": 113301,
+        "relative_caption": "are both green and the photo has a blue sky background",
+        "shared_concept": "two traffic lights next to each other",
+        "id": 155
+    },
+    {
+        "reference_img_id": 260777,
+        "relative_caption": "shows two children instead of cats",
+        "shared_concept": "a suitcase with animals in it",
+        "id": 156
+    },
+    {
+        "reference_img_id": 191428,
+        "relative_caption": "has a teddy bear next to it and has its eyes fully opened",
+        "shared_concept": "a cat",
+        "id": 157
+    },
+    {
+        "reference_img_id": 439019,
+        "relative_caption": "has the same color, is seen from a closer distance and from the front",
+        "shared_concept": "a brown horse with a jockey jumping a hurdle",
+        "id": 158
+    },
+    {
+        "reference_img_id": 108719,
+        "relative_caption": "has its head out of the car and is turned away from the camera",
+        "shared_concept": "a dog inside a car",
+        "id": 159
+    },
+    {
+        "reference_img_id": 168214,
+        "relative_caption": "is wearing a white shirt and the photo is taken from the same angle and shows a grandstand in the background",
+        "shared_concept": "a baseball pitcher throwing the ball seen from the side",
+        "id": 160
+    },
+    {
+        "reference_img_id": 472044,
+        "relative_caption": "has more of them and they are resting on the grass",
+        "shared_concept": "several surfboards",
+        "id": 161
+    },
+    {
+        "reference_img_id": 319550,
+        "relative_caption": "has more people and there is a clearer sky",
+        "shared_concept": "a car on a beach",
+        "id": 162
+    },
+    {
+        "reference_img_id": 495618,
+        "relative_caption": "is shot with the same style and there are more people",
+        "shared_concept": "a person with an umbrella taken in greyscale except for the umbrella",
+        "id": 163
+    },
+    {
+        "reference_img_id": 101523,
+        "relative_caption": "has a different color, is seen from the same angle and the photo has a body of water in the background",
+        "shared_concept": "a motorbike in the foreground seen from the side",
+        "id": 164
+    },
+    {
+        "reference_img_id": 346504,
+        "relative_caption": "wears a blue suit, is seen from the same angle and the sky is not visible",
+        "shared_concept": "a skier seen from the front",
+        "id": 165
+    },
+    {
+        "reference_img_id": 504767,
+        "relative_caption": "has more beach umbrellas",
+        "shared_concept": "a ship in front of a beach",
+        "id": 166
+    },
+    {
+        "reference_img_id": 192686,
+        "relative_caption": "is zoomed in and has more people",
+        "shared_concept": "people sitting on a bench seen from the back in front of the sea",
+        "id": 167
+    },
+    {
+        "reference_img_id": 258001,
+        "relative_caption": "is surrounded by water and the sky is clearer",
+        "shared_concept": "a white clock tower",
+        "id": 168
+    },
+    {
+        "reference_img_id": 155281,
+        "relative_caption": "has more people dressed similarly and they are sitting at a dining table",
+        "shared_concept": "a person dressed as a military",
+        "id": 169
+    },
+    {
+        "reference_img_id": 482737,
+        "relative_caption": "shows an electric guitar",
+        "shared_concept": "a living room with a fireplace",
+        "id": 170
+    },
+    {
+        "reference_img_id": 67158,
+        "relative_caption": "shows one of them holding an electronic device and a darker background",
+        "shared_concept": "a woman and a man next to each other",
+        "id": 171
+    },
+    {
+        "reference_img_id": 239332,
+        "relative_caption": "shows a can instead of a camera and is shot from a lower angle",
+        "shared_concept": "a closed flip phone next to an object",
+        "id": 172
+    },
+    {
+        "reference_img_id": 506685,
+        "relative_caption": "is looking at the camera and there is a beer in front of him",
+        "shared_concept": "a man cutting food seen from the front",
+        "id": 173
+    },
+    {
+        "reference_img_id": 44000,
+        "relative_caption": "has the same shape, is fancier and has a window over it",
+        "shared_concept": "a bathroom with a rectangular bathtub",
+        "id": 174
+    },
+    {
+        "reference_img_id": 535205,
+        "relative_caption": "wears the hijab and there are people in the background",
+        "shared_concept": "a woman talking on the phone",
+        "id": 175
+    },
+    {
+        "reference_img_id": 552835,
+        "relative_caption": "has no cars in the background and is shot in greyscale",
+        "shared_concept": "a person taking a selfie with a camera in the mirror of a motorbike",
+        "id": 176
+    },
+    {
+        "reference_img_id": 1710,
+        "relative_caption": "are much older and both wear a blue tie-shirt",
+        "shared_concept": "a man and girl playing with the Wii",
+        "id": 177
+    },
+    {
+        "reference_img_id": 369289,
+        "relative_caption": "is without napkins and has more ketchup on it",
+        "shared_concept": "a close-up hotdog held by a hand",
+        "id": 178
+    },
+    {
+        "reference_img_id": 76169,
+        "relative_caption": "is seen from the front and the phone is an iPhone",
+        "shared_concept": "a phone held by a hand seen from a close distance",
+        "id": 179
+    },
+    {
+        "reference_img_id": 469021,
+        "relative_caption": "has price tags and the photo is shot indoors",
+        "shared_concept": "several vases of different color",
+        "id": 180
+    },
+    {
+        "reference_img_id": 197869,
+        "relative_caption": "is blue, the photo has more people and is taken during the day",
+        "shared_concept": "a food truck",
+        "id": 181
+    },
+    {
+        "reference_img_id": 557390,
+        "relative_caption": "has a giraffe and shows some trees in the background",
+        "shared_concept": "a pair of zebras",
+        "id": 182
+    },
+    {
+        "reference_img_id": 521765,
+        "relative_caption": "has no buildings in the background, shows more trees, is zoomed in and the girl is not smiling",
+        "shared_concept": "a woman sitting on a bench with trees in the background",
+        "id": 183
+    },
+    {
+        "reference_img_id": 485244,
+        "relative_caption": "is mostly white and is held by a person",
+        "shared_concept": "a surfboard held vertically leaning on the grass",
+        "id": 184
+    },
+    {
+        "reference_img_id": 237588,
+        "relative_caption": "are in larger numbers and are on the shore of a body of water",
+        "shared_concept": "multiple elephants",
+        "id": 185
+    },
+    {
+        "reference_img_id": 414278,
+        "relative_caption": "has the same shape and is of a different color",
+        "shared_concept": "a close-up octagonal stop sign",
+        "id": 186
+    },
+    {
+        "reference_img_id": 440512,
+        "relative_caption": "has more bottles",
+        "shared_concept": "a kitchen counter with bottles on it",
+        "id": 187
+    },
+    {
+        "reference_img_id": 224782,
+        "relative_caption": "has a couch in the background",
+        "shared_concept": "a cat sitting on a laptop",
+        "id": 188
+    },
+    {
+        "reference_img_id": 369337,
+        "relative_caption": "has the same color and there is also a printer",
+        "shared_concept": "a black cat",
+        "id": 189
+    },
+    {
+        "reference_img_id": 362550,
+        "relative_caption": "has a kite instead of an umbrella and the photo shows a bluer sky",
+        "shared_concept": "a person walking a dog in a park",
+        "id": 190
+    },
+    {
+        "reference_img_id": 10348,
+        "relative_caption": "has more people and the table is round",
+        "shared_concept": "people at a table eating pizza",
+        "id": 191
+    },
+    {
+        "reference_img_id": 49089,
+        "relative_caption": "has a yellow-colored locomotive, is in a more rural area and the sky is bluer",
+        "shared_concept": "a train seen from the front",
+        "id": 192
+    },
+    {
+        "reference_img_id": 101556,
+        "relative_caption": "is falling into the water",
+        "shared_concept": "a snowboarder",
+        "id": 193
+    },
+    {
+        "reference_img_id": 247454,
+        "relative_caption": "is made of clear blue glass",
+        "shared_concept": "a vase with flowers inside",
+        "id": 194
+    },
+    {
+        "reference_img_id": 529535,
+        "relative_caption": "is using a laptop instead of a phone",
+        "shared_concept": "an old woman using a device on her own",
+        "id": 195
+    },
+    {
+        "reference_img_id": 568986,
+        "relative_caption": "has a cappuccino in her hand and is wearing a black jacket",
+        "shared_concept": "a woman talking on the phone",
+        "id": 196
+    },
+    {
+        "reference_img_id": 3744,
+        "relative_caption": "is zoomed in and there are an oven and cooktop burners over it instead of a stove",
+        "shared_concept": "an oven",
+        "id": 197
+    },
+    {
+        "reference_img_id": 43370,
+        "relative_caption": "has a cat instead of a dog and the mirror is smaller and of a different shape",
+        "shared_concept": "an animal looking at itself in a mirror",
+        "id": 198
+    },
+    {
+        "reference_img_id": 495913,
+        "relative_caption": "has more players which are facing the camera",
+        "shared_concept": "a person in a wheelchair on a tennis court",
+        "id": 199
+    },
+    {
+        "reference_img_id": 509353,
+        "relative_caption": "has pizzas instead of cakes and shows a person on the right",
+        "shared_concept": "food in a showcase",
+        "id": 200
+    },
+    {
+        "reference_img_id": 247053,
+        "relative_caption": "is green and the photo is shot from the same angle",
+        "shared_concept": "a double-decker bus seen from a three-quarter view",
+        "id": 201
+    },
+    {
+        "reference_img_id": 416783,
+        "relative_caption": "wears a pouch and the photo is shot outdoor",
+        "shared_concept": "a man carrying a trolley looking at the camera",
+        "id": 202
+    },
+    {
+        "reference_img_id": 466894,
+        "relative_caption": "is seen from the side, has the same color and the photo shows more sky in the background",
+        "shared_concept": "a fire truck seen as a whole",
+        "id": 203
+    },
+    {
+        "reference_img_id": 340582,
+        "relative_caption": "has a big horn sheep instead of a horse and shows rocks in the background",
+        "shared_concept": "a close-up animal",
+        "id": 204
+    },
+    {
+        "reference_img_id": 110669,
+        "relative_caption": "is on crosswalk stripes and the photo is taken from the same angle",
+        "shared_concept": "a policeman on a motorbike",
+        "id": 205
+    },
+    {
+        "reference_img_id": 396060,
+        "relative_caption": "has several cars and the sky has a similar color",
+        "shared_concept": "a traffic light at sunrise",
+        "id": 206
+    },
+    {
+        "reference_img_id": 316886,
+        "relative_caption": "is on a wooden table with a glass of wine",
+        "shared_concept": "a plate with a sandwich seen from above",
+        "id": 207
+    },
+    {
+        "reference_img_id": 494037,
+        "relative_caption": "shows more people",
+        "shared_concept": "a person seen through a glass of wine",
+        "id": 208
+    },
+    {
+        "reference_img_id": 394689,
+        "relative_caption": "is resting on the handlebar of a bicycle",
+        "shared_concept": "a parrot",
+        "id": 209
+    },
+    {
+        "reference_img_id": 190493,
+        "relative_caption": "wears a cowboy hat and both horses are brown",
+        "shared_concept": "two men in a street on a horse",
+        "id": 210
+    },
+    {
+        "reference_img_id": 551782,
+        "relative_caption": "shows a phone charger next to them",
+        "shared_concept": "two phones seen from the top",
+        "id": 211
+    },
+    {
+        "reference_img_id": 450103,
+        "relative_caption": "are standing and the image is in color",
+        "shared_concept": "two people looking at a computer screen",
+        "id": 212
+    },
+    {
+        "reference_img_id": 145435,
+        "relative_caption": "is seen from the side and a farther distance",
+        "shared_concept": "a steam train with a black locomotive",
+        "id": 213
+    },
+    {
+        "reference_img_id": 247574,
+        "relative_caption": "has blonde hair, the photo is zoomed in and has only the sky in the background",
+        "shared_concept": "a man flying a kite seen from the back",
+        "id": 214
+    },
+    {
+        "reference_img_id": 413621,
+        "relative_caption": "has fewer plushies",
+        "shared_concept": "teddy bears sitting at a dining table",
+        "id": 215
+    },
+    {
+        "reference_img_id": 192848,
+        "relative_caption": "is on the floor instead of a bed and there is a dog next to it",
+        "shared_concept": "a pair of shoes",
+        "id": 216
+    },
+    {
+        "reference_img_id": 532567,
+        "relative_caption": "are two and are mounted on a white wall",
+        "shared_concept": "multiple wall-mounted urinals",
+        "id": 217
+    },
+    {
+        "reference_img_id": 194953,
+        "relative_caption": "has children getting on it",
+        "shared_concept": "a yellow school bus",
+        "id": 218
+    },
+    {
+        "reference_img_id": 337128,
+        "relative_caption": "is passing under an arch structure and is seen from the same angle",
+        "shared_concept": "a steam train going towards the camera",
+        "id": 219
+    },
+    {
+        "reference_img_id": 539443,
+        "relative_caption": "is shot from the front and has plants in the background",
+        "shared_concept": "people sitting with luggage in front of them",
+        "id": 220
+    },
+    {
+        "reference_img_id": 142397,
+        "relative_caption": "shows no buildings and is set on snow",
+        "shared_concept": "a horse-drawn carriage",
+        "id": 221
+    },
+    {
+        "reference_img_id": 415356,
+        "relative_caption": "is in a wooden cabin",
+        "shared_concept": "a closed toilet",
+        "id": 222
+    },
+    {
+        "reference_img_id": 183739,
+        "relative_caption": "has two people fixing it and the photo is set outdoors",
+        "shared_concept": "a person fixing a kite on the ground",
+        "id": 223
+    },
+    {
+        "reference_img_id": 140958,
+        "relative_caption": "has a similar outfit and is next to a blackboard",
+        "shared_concept": "a man with glasses dressed in a suit and tie",
+        "id": 224
+    },
+    {
+        "reference_img_id": 171602,
+        "relative_caption": "is in the air with his hands on the saddle while performing a trick",
+        "shared_concept": "a man on a motocross bike",
+        "id": 225
+    },
+    {
+        "reference_img_id": 96302,
+        "relative_caption": "is wearing a light blue shirt instead of a suit",
+        "shared_concept": "a man throwing a frisbee",
+        "id": 226
+    },
+    {
+        "reference_img_id": 560706,
+        "relative_caption": "has the same color and is pouring out water",
+        "shared_concept": "a red fire hydrant",
+        "id": 227
+    },
+    {
+        "reference_img_id": 296142,
+        "relative_caption": "have a different color, there are two of them and they are one behind the other",
+        "shared_concept": "some parked busses",
+        "id": 228
+    },
+    {
+        "reference_img_id": 572788,
+        "relative_caption": "has a similar shape, is green and seen from a slightly farther distance",
+        "shared_concept": "a parking meter",
+        "id": 229
+    },
+    {
+        "reference_img_id": 556084,
+        "relative_caption": "shows more toilets and they are seen from the front",
+        "shared_concept": "a toilet placed on the outside",
+        "id": 230
+    },
+    {
+        "reference_img_id": 266467,
+        "relative_caption": "is taken at night and there are more trees",
+        "shared_concept": "playground equipment",
+        "id": 231
+    },
+    {
+        "reference_img_id": 46755,
+        "relative_caption": "shows the person sitting on the suitcase",
+        "shared_concept": "a child with a closed suitcase",
+        "id": 232
+    },
+    {
+        "reference_img_id": 390092,
+        "relative_caption": "is next to a car and the photo shows no people",
+        "shared_concept": "a peacock",
+        "id": 233
+    },
+    {
+        "reference_img_id": 132884,
+        "relative_caption": "are all girls and the photo is shot from the side",
+        "shared_concept": "children around a dining table",
+        "id": 234
+    },
+    {
+        "reference_img_id": 429515,
+        "relative_caption": "shows the same number of people and two dogs",
+        "shared_concept": "two people posing for a picture in front of a truck",
+        "id": 235
+    },
+    {
+        "reference_img_id": 25270,
+        "relative_caption": "wears sunglasses and is seen from the front",
+        "shared_concept": "a person talking on a cell phone while walking a dog on a leash",
+        "id": 236
+    },
+    {
+        "reference_img_id": 378472,
+        "relative_caption": "has the same color and is sitting on a chair on the grass",
+        "shared_concept": "a black cat",
+        "id": 237
+    },
+    {
+        "reference_img_id": 482727,
+        "relative_caption": "is shot from the same angle and the man is wearing a t-shirt instead of a shirt",
+        "shared_concept": "a man wearing a tie seen from the front",
+        "id": 238
+    },
+    {
+        "reference_img_id": 315484,
+        "relative_caption": "is half green and half white",
+        "shared_concept": "a flying airplane",
+        "id": 239
+    },
+    {
+        "reference_img_id": 238923,
+        "relative_caption": "has the same color and there is a plastic bottle instead of a frisbee",
+        "shared_concept": "a black dog with an object in its mouth",
+        "id": 240
+    },
+    {
+        "reference_img_id": 567023,
+        "relative_caption": "is on the floor, the photo shows more cables and no animals",
+        "shared_concept": "a laptop",
+        "id": 241
+    },
+    {
+        "reference_img_id": 355682,
+        "relative_caption": "has a book and is zoomed in",
+        "shared_concept": "a bike next to a bench",
+        "id": 242
+    },
+    {
+        "reference_img_id": 512744,
+        "relative_caption": "is more colorful and is surrounded by nature",
+        "shared_concept": "a statue of an elephant",
+        "id": 243
+    },
+    {
+        "reference_img_id": 4374,
+        "relative_caption": "is a woman and the teeth are visible",
+        "shared_concept": "a person brushing his teeth taking a picture in the mirror",
+        "id": 244
+    },
+    {
+        "reference_img_id": 283110,
+        "relative_caption": "is on top of some books",
+        "shared_concept": "a teddy bear",
+        "id": 245
+    },
+    {
+        "reference_img_id": 417897,
+        "relative_caption": "is taken from the same perspective and has people waiting for their luggage",
+        "shared_concept": "a luggage carousel in an airport seen from the side",
+        "id": 246
+    },
+    {
+        "reference_img_id": 405625,
+        "relative_caption": "is on the original packaging instead of being held by a hand",
+        "shared_concept": "a feature phone",
+        "id": 247
+    },
+    {
+        "reference_img_id": 250322,
+        "relative_caption": "is taken from the same angle and there is a washing machine",
+        "shared_concept": "a white sink and a white toilet in a bathroom",
+        "id": 248
+    },
+    {
+        "reference_img_id": 23389,
+        "relative_caption": "is in its original packaging",
+        "shared_concept": "a PC mouse",
+        "id": 249
+    },
+    {
+        "reference_img_id": 468831,
+        "relative_caption": "shows a mirror instead of a window and there is a fully-tiled wall that is not white",
+        "shared_concept": "a toilet and a sink in a bathroom",
+        "id": 250
+    },
+    {
+        "reference_img_id": 304135,
+        "relative_caption": "are in the same number and in the water",
+        "shared_concept": "two zebras",
+        "id": 251
+    },
+    {
+        "reference_img_id": 371460,
+        "relative_caption": "has the same color, looks more modern and is stopped at a station",
+        "shared_concept": "a red train seen from the front",
+        "id": 252
+    },
+    {
+        "reference_img_id": 500655,
+        "relative_caption": "is shot outdoors and the bear is of a different color",
+        "shared_concept": "a woman hugging a giant fake bear",
+        "id": 253
+    },
+    {
+        "reference_img_id": 232731,
+        "relative_caption": "has a bottle of Coca-Cola",
+        "shared_concept": "a cat",
+        "id": 254
+    },
+    {
+        "reference_img_id": 227028,
+        "relative_caption": "is being held up and there is the sky in the background",
+        "shared_concept": "a rainbow-colored rain umbrella",
+        "id": 255
+    },
+    {
+        "reference_img_id": 132435,
+        "relative_caption": "shows orange slices instead of a banana",
+        "shared_concept": "fruit on a plate",
+        "id": 256
+    },
+    {
+        "reference_img_id": 358262,
+        "relative_caption": "is mostly white and there are flowers on it",
+        "shared_concept": "a clean desk with a computer",
+        "id": 257
+    },
+    {
+        "reference_img_id": 574048,
+        "relative_caption": "is inside a mall and the photo is taken during the day",
+        "shared_concept": "a clock lamppost",
+        "id": 258
+    },
+    {
+        "reference_img_id": 383486,
+        "relative_caption": "is taken from the same perspective, has more people and nobody is wearing a mask",
+        "shared_concept": "people sitting on the metro seen from the front",
+        "id": 259
+    },
+    {
+        "reference_img_id": 261017,
+        "relative_caption": "is shot from the same angle and there are more plates",
+        "shared_concept": "a man seen from the front sitting in a restaurant with lots of dishes in front of him",
+        "id": 260
+    },
+    {
+        "reference_img_id": 43426,
+        "relative_caption": "is seen up close, there is a pizza cooking and no people are visible",
+        "shared_concept": "a wood-fired pizza oven",
+        "id": 261
+    },
+    {
+        "reference_img_id": 158650,
+        "relative_caption": "is zoomed in and shows apples instead of bananas",
+        "shared_concept": "multiple fruits on a tree",
+        "id": 262
+    },
+    {
+        "reference_img_id": 114395,
+        "relative_caption": "are fewer and in a sink",
+        "shared_concept": "several oranges",
+        "id": 263
+    },
+    {
+        "reference_img_id": 456139,
+        "relative_caption": "has a toilet next to it and has a rectangular shape, the photo shows a window over it and no sink",
+        "shared_concept": "a bathtub",
+        "id": 264
+    },
+    {
+        "reference_img_id": 550464,
+        "relative_caption": "has only one of them and is set on a beach",
+        "shared_concept": "a clock",
+        "id": 265
+    },
+    {
+        "reference_img_id": 462415,
+        "relative_caption": "has a different color and is on a bridge",
+        "shared_concept": "a bus seen from the side",
+        "id": 266
+    },
+    {
+        "reference_img_id": 571096,
+        "relative_caption": "is seen through a windshield covered in droplets",
+        "shared_concept": "a red traffic light at an intersection",
+        "id": 267
+    },
+    {
+        "reference_img_id": 493063,
+        "relative_caption": "is shot from the side and is set inside a stadium",
+        "shared_concept": "a man biting food",
+        "id": 268
+    },
+    {
+        "reference_img_id": 556362,
+        "relative_caption": "shows no people and no buildings and has snow instead of grass",
+        "shared_concept": "a flock of sheep",
+        "id": 269
+    },
+    {
+        "reference_img_id": 86746,
+        "relative_caption": "has the same color and the photo has the person sitting down instead of standing up",
+        "shared_concept": "a light brown suitcase",
+        "id": 270
+    },
+    {
+        "reference_img_id": 215432,
+        "relative_caption": "is of a different color and is surrounded by more people",
+        "shared_concept": "an ancient vase in a display case with a person looking at it",
+        "id": 271
+    },
+    {
+        "reference_img_id": 151918,
+        "relative_caption": "is wearing the same color and is not facing the camera",
+        "shared_concept": "a little girl dressed in pink holding a tennis racket",
+        "id": 272
+    },
+    {
+        "reference_img_id": 356162,
+        "relative_caption": "has no people, is zoomed in and the dog is looking at the camera",
+        "shared_concept": "a specific dog",
+        "id": 273
+    },
+    {
+        "reference_img_id": 84707,
+        "relative_caption": "shows only one of them and it is on a paved road",
+        "shared_concept": "a bear",
+        "id": 274
+    },
+    {
+        "reference_img_id": 505974,
+        "relative_caption": "has the same color and they are seen from a closer distance",
+        "shared_concept": "two blue cross street name signs",
+        "id": 275
+    },
+    {
+        "reference_img_id": 324137,
+        "relative_caption": "is the same color and some hills are visible in the background",
+        "shared_concept": "a parked orange and black motorbike",
+        "id": 276
+    },
+    {
+        "reference_img_id": 405722,
+        "relative_caption": "has more of them and they are in the trunk of a car",
+        "shared_concept": "luggage",
+        "id": 277
+    },
+    {
+        "reference_img_id": 244321,
+        "relative_caption": "is on a table with a red checked tablecloth",
+        "shared_concept": "some pizza in the foreground",
+        "id": 278
+    },
+    {
+        "reference_img_id": 3318,
+        "relative_caption": "is yellow with a bit of snow on it and the photo has a different background",
+        "shared_concept": "a close-up fire hydrant",
+        "id": 279
+    },
+    {
+        "reference_img_id": 190552,
+        "relative_caption": "is on the road and the photo shows a police car",
+        "shared_concept": "a man on a skateboard seen from the back",
+        "id": 280
+    },
+    {
+        "reference_img_id": 321586,
+        "relative_caption": "is a woman who is wearing sunglasses and more trees are visible in the background",
+        "shared_concept": "a person in the foreground playing with a frisbee",
+        "id": 281
+    },
+    {
+        "reference_img_id": 74741,
+        "relative_caption": "shows only one person, has no walls and the background has a plain color and is less every day",
+        "shared_concept": "a person using a laptop",
+        "id": 282
+    },
+    {
+        "reference_img_id": 138260,
+        "relative_caption": "are on the cover of a book",
+        "shared_concept": "two white polar bears",
+        "id": 283
+    },
+    {
+        "reference_img_id": 349029,
+        "relative_caption": "is half empty and there is a person next to it",
+        "shared_concept": "a white refrigerator",
+        "id": 284
+    },
+    {
+        "reference_img_id": 384115,
+        "relative_caption": "are in front of a microwave",
+        "shared_concept": "a glass and a bottle of wine",
+        "id": 285
+    },
+    {
+        "reference_img_id": 26502,
+        "relative_caption": "shows lights under it and the photo is darker",
+        "shared_concept": "a queen-size bed",
+        "id": 286
+    },
+    {
+        "reference_img_id": 257479,
+        "relative_caption": "are divided into multiple fruit crates and the photo shows a vehicle",
+        "shared_concept": "oranges",
+        "id": 287
+    },
+    {
+        "reference_img_id": 142064,
+        "relative_caption": "is shot from the side and shows only one person",
+        "shared_concept": "a person cooking in front of a kitchen counter",
+        "id": 288
+    },
+    {
+        "reference_img_id": 158252,
+        "relative_caption": "has a bed and there are fewer people",
+        "shared_concept": "people gathered in a living room",
+        "id": 289
+    },
+    {
+        "reference_img_id": 233494,
+        "relative_caption": "is sitting and the photo is taken in color",
+        "shared_concept": "a man talking on the phone while using a laptop",
+        "id": 290
+    },
+    {
+        "reference_img_id": 132603,
+        "relative_caption": "has its head turned away from the camera",
+        "shared_concept": "an owl resting on the hand of a person",
+        "id": 291
+    },
+    {
+        "reference_img_id": 313262,
+        "relative_caption": "has more of them and there is a flag",
+        "shared_concept": "a rowing boat with people on it",
+        "id": 292
+    },
+    {
+        "reference_img_id": 442768,
+        "relative_caption": "is of the same color, in the same number and is placed on a chair",
+        "shared_concept": "a close-up small brownish bird",
+        "id": 293
+    },
+    {
+        "reference_img_id": 123887,
+        "relative_caption": "is rustier and there is a lighthouse in the background",
+        "shared_concept": "a boat on the ground",
+        "id": 294
+    },
+    {
+        "reference_img_id": 216411,
+        "relative_caption": "is only one and is of a different color",
+        "shared_concept": "a Wii controller",
+        "id": 295
+    },
+    {
+        "reference_img_id": 65607,
+        "relative_caption": "is attached to the wall from its side and has a gold color",
+        "shared_concept": "an outside clock",
+        "id": 296
+    },
+    {
+        "reference_img_id": 413173,
+        "relative_caption": "is shot from a different angle and there are no flowers in the background",
+        "shared_concept": "multiple people carrying a refrigerator",
+        "id": 297
+    },
+    {
+        "reference_img_id": 523149,
+        "relative_caption": "is only one has there is lake in the background",
+        "shared_concept": "a person riding a motorbike",
+        "id": 298
+    },
+    {
+        "reference_img_id": 139656,
+        "relative_caption": "is wearing a red tie and the photo is taken from the same angle and outdoors",
+        "shared_concept": "a man shot in a half-length portrait from the front",
+        "id": 299
+    },
+    {
+        "reference_img_id": 372291,
+        "relative_caption": "is surrounded by water and has a bluer sky in the background",
+        "shared_concept": "a clock tower",
+        "id": 300
+    },
+    {
+        "reference_img_id": 317518,
+        "relative_caption": "has the same color, shows a person and the photo is shot from the top",
+        "shared_concept": "a red umbrella",
+        "id": 301
+    },
+    {
+        "reference_img_id": 356539,
+        "relative_caption": "is playing the guitar and the photo is taken indoors",
+        "shared_concept": "a teddy bear",
+        "id": 302
+    },
+    {
+        "reference_img_id": 244696,
+        "relative_caption": "shows more of them and there is a body of water in the foreground",
+        "shared_concept": "some sheep",
+        "id": 303
+    },
+    {
+        "reference_img_id": 31395,
+        "relative_caption": "has the same number of them and is taken from the side",
+        "shared_concept": "two cows on a beach",
+        "id": 304
+    },
+    {
+        "reference_img_id": 566570,
+        "relative_caption": "is inside a white bowl and the photo shows a spoon in it and other food next to it",
+        "shared_concept": "a close-up soup",
+        "id": 305
+    },
+    {
+        "reference_img_id": 96410,
+        "relative_caption": "shows three people, two of whom are eating",
+        "shared_concept": "a person on a couch",
+        "id": 306
+    },
+    {
+        "reference_img_id": 301688,
+        "relative_caption": "shows also a child under the umbrella",
+        "shared_concept": "a person holding an umbrella under the rain in greyscale",
+        "id": 307
+    },
+    {
+        "reference_img_id": 173679,
+        "relative_caption": "is wearing a military uniform",
+        "shared_concept": "a person talking on the phone",
+        "id": 308
+    },
+    {
+        "reference_img_id": 348127,
+        "relative_caption": "is pink and the girl is standing on the grass",
+        "shared_concept": "a little girl holding an umbrella",
+        "id": 309
+    },
+    {
+        "reference_img_id": 251989,
+        "relative_caption": "is sitting at a dining table",
+        "shared_concept": "a cat",
+        "id": 310
+    },
+    {
+        "reference_img_id": 248698,
+        "relative_caption": "is wearing a helmet and the photo does not show the sky in the background",
+        "shared_concept": "a stationary standing skier looking at the camera",
+        "id": 311
+    },
+    {
+        "reference_img_id": 139138,
+        "relative_caption": "shows a person who is throwing up in it",
+        "shared_concept": "a close-up toilet",
+        "id": 312
+    },
+    {
+        "reference_img_id": 362945,
+        "relative_caption": "has the same color and a wooden cover",
+        "shared_concept": "a white toilet",
+        "id": 313
+    },
+    {
+        "reference_img_id": 268878,
+        "relative_caption": "shows a woman instead of a man and she is wearing a visor hat",
+        "shared_concept": "a tennis player hitting a two-handed backhand",
+        "id": 314
+    },
+    {
+        "reference_img_id": 410943,
+        "relative_caption": "is wearing a Santa hat",
+        "shared_concept": "a person with a laptop sitting in a living room",
+        "id": 315
+    },
+    {
+        "reference_img_id": 397310,
+        "relative_caption": "has a keyboard instead of a laptop",
+        "shared_concept": "some food in the foreground in front of a keyboard",
+        "id": 316
+    },
+    {
+        "reference_img_id": 430266,
+        "relative_caption": "has a dog instead of a child",
+        "shared_concept": "a mattress with something laying on it",
+        "id": 317
+    },
+    {
+        "reference_img_id": 444637,
+        "relative_caption": "has only one person seen from a closer distance",
+        "shared_concept": "a child cutting paper with scissors",
+        "id": 318
+    },
+    {
+        "reference_img_id": 188881,
+        "relative_caption": "has only one bird and the photo is shot in color",
+        "shared_concept": "a small bird standing on the back of a chair",
+        "id": 319
+    },
+    {
+        "reference_img_id": 297614,
+        "relative_caption": "is white and is at the water's edge",
+        "shared_concept": "a bear",
+        "id": 320
+    },
+    {
+        "reference_img_id": 208774,
+        "relative_caption": "have a different colors and they are in a bathtub",
+        "shared_concept": "two cats playing with each other",
+        "id": 321
+    },
+    {
+        "reference_img_id": 23885,
+        "relative_caption": "has the same color and is leaning against a wall",
+        "shared_concept": "a black couch",
+        "id": 322
+    },
+    {
+        "reference_img_id": 477271,
+        "relative_caption": "is hitting a ball helped by a tennis instructor",
+        "shared_concept": "a child playing tennis",
+        "id": 323
+    },
+    {
+        "reference_img_id": 390151,
+        "relative_caption": "has the same color and is a real version of the depicted object",
+        "shared_concept": "a black umbrella on the ground outdoors",
+        "id": 324
+    },
+    {
+        "reference_img_id": 400806,
+        "relative_caption": "replaces one teddy bear with a baby wearing a white onesie",
+        "shared_concept": "a teddy bear in the foreground",
+        "id": 325
+    },
+    {
+        "reference_img_id": 573917,
+        "relative_caption": "has a different color and is next to a window",
+        "shared_concept": "a toaster",
+        "id": 326
+    },
+    {
+        "reference_img_id": 48012,
+        "relative_caption": "has two of them and they are making pizzas",
+        "shared_concept": "a professional kitchen with cooks",
+        "id": 327
+    },
+    {
+        "reference_img_id": 495249,
+        "relative_caption": "has the same color and the photo is set in an alleyway",
+        "shared_concept": "a person seen from the back with a red umbrella",
+        "id": 328
+    },
+    {
+        "reference_img_id": 94107,
+        "relative_caption": "has a darker background, fewer tables and people sitting",
+        "shared_concept": "a dining table with candles outdoors at night",
+        "id": 329
+    },
+    {
+        "reference_img_id": 364315,
+        "relative_caption": "is black and the photo is shot outdoors",
+        "shared_concept": "a close-up shell flip phone held by a hand",
+        "id": 330
+    },
+    {
+        "reference_img_id": 13527,
+        "relative_caption": "has the same color but there are two people in it",
+        "shared_concept": "a silver commercial kitchen with cooks cooking",
+        "id": 331
+    },
+    {
+        "reference_img_id": 552763,
+        "relative_caption": "is shot in grayscale",
+        "shared_concept": "seagulls seen from the side",
+        "id": 332
+    },
+    {
+        "reference_img_id": 198461,
+        "relative_caption": "is taken from the front and shows no people in the background",
+        "shared_concept": "a goalkeeper kicking the ball",
+        "id": 333
+    },
+    {
+        "reference_img_id": 222575,
+        "relative_caption": "is shot from the front and has umbrellas in the background",
+        "shared_concept": "a band playing on a stage",
+        "id": 334
+    },
+    {
+        "reference_img_id": 10676,
+        "relative_caption": "is being held by a child and the photo is taken outdoors",
+        "shared_concept": "a half-peeled banana",
+        "id": 335
+    },
+    {
+        "reference_img_id": 104471,
+        "relative_caption": "is blue and there are people in the background",
+        "shared_concept": "a fire truck",
+        "id": 336
+    },
+    {
+        "reference_img_id": 231040,
+        "relative_caption": "are placed on a white plate",
+        "shared_concept": "a man holding multiple hot dogs",
+        "id": 337
+    },
+    {
+        "reference_img_id": 97087,
+        "relative_caption": "has plush toys instead of fruit",
+        "shared_concept": "an outdoor merchandise display",
+        "id": 338
+    },
+    {
+        "reference_img_id": 256717,
+        "relative_caption": "has flowers instead of a laptop",
+        "shared_concept": "an object in the foreground and a TV in the background",
+        "id": 339
+    },
+    {
+        "reference_img_id": 189284,
+        "relative_caption": "is bigger and has people in it",
+        "shared_concept": "a silver professional kitchen",
+        "id": 340
+    },
+    {
+        "reference_img_id": 352891,
+        "relative_caption": "has more of them and the table is square instead of round",
+        "shared_concept": "laptops on a table with no visible people",
+        "id": 341
+    },
+    {
+        "reference_img_id": 575700,
+        "relative_caption": "has more of them and there is a blue sky in the background",
+        "shared_concept": "an abandoned refrigerator",
+        "id": 342
+    },
+    {
+        "reference_img_id": 544174,
+        "relative_caption": "has a different color and the photo is taken from a closer distance",
+        "shared_concept": "a horse head peeking out of a window",
+        "id": 343
+    },
+    {
+        "reference_img_id": 105616,
+        "relative_caption": "is taken in the daytime and the woman is seen from the front",
+        "shared_concept": "a woman holding an umbrella while it is snowing",
+        "id": 344
+    },
+    {
+        "reference_img_id": 104598,
+        "relative_caption": "has red wine instead of white wine and shows no other people around",
+        "shared_concept": "a person pouring wine into a wine glass",
+        "id": 345
+    },
+    {
+        "reference_img_id": 457471,
+        "relative_caption": "is playing soccer and the sky is not visible in the background",
+        "shared_concept": "a person riding an elephant",
+        "id": 346
+    },
+    {
+        "reference_img_id": 476043,
+        "relative_caption": "has the same color and is held by a man",
+        "shared_concept": "a wooden surfboard",
+        "id": 347
+    },
+    {
+        "reference_img_id": 558853,
+        "relative_caption": "has more people, they are younger and the photo is shot in color",
+        "shared_concept": "a group of people with skis seen from the front",
+        "id": 348
+    },
+    {
+        "reference_img_id": 290907,
+        "relative_caption": "has only one of them and it is behind a railing",
+        "shared_concept": "a dog",
+        "id": 349
+    },
+    {
+        "reference_img_id": 54659,
+        "relative_caption": "has the same shape and is only one",
+        "shared_concept": "a round mirror over a sink",
+        "id": 350
+    },
+    {
+        "reference_img_id": 100748,
+        "relative_caption": "is on a green field, is seen from the side and has a woman with a helmet riding it",
+        "shared_concept": "a brown horse",
+        "id": 351
+    },
+    {
+        "reference_img_id": 156470,
+        "relative_caption": "is of the same type and there is snow instead of dirt",
+        "shared_concept": "a man riding a motocross bike",
+        "id": 352
+    },
+    {
+        "reference_img_id": 427112,
+        "relative_caption": "has a bowl of fruit instead of a clock",
+        "shared_concept": "a cat next to an object",
+        "id": 353
+    },
+    {
+        "reference_img_id": 121550,
+        "relative_caption": "is blue instead of brown and has Smarties",
+        "shared_concept": "a birthday cake",
+        "id": 354
+    },
+    {
+        "reference_img_id": 68362,
+        "relative_caption": "are of a single color and are held in one hand",
+        "shared_concept": "multiple scissors",
+        "id": 355
+    },
+    {
+        "reference_img_id": 265678,
+        "relative_caption": "is set outdoors and has a bench instead of an umbrella",
+        "shared_concept": "a cat under an object",
+        "id": 356
+    },
+    {
+        "reference_img_id": 266113,
+        "relative_caption": "has a bird instead of a soccer match",
+        "shared_concept": "a cat in front of a TV seen from the back",
+        "id": 357
+    },
+    {
+        "reference_img_id": 123504,
+        "relative_caption": "is grey and there is no person",
+        "shared_concept": "a pizza oven",
+        "id": 358
+    },
+    {
+        "reference_img_id": 253559,
+        "relative_caption": "shows one cow in the foreground",
+        "shared_concept": "small boats on a beach",
+        "id": 359
+    },
+    {
+        "reference_img_id": 494789,
+        "relative_caption": "has the same color, is only one and is on the grass",
+        "shared_concept": "a white toilet",
+        "id": 360
+    },
+    {
+        "reference_img_id": 193278,
+        "relative_caption": "is wearing glasses and is sitting in front of a computer",
+        "shared_concept": "a teddy bear",
+        "id": 361
+    },
+    {
+        "reference_img_id": 48603,
+        "relative_caption": "shows a motorbike instead of a bike",
+        "shared_concept": "a bag in the back of a parked vehicle",
+        "id": 362
+    },
+    {
+        "reference_img_id": 231947,
+        "relative_caption": "is white and has some food in its mouth",
+        "shared_concept": "a bear",
+        "id": 363
+    },
+    {
+        "reference_img_id": 26693,
+        "relative_caption": "is wearing a hat and the photo has a plain background",
+        "shared_concept": "a foreground smartly dressed man wearing glasses",
+        "id": 364
+    },
+    {
+        "reference_img_id": 74021,
+        "relative_caption": "is seen from a closer distance and is next to a watch",
+        "shared_concept": "a phone",
+        "id": 365
+    },
+    {
+        "reference_img_id": 215423,
+        "relative_caption": "has the same color, is eating and is seen from a closer distance",
+        "shared_concept": "a grey parrot",
+        "id": 366
+    },
+    {
+        "reference_img_id": 51252,
+        "relative_caption": "has two people and the sky is not visible",
+        "shared_concept": "a person water skiing",
+        "id": 367
+    },
+    {
+        "reference_img_id": 221604,
+        "relative_caption": "is next to a window, has no jacket and the photo is zoomed in and in color",
+        "shared_concept": "a man wearing a shirt and a tie",
+        "id": 368
+    },
+    {
+        "reference_img_id": 542742,
+        "relative_caption": "is closed and the photo is zoomed in",
+        "shared_concept": "a single book on a bed",
+        "id": 369
+    },
+    {
+        "reference_img_id": 464933,
+        "relative_caption": "has a TV and a big red Indian carpet",
+        "shared_concept": "a living room",
+        "id": 370
+    },
+    {
+        "reference_img_id": 204267,
+        "relative_caption": "has a similar background and the photo is taken from a farther distance",
+        "shared_concept": "a person on a motorbike with a gas station in the background",
+        "id": 371
+    },
+    {
+        "reference_img_id": 367855,
+        "relative_caption": "are on a tree and no buildings are visible",
+        "shared_concept": "silhouettes of multiple birds",
+        "id": 372
+    },
+    {
+        "reference_img_id": 75991,
+        "relative_caption": "shows a different animal and the image has the same effect",
+        "shared_concept": "several animals shot with a 3D effect",
+        "id": 373
+    },
+    {
+        "reference_img_id": 2705,
+        "relative_caption": "shows one notebook on the desk",
+        "shared_concept": "a person sitting at a desk with a laptop seen from above",
+        "id": 374
+    },
+    {
+        "reference_img_id": 460066,
+        "relative_caption": "has more players and shows no other people",
+        "shared_concept": "a person playing an instrument in a house",
+        "id": 375
+    },
+    {
+        "reference_img_id": 194104,
+        "relative_caption": "shows more people smiling at the camera",
+        "shared_concept": "a person with multiple suitcases looking at the camera",
+        "id": 376
+    },
+    {
+        "reference_img_id": 179337,
+        "relative_caption": "is a man and has bananas instead of a pot",
+        "shared_concept": "a person with an object on their head",
+        "id": 377
+    },
+    {
+        "reference_img_id": 452266,
+        "relative_caption": "is on a beach and is open",
+        "shared_concept": "a clamshell phone",
+        "id": 378
+    },
+    {
+        "reference_img_id": 271281,
+        "relative_caption": "is taken from a farther distance and there is the sea and no buildings in the background",
+        "shared_concept": "a man taking a picture",
+        "id": 379
+    },
+    {
+        "reference_img_id": 25671,
+        "relative_caption": "is shot from the same angle and has only one person",
+        "shared_concept": "a person lying on a surfboard seen from the front",
+        "id": 380
+    },
+    {
+        "reference_img_id": 120788,
+        "relative_caption": "is shot at night and is taken from behind",
+        "shared_concept": "a person holding a surfboard under his arm",
+        "id": 381
+    },
+    {
+        "reference_img_id": 123988,
+        "relative_caption": "is taken from a closer distance, has a mural in the background and the umbrellas have different colors",
+        "shared_concept": "people eating outdoors at dining tables with umbrellas",
+        "id": 382
+    },
+    {
+        "reference_img_id": 56056,
+        "relative_caption": "is taken from inside a vehicle",
+        "shared_concept": "a stop sign",
+        "id": 383
+    },
+    {
+        "reference_img_id": 111615,
+        "relative_caption": "is shown to the camera by a person visible in the background",
+        "shared_concept": "an old smartphone",
+        "id": 384
+    },
+    {
+        "reference_img_id": 509762,
+        "relative_caption": "is taken indoors and there are three people sitting on one sofa",
+        "shared_concept": "a person using a laptop",
+        "id": 385
+    },
+    {
+        "reference_img_id": 243286,
+        "relative_caption": "shows only one and is on a tree",
+        "shared_concept": "an orange",
+        "id": 386
+    },
+    {
+        "reference_img_id": 61987,
+        "relative_caption": "is of a different color, the photo is shot from the back and during the day",
+        "shared_concept": "a parked car with a surfboard on it",
+        "id": 387
+    },
+    {
+        "reference_img_id": 373814,
+        "relative_caption": "has a solid-colored wall in the background and the photo shows an additional monitor",
+        "shared_concept": "two laptops side by side on a table",
+        "id": 388
+    },
+    {
+        "reference_img_id": 479843,
+        "relative_caption": "has the same color, there is one clock above it and no laptops are visible",
+        "shared_concept": "a white microwave oven",
+        "id": 389
+    },
+    {
+        "reference_img_id": 29107,
+        "relative_caption": "has no bottles of wine and there are a lot of laptops on the table",
+        "shared_concept": "a work meeting around a rectangular table",
+        "id": 390
+    },
+    {
+        "reference_img_id": 334969,
+        "relative_caption": "is zoomed in, has more players dressed in a different color, shows two referees and no people in the background",
+        "shared_concept": "players playing American football",
+        "id": 391
+    },
+    {
+        "reference_img_id": 402606,
+        "relative_caption": "is a younger boy in an airport",
+        "shared_concept": "a person carrying a suitcase",
+        "id": 392
+    },
+    {
+        "reference_img_id": 166584,
+        "relative_caption": "is inside a fridge instead of inside an oven",
+        "shared_concept": "a cat inside an appliance",
+        "id": 393
+    },
+    {
+        "reference_img_id": 371124,
+        "relative_caption": "is shot from a different angle and there is also a person",
+        "shared_concept": "two dogs in a kitchen",
+        "id": 394
+    },
+    {
+        "reference_img_id": 570604,
+        "relative_caption": "has the glass half-filled with red wine instead of water",
+        "shared_concept": "a bottle with a wine glass next to it in the foreground",
+        "id": 395
+    },
+    {
+        "reference_img_id": 155446,
+        "relative_caption": "shows no TV and there are two people with Christmas decorations in the background",
+        "shared_concept": "a person playing the Wii",
+        "id": 396
+    },
+    {
+        "reference_img_id": 36621,
+        "relative_caption": "has a teddy-bear shape",
+        "shared_concept": "an animal-shaped cake",
+        "id": 397
+    },
+    {
+        "reference_img_id": 171098,
+        "relative_caption": "has more of them with the same color",
+        "shared_concept": "a sailboat in the sea",
+        "id": 398
+    },
+    {
+        "reference_img_id": 338386,
+        "relative_caption": "has two arrows on it and the photo has a different background",
+        "shared_concept": "a stop sign",
+        "id": 399
+    },
+    {
+        "reference_img_id": 147028,
+        "relative_caption": "is seen from the back, shows a smartphone instead of a camera and the screen is in the foreground",
+        "shared_concept": "a person taking a picture of another person",
+        "id": 400
+    },
+    {
+        "reference_img_id": 136710,
+        "relative_caption": "has the curtains closed",
+        "shared_concept": "a toilet and a bathtub with curtains",
+        "id": 401
+    },
+    {
+        "reference_img_id": 508439,
+        "relative_caption": "is wearing no headphones and a kitchen is visible in the background",
+        "shared_concept": "a single person using a laptop",
+        "id": 402
+    },
+    {
+        "reference_img_id": 235559,
+        "relative_caption": "is wearing glasses, is eating pizza instead of a steak and there are more people in the background",
+        "shared_concept": "a man looking at the camera cutting his food in a restaurant",
+        "id": 403
+    },
+    {
+        "reference_img_id": 388038,
+        "relative_caption": "has a white frisbee and is set on sand",
+        "shared_concept": "a dog with a frisbee in its mouth",
+        "id": 404
+    },
+    {
+        "reference_img_id": 441490,
+        "relative_caption": "has the same color, the photo is taken from a different angle and is set inside a repair shop",
+        "shared_concept": "a parked blue motorbike",
+        "id": 405
+    },
+    {
+        "reference_img_id": 199439,
+        "relative_caption": "has only one of them and has a paved surface instead of grass",
+        "shared_concept": "a bike resting on the ground",
+        "id": 406
+    },
+    {
+        "reference_img_id": 176449,
+        "relative_caption": "has fog in the background and shows no buildings",
+        "shared_concept": "girls playing soccer",
+        "id": 407
+    },
+    {
+        "reference_img_id": 9135,
+        "relative_caption": "has the same color, has snow on it and the background is snowy",
+        "shared_concept": "a red traffic light seen from the front in the foreground",
+        "id": 408
+    },
+    {
+        "reference_img_id": 348652,
+        "relative_caption": "is of a different color",
+        "shared_concept": "a bowl with food inside next to a keyboard",
+        "id": 409
+    },
+    {
+        "reference_img_id": 187152,
+        "relative_caption": "are more colorful and there is a grey brick wall in the background",
+        "shared_concept": "a clear glass vase with flowers in it",
+        "id": 410
+    },
+    {
+        "reference_img_id": 38595,
+        "relative_caption": "shows a person reading with their face covered",
+        "shared_concept": "an office desk",
+        "id": 411
+    },
+    {
+        "reference_img_id": 172868,
+        "relative_caption": "is sitting and the photo is set outdoors",
+        "shared_concept": "a man playing the saxophone",
+        "id": 412
+    },
+    {
+        "reference_img_id": 243295,
+        "relative_caption": "is on the grass and is shot from the same angle",
+        "shared_concept": "a naked red motorcycle viewed from the side",
+        "id": 413
+    },
+    {
+        "reference_img_id": 433949,
+        "relative_caption": "is laying on the grass and the photo shows three people",
+        "shared_concept": "a man talking on the phone",
+        "id": 414
+    },
+    {
+        "reference_img_id": 155898,
+        "relative_caption": "is seen from the same angle and is in the middle of a road",
+        "shared_concept": "a cow seen from the side",
+        "id": 415
+    },
+    {
+        "reference_img_id": 298504,
+        "relative_caption": "is wearing black shorts and a helmet instead of a baseball cap",
+        "shared_concept": "a man skateboarding",
+        "id": 416
+    },
+    {
+        "reference_img_id": 141315,
+        "relative_caption": "is visible through the lowered window",
+        "shared_concept": "a dog in the driver's seat",
+        "id": 417
+    },
+    {
+        "reference_img_id": 388095,
+        "relative_caption": "has a dog instead of a cat",
+        "shared_concept": "an animal wearing a Santa's hat",
+        "id": 418
+    },
+    {
+        "reference_img_id": 200632,
+        "relative_caption": "has a different color and the photo shows also a hand",
+        "shared_concept": "a double parking meter",
+        "id": 419
+    },
+    {
+        "reference_img_id": 64568,
+        "relative_caption": "has only one person and is taken from a farther distance",
+        "shared_concept": "a person sitting under an umbrella fishing in a river",
+        "id": 420
+    },
+    {
+        "reference_img_id": 136460,
+        "relative_caption": "instead of having apples and bananas has mandarins",
+        "shared_concept": "a bowl of fruit",
+        "id": 421
+    },
+    {
+        "reference_img_id": 71976,
+        "relative_caption": "is sitting on a bench",
+        "shared_concept": "a woman holding an umbrella",
+        "id": 422
+    },
+    {
+        "reference_img_id": 208893,
+        "relative_caption": "is placed on a laptop instead of inside a book and is seen from the same angle",
+        "shared_concept": "a plushy toy seen from the front",
+        "id": 423
+    },
+    {
+        "reference_img_id": 548851,
+        "relative_caption": "is shot in greyscale and is taken outdoors",
+        "shared_concept": "a woman holding an umbrella in the foreground looking at the camera",
+        "id": 424
+    },
+    {
+        "reference_img_id": 188203,
+        "relative_caption": "is taken from a lower angle",
+        "shared_concept": "an empty church with rows of benches",
+        "id": 425
+    },
+    {
+        "reference_img_id": 141266,
+        "relative_caption": "are looking at a phone instead of a laptop",
+        "shared_concept": "multiple children looking at a device used by a person",
+        "id": 426
+    },
+    {
+        "reference_img_id": 173977,
+        "relative_caption": "is a woman and is looking at the camera",
+        "shared_concept": "a person tasting a glass of red wine in the foreground",
+        "id": 427
+    },
+    {
+        "reference_img_id": 407141,
+        "relative_caption": "is placed on a black plate on a red table",
+        "shared_concept": "a sandwich cut in half next to a cappuccino",
+        "id": 428
+    },
+    {
+        "reference_img_id": 446263,
+        "relative_caption": "is shot from the same angle and has a red sofa",
+        "shared_concept": "a man sitting using a laptop facing the camera",
+        "id": 429
+    },
+    {
+        "reference_img_id": 62199,
+        "relative_caption": "is taken from the same angle, is brighter and shows no speakers in the background",
+        "shared_concept": "a man seen from the front playing an electric guitar",
+        "id": 430
+    },
+    {
+        "reference_img_id": 472340,
+        "relative_caption": "is more minimalistic and there is a white wall as a background",
+        "shared_concept": "a bench seen from the front",
+        "id": 431
+    },
+    {
+        "reference_img_id": 213910,
+        "relative_caption": "has only one person and shows a bag next to them",
+        "shared_concept": "a person on a bench using a laptop",
+        "id": 432
+    },
+    {
+        "reference_img_id": 229438,
+        "relative_caption": "has a different color and more stickers",
+        "shared_concept": "a laptop with a sticker attached to the back",
+        "id": 433
+    },
+    {
+        "reference_img_id": 481994,
+        "relative_caption": "has several skyscrapers in the background",
+        "shared_concept": "a person flying a kite on a meadow",
+        "id": 434
+    },
+    {
+        "reference_img_id": 47989,
+        "relative_caption": "is a half-length portrait and the person is facing the camera",
+        "shared_concept": "a person using a banana as a pretend phone",
+        "id": 435
+    },
+    {
+        "reference_img_id": 150068,
+        "relative_caption": "is only one and is semi-open",
+        "shared_concept": "a close-up suitcase",
+        "id": 436
+    },
+    {
+        "reference_img_id": 553921,
+        "relative_caption": "is seen from the front",
+        "shared_concept": "a person cutting a blonde child's hair",
+        "id": 437
+    },
+    {
+        "reference_img_id": 512440,
+        "relative_caption": "is holding a cat",
+        "shared_concept": "a girl under a clock shot in greyscale",
+        "id": 438
+    },
+    {
+        "reference_img_id": 31760,
+        "relative_caption": "has a body of water in the background",
+        "shared_concept": "a close-up phone held by a hand",
+        "id": 439
+    },
+    {
+        "reference_img_id": 324944,
+        "relative_caption": "has yellow umbrellas and is shot from a lower height",
+        "shared_concept": "a bathhouse on a crowded beach",
+        "id": 440
+    },
+    {
+        "reference_img_id": 155731,
+        "relative_caption": "has the same shape and there is a cake in the center",
+        "shared_concept": "a dining table with people around it",
+        "id": 441
+    },
+    {
+        "reference_img_id": 580993,
+        "relative_caption": "has the same color and the photo shows no people in the background",
+        "shared_concept": "a yellow fire hydrant in the foreground in front of a wall",
+        "id": 442
+    },
+    {
+        "reference_img_id": 175796,
+        "relative_caption": "has a fork instead of a knife and the photo is zoomed in",
+        "shared_concept": "an orange with a piece of cutlery in it",
+        "id": 443
+    },
+    {
+        "reference_img_id": 260769,
+        "relative_caption": "has a table of the same shape and the plate is empty",
+        "shared_concept": "a circular table with a plate and a bird on it",
+        "id": 444
+    },
+    {
+        "reference_img_id": 569007,
+        "relative_caption": "is laid on its side on the ground",
+        "shared_concept": "a yellow fire hydrant",
+        "id": 445
+    },
+    {
+        "reference_img_id": 165652,
+        "relative_caption": "is shot from a different angle and the man has several tattoos",
+        "shared_concept": "a man sitting on a bench",
+        "id": 446
+    },
+    {
+        "reference_img_id": 539823,
+        "relative_caption": "is a woman with blond hair and is on the shore",
+        "shared_concept": "a person walking with a surfboard under their arms",
+        "id": 447
+    },
+    {
+        "reference_img_id": 257516,
+        "relative_caption": "is in a kitchen and has a person next to it",
+        "shared_concept": "a specific microwave oven",
+        "id": 448
+    },
+    {
+        "reference_img_id": 475137,
+        "relative_caption": "shows a kitchen in the background",
+        "shared_concept": "a man standing while speaking on the phone in a house",
+        "id": 449
+    },
+    {
+        "reference_img_id": 184645,
+        "relative_caption": "is taken from a farther distance and shows the whole court",
+        "shared_concept": "a tennis match inside a stadium",
+        "id": 450
+    },
+    {
+        "reference_img_id": 421464,
+        "relative_caption": "has the same color and the photo shows a wastebasket and a bathtub",
+        "shared_concept": "a white toilet",
+        "id": 451
+    },
+    {
+        "reference_img_id": 52176,
+        "relative_caption": "instead of being on a beach he is in a forest",
+        "shared_concept": "a solitary person seen from behind holding a dark umbrella",
+        "id": 452
+    },
+    {
+        "reference_img_id": 246266,
+        "relative_caption": "is in color and both women have long dark hair",
+        "shared_concept": "two women on a bench seen from behind",
+        "id": 453
+    },
+    {
+        "reference_img_id": 149772,
+        "relative_caption": "is held in front of the camera by a person that is facing the camera",
+        "shared_concept": "a Blackberry",
+        "id": 454
+    },
+    {
+        "reference_img_id": 135395,
+        "relative_caption": "has only one table and is zoomed in",
+        "shared_concept": "people working at a picnic table outdoors",
+        "id": 455
+    },
+    {
+        "reference_img_id": 66197,
+        "relative_caption": "has a cat sneaking into it",
+        "shared_concept": "an opened close-up refrigerator",
+        "id": 456
+    },
+    {
+        "reference_img_id": 516971,
+        "relative_caption": "has more people on it and they are still",
+        "shared_concept": "a person standing on a bench",
+        "id": 457
+    },
+    {
+        "reference_img_id": 260032,
+        "relative_caption": "has a motorbike instead of a kayak",
+        "shared_concept": "a dog in front of a person on a vehicle",
+        "id": 458
+    },
+    {
+        "reference_img_id": 486314,
+        "relative_caption": "has a bed instead of a bench and the image is in color",
+        "shared_concept": "a lying man reading a book",
+        "id": 459
+    },
+    {
+        "reference_img_id": 139006,
+        "relative_caption": "instead of having a beach has a street in the background",
+        "shared_concept": "a close-up white seagull",
+        "id": 460
+    },
+    {
+        "reference_img_id": 138173,
+        "relative_caption": "is sitting on a bench while reading",
+        "shared_concept": "an elderly couple",
+        "id": 461
+    },
+    {
+        "reference_img_id": 166286,
+        "relative_caption": "depict two bears resting on a couch",
+        "shared_concept": "two plush toys",
+        "id": 462
+    },
+    {
+        "reference_img_id": 570911,
+        "relative_caption": "is only one and is in a cage",
+        "shared_concept": "a dog",
+        "id": 463
+    },
+    {
+        "reference_img_id": 509317,
+        "relative_caption": "has a rooster over it",
+        "shared_concept": "a clock",
+        "id": 464
+    },
+    {
+        "reference_img_id": 485410,
+        "relative_caption": "is messier and the photo is shot from a different angle",
+        "shared_concept": "a hotel room with two beds and no people in it",
+        "id": 465
+    },
+    {
+        "reference_img_id": 76800,
+        "relative_caption": "is taken from the same angle and shows a TV remote control instead of a Wii controller",
+        "shared_concept": "an object in the foreground with a turned-on TV in the background",
+        "id": 466
+    },
+    {
+        "reference_img_id": 567184,
+        "relative_caption": "are carried using one bike",
+        "shared_concept": "multiple baskets of bananas",
+        "id": 467
+    },
+    {
+        "reference_img_id": 422734,
+        "relative_caption": "has the same number of people and shows a steering wheel controller",
+        "shared_concept": "three people playing the Wii",
+        "id": 468
+    },
+    {
+        "reference_img_id": 562245,
+        "relative_caption": "has one more horse and has no people",
+        "shared_concept": "multiple horses on a beach",
+        "id": 469
+    },
+    {
+        "reference_img_id": 124818,
+        "relative_caption": "has more leaves around it",
+        "shared_concept": "a person lying on a bench",
+        "id": 470
+    },
+    {
+        "reference_img_id": 24902,
+        "relative_caption": "has more of them",
+        "shared_concept": "two people stand up paddleboarding",
+        "id": 471
+    },
+    {
+        "reference_img_id": 236427,
+        "relative_caption": "is of a different color, the photo shows no people and has a bluer sky in the background",
+        "shared_concept": "a kite shaped like an octopus",
+        "id": 472
+    },
+    {
+        "reference_img_id": 56947,
+        "relative_caption": "shows one more dog",
+        "shared_concept": "a dog next to a fire hydrant",
+        "id": 473
+    },
+    {
+        "reference_img_id": 218794,
+        "relative_caption": "is taken from inside a car and the dashboard is visible",
+        "shared_concept": "a street with red traffic lights",
+        "id": 474
+    },
+    {
+        "reference_img_id": 306804,
+        "relative_caption": "is sitting on a bench and is seen from the front",
+        "shared_concept": "a person checking their phone",
+        "id": 475
+    },
+    {
+        "reference_img_id": 541618,
+        "relative_caption": "has a donut with chocolate glaze and no sprinkles and drizzle, has no people and the focus is on the box",
+        "shared_concept": "an open box of sweets",
+        "id": 476
+    },
+    {
+        "reference_img_id": 14339,
+        "relative_caption": "are marked with a red sign on the wool",
+        "shared_concept": "a flock of sheep",
+        "id": 477
+    },
+    {
+        "reference_img_id": 426335,
+        "relative_caption": "is wearing a black t-shirt and has no hat",
+        "shared_concept": "a man wearing an apron in a kitchen",
+        "id": 478
+    },
+    {
+        "reference_img_id": 367921,
+        "relative_caption": "is a famous arc and the photo is shot in Paris",
+        "shared_concept": "a famous monument",
+        "id": 479
+    },
+    {
+        "reference_img_id": 16145,
+        "relative_caption": "is zoomed out and taken in a forest",
+        "shared_concept": "a person talking on the phone",
+        "id": 480
+    },
+    {
+        "reference_img_id": 339518,
+        "relative_caption": "is looking at the camera, smiling and wearing glasses and no jacket",
+        "shared_concept": "a close-up person wearing a shirt and a tie",
+        "id": 481
+    },
+    {
+        "reference_img_id": 499949,
+        "relative_caption": "has a footstool in front of it and the animal is a dog",
+        "shared_concept": "an animal on an armchair",
+        "id": 482
+    },
+    {
+        "reference_img_id": 310956,
+        "relative_caption": "shows more of them and they are in a cardboard box",
+        "shared_concept": "bananas",
+        "id": 483
+    },
+    {
+        "reference_img_id": 52586,
+        "relative_caption": "has a cat instead of the keyboard",
+        "shared_concept": "a close-up PC mouse",
+        "id": 484
+    },
+    {
+        "reference_img_id": 428750,
+        "relative_caption": "is shot in a subway carriage and is in greyscale",
+        "shared_concept": "a person looking at their phone with other people around",
+        "id": 485
+    },
+    {
+        "reference_img_id": 378500,
+        "relative_caption": "has a different color",
+        "shared_concept": "a toilet next to a bathtub of the same color",
+        "id": 486
+    },
+    {
+        "reference_img_id": 207247,
+        "relative_caption": "has a brighter background and is taken from the same angle",
+        "shared_concept": "a person with an umbrella seen from the front under the snow",
+        "id": 487
+    },
+    {
+        "reference_img_id": 461273,
+        "relative_caption": "is wearing no t-shirt and the photo is more static",
+        "shared_concept": "a child holding a tennis racket",
+        "id": 488
+    },
+    {
+        "reference_img_id": 265380,
+        "relative_caption": "is sitting on a hammock and is darker",
+        "shared_concept": "a bear",
+        "id": 489
+    },
+    {
+        "reference_img_id": 123255,
+        "relative_caption": "is light green and a blue sky is visible in the background",
+        "shared_concept": "a clock tower",
+        "id": 490
+    },
+    {
+        "reference_img_id": 61505,
+        "relative_caption": "is black and is seen from a farther distance",
+        "shared_concept": "a laptop in a kitchen",
+        "id": 491
+    },
+    {
+        "reference_img_id": 102280,
+        "relative_caption": "has a donut of the same color and a different character from the same franchise",
+        "shared_concept": "a pink donut next to a depiction of a Simpsons character",
+        "id": 492
+    },
+    {
+        "reference_img_id": 303331,
+        "relative_caption": "is laying on the floor instead of standing and the photo is shot from the top",
+        "shared_concept": "a girl talking on the phone",
+        "id": 493
+    },
+    {
+        "reference_img_id": 380925,
+        "relative_caption": "has a decoration depicting an animal",
+        "shared_concept": "a close-up muffin",
+        "id": 494
+    },
+    {
+        "reference_img_id": 330360,
+        "relative_caption": "is seen from a different angle and the photo shows a cat and no mouse next to it",
+        "shared_concept": "a white and green laptop",
+        "id": 495
+    },
+    {
+        "reference_img_id": 391592,
+        "relative_caption": "has the same color, is whole and has three or more candles on it",
+        "shared_concept": "a brown cake",
+        "id": 496
+    },
+    {
+        "reference_img_id": 561260,
+        "relative_caption": "shows only one person with no backpack and there is a more rural background",
+        "shared_concept": "a person on a motor-scooter seen from the back",
+        "id": 497
+    },
+    {
+        "reference_img_id": 360027,
+        "relative_caption": "is surrounded by colored walls and the photo is shot from the same angle",
+        "shared_concept": "a sink in the foreground",
+        "id": 498
+    },
+    {
+        "reference_img_id": 255377,
+        "relative_caption": "shows a person in the foreground and the wall is brighter",
+        "shared_concept": "multiple clocks on a wall",
+        "id": 499
+    },
+    {
+        "reference_img_id": 496184,
+        "relative_caption": "is green and white and the photo is shot from the same angle",
+        "shared_concept": "a double-decker bus viewed from the front left",
+        "id": 500
+    },
+    {
+        "reference_img_id": 96126,
+        "relative_caption": "has potatoes instead of lentils",
+        "shared_concept": "a plain white plate with broccoli in the foreground",
+        "id": 501
+    },
+    {
+        "reference_img_id": 75127,
+        "relative_caption": "has a table and an archway divider in the foreground",
+        "shared_concept": "a sofa in the background",
+        "id": 502
+    },
+    {
+        "reference_img_id": 499841,
+        "relative_caption": "has its paws in the water and has the same color",
+        "shared_concept": "a dog with a frisbee in its mouth",
+        "id": 503
+    },
+    {
+        "reference_img_id": 9533,
+        "relative_caption": "is only one and in the corner of a room",
+        "shared_concept": "a small white refrigerator shot in greyscale",
+        "id": 504
+    },
+    {
+        "reference_img_id": 422173,
+        "relative_caption": "is held in a hand and there is snow in the background",
+        "shared_concept": "a filled stem glass",
+        "id": 505
+    },
+    {
+        "reference_img_id": 213161,
+        "relative_caption": "has an armchair and the window spans two walls",
+        "shared_concept": "a living room with a full-wall window",
+        "id": 506
+    },
+    {
+        "reference_img_id": 134934,
+        "relative_caption": "is green and is viewed from the front",
+        "shared_concept": "a double-decker bus",
+        "id": 507
+    },
+    {
+        "reference_img_id": 48567,
+        "relative_caption": "is taken from the front and has three pictures on the wall behind it",
+        "shared_concept": "a bed",
+        "id": 508
+    },
+    {
+        "reference_img_id": 427006,
+        "relative_caption": "are on a man's head",
+        "shared_concept": "multiple bananas",
+        "id": 509
+    },
+    {
+        "reference_img_id": 179546,
+        "relative_caption": "has one more person in the foreground and fewer people in the background",
+        "shared_concept": "people dressed in uniforms cutting a cake",
+        "id": 510
+    },
+    {
+        "reference_img_id": 237733,
+        "relative_caption": "has four of them, they are smaller and no plates are visible",
+        "shared_concept": "a pizza",
+        "id": 511
+    },
+    {
+        "reference_img_id": 567163,
+        "relative_caption": "is shot in a parking lot and has an American flag pinned on the back",
+        "shared_concept": "a Harley Davidson-style motorbike",
+        "id": 512
+    },
+    {
+        "reference_img_id": 561659,
+        "relative_caption": "has the person wearing a helmet and kneepads instead of a hat, shows traffic cones and the photo is taken from the front and a closer distance",
+        "shared_concept": "a man skateboarding on a road",
+        "id": 513
+    },
+    {
+        "reference_img_id": 570329,
+        "relative_caption": "has a hat instead of glasses",
+        "shared_concept": "a teddy bear in the foreground",
+        "id": 514
+    },
+    {
+        "reference_img_id": 109261,
+        "relative_caption": "has a frog on the seat",
+        "shared_concept": "a toilet",
+        "id": 515
+    },
+    {
+        "reference_img_id": 250457,
+        "relative_caption": "is next to a laptop on a desk",
+        "shared_concept": "a vase with flowers",
+        "id": 516
+    },
+    {
+        "reference_img_id": 398298,
+        "relative_caption": "are in larger numbers, more colorful, in a display case and no other types of sweets are visible",
+        "shared_concept": "multiple donuts in the foreground",
+        "id": 517
+    },
+    {
+        "reference_img_id": 259325,
+        "relative_caption": "has cows instead of sheep, has some clouds in the background and is shot from a similar distance",
+        "shared_concept": "multiple animals grazing seen from a distance",
+        "id": 518
+    },
+    {
+        "reference_img_id": 219950,
+        "relative_caption": "has beer instead of coke",
+        "shared_concept": "a filled pitcher on a restaurant table next to a pizza",
+        "id": 519
+    },
+    {
+        "reference_img_id": 408821,
+        "relative_caption": "has no backpack and the photo shows no sky in the background",
+        "shared_concept": "a person riding a motorbike in the foreground in greyscale",
+        "id": 520
+    },
+    {
+        "reference_img_id": 453754,
+        "relative_caption": "has a chicken inside instead of two pizzas",
+        "shared_concept": "the inside of a home oven",
+        "id": 521
+    },
+    {
+        "reference_img_id": 335487,
+        "relative_caption": "has the sea in the background and there is one more person in the photo",
+        "shared_concept": "a person seen from behind holding a colored umbrella",
+        "id": 522
+    },
+    {
+        "reference_img_id": 68495,
+        "relative_caption": "is shot from the same angle and has a single bike instead of TVs",
+        "shared_concept": "an object next to a door seen from the front",
+        "id": 523
+    },
+    {
+        "reference_img_id": 342555,
+        "relative_caption": "shows more people and the horses are running",
+        "shared_concept": "a person riding a horse in the countryside",
+        "id": 524
+    },
+    {
+        "reference_img_id": 366928,
+        "relative_caption": "has the same color and the dog is smaller",
+        "shared_concept": "a red and white fire hydrant next to a dog",
+        "id": 525
+    },
+    {
+        "reference_img_id": 291992,
+        "relative_caption": "wears a tie and the teddy bear is brown",
+        "shared_concept": "a grown man holding a big teddy bear seen from the front",
+        "id": 526
+    },
+    {
+        "reference_img_id": 347000,
+        "relative_caption": "is taken from a different angle, has a white shirt and similar pants",
+        "shared_concept": "a man tennis player with black pants who is serving",
+        "id": 527
+    },
+    {
+        "reference_img_id": 368488,
+        "relative_caption": "is shot indoors and they are arranged in columns",
+        "shared_concept": "a large number of toilets",
+        "id": 528
+    },
+    {
+        "reference_img_id": 368361,
+        "relative_caption": "has a different color and depicts a keyboard",
+        "shared_concept": "a tie",
+        "id": 529
+    },
+    {
+        "reference_img_id": 423126,
+        "relative_caption": "shows only one of them in the foreground while it is eating grass and has some rocks in the background",
+        "shared_concept": "a zebra",
+        "id": 530
+    },
+    {
+        "reference_img_id": 128802,
+        "relative_caption": "is shot from the same angle and the glaze is white",
+        "shared_concept": "a person in the foreground biting a donut with a glaze",
+        "id": 531
+    },
+    {
+        "reference_img_id": 49409,
+        "relative_caption": "is yellow and is on a white plate",
+        "shared_concept": "a slice of cake on a plate",
+        "id": 532
+    },
+    {
+        "reference_img_id": 355099,
+        "relative_caption": "is taken in greyscale, shows microphones and has a darker background",
+        "shared_concept": "two women holding umbrellas seen from the front",
+        "id": 533
+    },
+    {
+        "reference_img_id": 72209,
+        "relative_caption": "shows also paper and rock",
+        "shared_concept": "a statue of scissors",
+        "id": 534
+    },
+    {
+        "reference_img_id": 207412,
+        "relative_caption": "is shot in completely different scenery and there are two people under the umbrella",
+        "shared_concept": "a person holding an umbrella seen from behind in greyscale",
+        "id": 535
+    },
+    {
+        "reference_img_id": 217483,
+        "relative_caption": "are on a bed and there is no stereo",
+        "shared_concept": "a stack of books in the foreground",
+        "id": 536
+    },
+    {
+        "reference_img_id": 20214,
+        "relative_caption": "is seen as a reflection in a mirror",
+        "shared_concept": "a living room with a sofa",
+        "id": 537
+    },
+    {
+        "reference_img_id": 275081,
+        "relative_caption": "is a girl and is seen from a farther distance",
+        "shared_concept": "a child wearing a tie",
+        "id": 538
+    },
+    {
+        "reference_img_id": 71118,
+        "relative_caption": "has a darker tank top and there is a tree in the background",
+        "shared_concept": "a woman talking on the phone seen from the front",
+        "id": 539
+    },
+    {
+        "reference_img_id": 432862,
+        "relative_caption": "shows a vase instead of a bowl",
+        "shared_concept": "a cat inside an object",
+        "id": 540
+    },
+    {
+        "reference_img_id": 328752,
+        "relative_caption": "is seen from the side and wears a backpack",
+        "shared_concept": "a cross-country skier",
+        "id": 541
+    },
+    {
+        "reference_img_id": 403928,
+        "relative_caption": "has a cow in the background and is shot in black and white",
+        "shared_concept": "a child with an umbrella in the foreground",
+        "id": 542
+    },
+    {
+        "reference_img_id": 511019,
+        "relative_caption": "shows a different animal",
+        "shared_concept": "a parking meter in front of a mural",
+        "id": 543
+    },
+    {
+        "reference_img_id": 113136,
+        "relative_caption": "has magnets placed in the shape of a smiley",
+        "shared_concept": "a fridge",
+        "id": 544
+    },
+    {
+        "reference_img_id": 271768,
+        "relative_caption": "is resting on a plate and the photo has a mug",
+        "shared_concept": "a half-eaten donut",
+        "id": 545
+    },
+    {
+        "reference_img_id": 283714,
+        "relative_caption": "has people on them",
+        "shared_concept": "multiple surfboards on a beach",
+        "id": 546
+    },
+    {
+        "reference_img_id": 266509,
+        "relative_caption": "shows two of them and they are sitting on it instead of riding it",
+        "shared_concept": "a child on a skateboard in the foreground",
+        "id": 547
+    },
+    {
+        "reference_img_id": 33767,
+        "relative_caption": "has some food next to them",
+        "shared_concept": "three glasses of wine in the foreground",
+        "id": 548
+    },
+    {
+        "reference_img_id": 273972,
+        "relative_caption": "has a different color and is shaped like a triangle",
+        "shared_concept": "a table with a laptop on it",
+        "id": 549
+    },
+    {
+        "reference_img_id": 325478,
+        "relative_caption": "are younger, the photo is set indoors, has two windows in the background and shows no other people",
+        "shared_concept": "a man with a guitar and a woman with a violin seen from the front",
+        "id": 550
+    },
+    {
+        "reference_img_id": 175829,
+        "relative_caption": "has more people on it and no umbrellas",
+        "shared_concept": "people sitting on an elephant",
+        "id": 551
+    },
+    {
+        "reference_img_id": 168466,
+        "relative_caption": "has more people and is taken outdoors",
+        "shared_concept": "a person holding a surfboard vertically",
+        "id": 552
+    },
+    {
+        "reference_img_id": 218962,
+        "relative_caption": "is playing tennis instead of golf and the player is dressed fully in white",
+        "shared_concept": "a person doing sport shot in greyscale",
+        "id": 553
+    },
+    {
+        "reference_img_id": 39510,
+        "relative_caption": "shows more people and a brighter background",
+        "shared_concept": "people standing and drinking in a kitchen at a party",
+        "id": 554
+    },
+    {
+        "reference_img_id": 411293,
+        "relative_caption": "shows three people and is zoomed in",
+        "shared_concept": "people next to a big teddy bear",
+        "id": 555
+    },
+    {
+        "reference_img_id": 453794,
+        "relative_caption": "shows people in the foreground looking at him",
+        "shared_concept": "a man surfing",
+        "id": 556
+    },
+    {
+        "reference_img_id": 537001,
+        "relative_caption": "has a black cat with its head hidden in it",
+        "shared_concept": "a white toilet",
+        "id": 557
+    },
+    {
+        "reference_img_id": 185057,
+        "relative_caption": "shows only one person and is walking away from the camera",
+        "shared_concept": "a person holding an umbrella in the snow",
+        "id": 558
+    },
+    {
+        "reference_img_id": 11098,
+        "relative_caption": "is set in a car",
+        "shared_concept": "a child looking through a donut",
+        "id": 559
+    },
+    {
+        "reference_img_id": 189616,
+        "relative_caption": "is on a desk with a silver laptop next to it",
+        "shared_concept": "a XO laptop in the foreground",
+        "id": 560
+    },
+    {
+        "reference_img_id": 239842,
+        "relative_caption": "is taken from a closer distance and there are no birds",
+        "shared_concept": "a bike leaning against an empty bench",
+        "id": 561
+    },
+    {
+        "reference_img_id": 23724,
+        "relative_caption": "is seated on a bench",
+        "shared_concept": "a man seated talking on the phone in greyscale",
+        "id": 562
+    },
+    {
+        "reference_img_id": 425352,
+        "relative_caption": "is a single slice and there is a fast-food cup near it",
+        "shared_concept": "a pizza in the foreground",
+        "id": 563
+    },
+    {
+        "reference_img_id": 436503,
+        "relative_caption": "is crossing a pool of dirty water and the photo is taken from the same angle",
+        "shared_concept": "a person riding a horse",
+        "id": 564
+    },
+    {
+        "reference_img_id": 182506,
+        "relative_caption": "shows a city skyline visible through the window",
+        "shared_concept": "a desk with multiple computers in front of a window",
+        "id": 565
+    },
+    {
+        "reference_img_id": 517529,
+        "relative_caption": "shows no other people, is set outdoors and there is a lake in the background",
+        "shared_concept": "a woman talking on the phone",
+        "id": 566
+    },
+    {
+        "reference_img_id": 37216,
+        "relative_caption": "has boots instead of ballet flat shoes",
+        "shared_concept": "a cat next to a pair of shoes",
+        "id": 567
+    },
+    {
+        "reference_img_id": 122501,
+        "relative_caption": "is holding a larger teddy bear with both arms",
+        "shared_concept": "a girl wearing a cosplay",
+        "id": 568
+    },
+    {
+        "reference_img_id": 355529,
+        "relative_caption": "shows a different character from the same franchise",
+        "shared_concept": "a Pokemon plush toy",
+        "id": 569
+    },
+    {
+        "reference_img_id": 375233,
+        "relative_caption": "has the same color, is clinging to a tree and is surrounded by leaves",
+        "shared_concept": "a black bear",
+        "id": 570
+    },
+    {
+        "reference_img_id": 326343,
+        "relative_caption": "has logs instead of bananas",
+        "shared_concept": "a truck carrying goods",
+        "id": 571
+    },
+    {
+        "reference_img_id": 80226,
+        "relative_caption": "has the same color and is about to be eaten by a person",
+        "shared_concept": "a pink donut with sprinkles",
+        "id": 572
+    },
+    {
+        "reference_img_id": 490170,
+        "relative_caption": "is wearing a t-shirt and multiple trees are visible in the background",
+        "shared_concept": "a close-up woman talking on the phone",
+        "id": 573
+    },
+    {
+        "reference_img_id": 281364,
+        "relative_caption": "has four people and is taken indoors",
+        "shared_concept": "a person wearing zombie makeup",
+        "id": 574
+    },
+    {
+        "reference_img_id": 299803,
+        "relative_caption": "are white and blue and has more birds in the background",
+        "shared_concept": "small boats side by side on a river",
+        "id": 575
+    },
+    {
+        "reference_img_id": 276350,
+        "relative_caption": "are playing on a projection screen instead of a TV",
+        "shared_concept": "people playing the Wii",
+        "id": 576
+    },
+    {
+        "reference_img_id": 392475,
+        "relative_caption": "has one more bear and a snowy background",
+        "shared_concept": "a bear",
+        "id": 577
+    },
+    {
+        "reference_img_id": 357047,
+        "relative_caption": "shows two sinks and there is bigger mirror",
+        "shared_concept": "a sink with a mirror occupying the whole wall",
+        "id": 578
+    },
+    {
+        "reference_img_id": 334831,
+        "relative_caption": "has a man taking the photo instead of a woman",
+        "shared_concept": "a person taking a mirror selfie behind a woman who is brushing her teeth",
+        "id": 579
+    },
+    {
+        "reference_img_id": 519519,
+        "relative_caption": "are on the water and there are more people",
+        "shared_concept": "tables and chairs with umbrellas",
+        "id": 580
+    },
+    {
+        "reference_img_id": 81914,
+        "relative_caption": "shows more people and the sweets are in a box",
+        "shared_concept": "a child in front of donuts",
+        "id": 581
+    },
+    {
+        "reference_img_id": 451663,
+        "relative_caption": "is shot in greyscale",
+        "shared_concept": "a double-decker bus in a street seen from the side",
+        "id": 582
+    },
+    {
+        "reference_img_id": 317766,
+        "relative_caption": "shows a child instead of a teddy bear",
+        "shared_concept": "a semi-closed suitcase",
+        "id": 583
+    },
+    {
+        "reference_img_id": 107272,
+        "relative_caption": "shows an older woman",
+        "shared_concept": "a woman in a kitchen showing food to the camera",
+        "id": 584
+    },
+    {
+        "reference_img_id": 235972,
+        "relative_caption": "is closed and has a cat on the seat",
+        "shared_concept": "a white toilet",
+        "id": 585
+    },
+    {
+        "reference_img_id": 579390,
+        "relative_caption": "has more laptops and is shot in greyscale",
+        "shared_concept": "multiple people using a laptop around a table",
+        "id": 586
+    },
+    {
+        "reference_img_id": 257143,
+        "relative_caption": "has a swimming pool with people swimming in the background",
+        "shared_concept": "some plates with pizza and other dishes",
+        "id": 587
+    },
+    {
+        "reference_img_id": 102273,
+        "relative_caption": "has multiple cardboard boxes",
+        "shared_concept": "a living room with a sofa",
+        "id": 588
+    },
+    {
+        "reference_img_id": 531670,
+        "relative_caption": "is half-closed, the photo has only one person and is zoomed out",
+        "shared_concept": "a person holding the door of a refrigerator",
+        "id": 589
+    },
+    {
+        "reference_img_id": 193530,
+        "relative_caption": "is pointing to the screen and is not facing the camera",
+        "shared_concept": "a teacher in front of a projection screen",
+        "id": 590
+    },
+    {
+        "reference_img_id": 527646,
+        "relative_caption": "is closed with a hand holding it on the top",
+        "shared_concept": "a filled mixer",
+        "id": 591
+    },
+    {
+        "reference_img_id": 567672,
+        "relative_caption": "has only one black cat facing the camera",
+        "shared_concept": "a cat on a bench",
+        "id": 592
+    },
+    {
+        "reference_img_id": 314856,
+        "relative_caption": "shows the whole room and the room has a corner window",
+        "shared_concept": "a TV in a living room",
+        "id": 593
+    },
+    {
+        "reference_img_id": 308229,
+        "relative_caption": "is brighter and there is a rainbow in the sky",
+        "shared_concept": "a traffic light with cars in the foreground",
+        "id": 594
+    },
+    {
+        "reference_img_id": 380036,
+        "relative_caption": "is shot from a farther distance and the sky is visible in the background",
+        "shared_concept": "a yellow bird on a tree",
+        "id": 595
+    },
+    {
+        "reference_img_id": 559653,
+        "relative_caption": "is shot at night and in color",
+        "shared_concept": "elephants walking on a city road",
+        "id": 596
+    },
+    {
+        "reference_img_id": 54973,
+        "relative_caption": "have a different color and the photo has trees in the background",
+        "shared_concept": "tables with umbrellas of the same color",
+        "id": 597
+    },
+    {
+        "reference_img_id": 140329,
+        "relative_caption": "is using a laptop",
+        "shared_concept": "a man with a cat on his lap",
+        "id": 598
+    },
+    {
+        "reference_img_id": 301384,
+        "relative_caption": "is seen from the front and looking at the camera",
+        "shared_concept": "a close-up dog wearing a hat indoors",
+        "id": 599
+    },
+    {
+        "reference_img_id": 234172,
+        "relative_caption": "has two cokes next to them",
+        "shared_concept": "two pizzas",
+        "id": 600
+    },
+    {
+        "reference_img_id": 403768,
+        "relative_caption": "are on one plate and have ketchup on them",
+        "shared_concept": "two hot dogs",
+        "id": 601
+    },
+    {
+        "reference_img_id": 429426,
+        "relative_caption": "has the same shape and a different color, the photo shows a blue sky in the background",
+        "shared_concept": "a cubic lamp clock in a park in the foreground",
+        "id": 602
+    },
+    {
+        "reference_img_id": 29502,
+        "relative_caption": "is only one and it is charging",
+        "shared_concept": "a close-up phone",
+        "id": 603
+    },
+    {
+        "reference_img_id": 157732,
+        "relative_caption": "shows a shoe instead of a bottle",
+        "shared_concept": "an object on an empty bench",
+        "id": 604
+    },
+    {
+        "reference_img_id": 526148,
+        "relative_caption": "is painting a picture with its trunk",
+        "shared_concept": "an elephant in the foreground",
+        "id": 605
+    },
+    {
+        "reference_img_id": 132618,
+        "relative_caption": "has only one person in the foreground and they are making pizzas",
+        "shared_concept": "a cook with a uniform in a kitchen",
+        "id": 606
+    },
+    {
+        "reference_img_id": 284832,
+        "relative_caption": "has red chairs instead of white ones, there is no windows and the photo is taken from the same angle",
+        "shared_concept": "two chairs and a bench in front of a house",
+        "id": 607
+    },
+    {
+        "reference_img_id": 320274,
+        "relative_caption": "is brown and has a galley style",
+        "shared_concept": "a clean and empty kitchen",
+        "id": 608
+    },
+    {
+        "reference_img_id": 268912,
+        "relative_caption": "has donuts instead of a slice of cake",
+        "shared_concept": "a dessert on a plate next to ice cream",
+        "id": 609
+    },
+    {
+        "reference_img_id": 182386,
+        "relative_caption": "shows a fountain and the photo is taken from a farther distance",
+        "shared_concept": "a clock tower",
+        "id": 610
+    },
+    {
+        "reference_img_id": 395889,
+        "relative_caption": "is of a different color and is sitting on a toilet instead of an oven",
+        "shared_concept": "a cat sitting on an object",
+        "id": 611
+    },
+    {
+        "reference_img_id": 470157,
+        "relative_caption": "shows two people and one of them is an adult",
+        "shared_concept": "a child reading in a bed",
+        "id": 612
+    },
+    {
+        "reference_img_id": 13373,
+        "relative_caption": "is dressed in white, is playing on grass and is viewed from a closer distance",
+        "shared_concept": "a male tennis player while serving",
+        "id": 613
+    },
+    {
+        "reference_img_id": 496084,
+        "relative_caption": "is on a handrail and the photo is shot in greyscale",
+        "shared_concept": "a man on a snowboard grinding on a rail",
+        "id": 614
+    },
+    {
+        "reference_img_id": 491675,
+        "relative_caption": "has a yellowish jacket and is seen from a closer distance",
+        "shared_concept": "a snowboarder",
+        "id": 615
+    },
+    {
+        "reference_img_id": 173862,
+        "relative_caption": "has a flag in the background instead of a library",
+        "shared_concept": "a close-up clock",
+        "id": 616
+    },
+    {
+        "reference_img_id": 559318,
+        "relative_caption": "has red walls and parquet as the floor",
+        "shared_concept": "a living room with a TV",
+        "id": 617
+    },
+    {
+        "reference_img_id": 432451,
+        "relative_caption": "is red and there is a crowded street in the background",
+        "shared_concept": "a countdown semaphore",
+        "id": 618
+    },
+    {
+        "reference_img_id": 396881,
+        "relative_caption": "has more of them, there is no cake and there is a swimming pool in the background",
+        "shared_concept": "oranges and orange juice on a table in the foreground",
+        "id": 619
+    },
+    {
+        "reference_img_id": 489260,
+        "relative_caption": "is seen from a different angle and is outdoors",
+        "shared_concept": "a closed white refrigerator",
+        "id": 620
+    },
+    {
+        "reference_img_id": 76787,
+        "relative_caption": "shows a pizza instead of other food",
+        "shared_concept": "food on cookware on cooktop burners",
+        "id": 621
+    },
+    {
+        "reference_img_id": 68376,
+        "relative_caption": "is writing on a sheet of paper and the photo shows one pair of glasses",
+        "shared_concept": "a woman sitting at a desk seen from the front",
+        "id": 622
+    },
+    {
+        "reference_img_id": 106903,
+        "relative_caption": "has hot dogs and is set on grass",
+        "shared_concept": "a man barbecuing outdoors",
+        "id": 623
+    },
+    {
+        "reference_img_id": 396240,
+        "relative_caption": "has a rainbow in the background and the traffic light has the same color",
+        "shared_concept": "a street with a red traffic light",
+        "id": 624
+    },
+    {
+        "reference_img_id": 87362,
+        "relative_caption": "has pancakes on a plate instead of the bowl",
+        "shared_concept": "breakfast food next to a cup of coffee",
+        "id": 625
+    },
+    {
+        "reference_img_id": 500033,
+        "relative_caption": "is shot in greyscale",
+        "shared_concept": "a woman hitting a tennis forehand",
+        "id": 626
+    },
+    {
+        "reference_img_id": 67862,
+        "relative_caption": "is white and shaped like a gun",
+        "shared_concept": "a vase containing pink flowers",
+        "id": 627
+    },
+    {
+        "reference_img_id": 472196,
+        "relative_caption": "has more of them and there is also a product label",
+        "shared_concept": "multiple donuts",
+        "id": 628
+    },
+    {
+        "reference_img_id": 476825,
+        "relative_caption": "is standing in the hallway and is seen from a farther distance",
+        "shared_concept": "a child brushing his teeth",
+        "id": 629
+    },
+    {
+        "reference_img_id": 204629,
+        "relative_caption": "is walking a tightrope and has their arm stretched above his head",
+        "shared_concept": "a person holding an umbrella",
+        "id": 630
+    },
+    {
+        "reference_img_id": 304135,
+        "relative_caption": "are in the same number and in the water",
+        "shared_concept": "two zebras",
+        "id": 631
+    },
+    {
+        "reference_img_id": 11225,
+        "relative_caption": "are resting on a kitchen counter instead of in a fridge",
+        "shared_concept": "groceries",
+        "id": 632
+    },
+    {
+        "reference_img_id": 473830,
+        "relative_caption": "has multiple stools made of wood",
+        "shared_concept": "a kitchen",
+        "id": 633
+    },
+    {
+        "reference_img_id": 443587,
+        "relative_caption": "is turned on and is in front of a window letting in sunlight",
+        "shared_concept": "a CRT TV",
+        "id": 634
+    },
+    {
+        "reference_img_id": 292204,
+        "relative_caption": "has a brownish dog instead of a cat",
+        "shared_concept": "an animal lying on a double bed",
+        "id": 635
+    },
+    {
+        "reference_img_id": 366397,
+        "relative_caption": "is similar, is in the water and the photo is shot from the same angle",
+        "shared_concept": "a brown bear",
+        "id": 636
+    },
+    {
+        "reference_img_id": 439778,
+        "relative_caption": "has more trees in the background and is set during a snowfall",
+        "shared_concept": "a stop sign",
+        "id": 637
+    },
+    {
+        "reference_img_id": 444511,
+        "relative_caption": "is inside a toy box instead of on a shelf",
+        "shared_concept": "a teddy bear",
+        "id": 638
+    },
+    {
+        "reference_img_id": 290786,
+        "relative_caption": "has three people on a chairlift viewed from below",
+        "shared_concept": "skiers and snowboarders",
+        "id": 639
+    },
+    {
+        "reference_img_id": 549716,
+        "relative_caption": "has bread with the same shape and has fries instead of vegetables",
+        "shared_concept": "two halves of a submarine sandwich on a plate",
+        "id": 640
+    },
+    {
+        "reference_img_id": 293795,
+        "relative_caption": "has the same color and is inside a bowl made of clear glass",
+        "shared_concept": "a black cat",
+        "id": 641
+    },
+    {
+        "reference_img_id": 182404,
+        "relative_caption": "is lying on the ground and has the handle facing upward",
+        "shared_concept": "a tennis racket",
+        "id": 642
+    },
+    {
+        "reference_img_id": 277580,
+        "relative_caption": "shows people holding a flag",
+        "shared_concept": "a stop sign and a political message",
+        "id": 643
+    },
+    {
+        "reference_img_id": 328155,
+        "relative_caption": "has a cat on it, is facing the camera and has cleaner wool",
+        "shared_concept": "a sheep",
+        "id": 644
+    },
+    {
+        "reference_img_id": 270545,
+        "relative_caption": "has a more colorful background",
+        "shared_concept": "a white toilet seen from the front",
+        "id": 645
+    },
+    {
+        "reference_img_id": 399785,
+        "relative_caption": "is not on the floor and she is wearing headphones",
+        "shared_concept": "a girl using a laptop",
+        "id": 646
+    },
+    {
+        "reference_img_id": 170161,
+        "relative_caption": "is shot from a closer distance and shows no people",
+        "shared_concept": "outdoor bar tables with umbrellas",
+        "id": 647
+    },
+    {
+        "reference_img_id": 80716,
+        "relative_caption": "has the same color and has a man on it",
+        "shared_concept": "a green war-time motorcycle",
+        "id": 648
+    },
+    {
+        "reference_img_id": 491537,
+        "relative_caption": "is in greyscale and shows the sky in the background",
+        "shared_concept": "a man walking on the beach while holding a surfboard under his arm",
+        "id": 649
+    },
+    {
+        "reference_img_id": 265265,
+        "relative_caption": "has a t-shirt of the same color and there are people looking at him",
+        "shared_concept": "a skater",
+        "id": 650
+    },
+    {
+        "reference_img_id": 111418,
+        "relative_caption": "has a red frisbee in its mouth",
+        "shared_concept": "a dog jumping to catch a frisbee next to a person",
+        "id": 651
+    },
+    {
+        "reference_img_id": 74045,
+        "relative_caption": "shows two people standing and more people sitting",
+        "shared_concept": "a person standing playing the Wii and a person sitting",
+        "id": 652
+    },
+    {
+        "reference_img_id": 35912,
+        "relative_caption": "is shot from the same angle and there are parked cars on the left",
+        "shared_concept": "a person with a surfboard under his arm seen from behind",
+        "id": 653
+    },
+    {
+        "reference_img_id": 221308,
+        "relative_caption": "is sitting on the sofa while eating",
+        "shared_concept": "a person with a breakfast cup",
+        "id": 654
+    },
+    {
+        "reference_img_id": 415687,
+        "relative_caption": "is placed next to a window",
+        "shared_concept": "a grandfather clock in a corner",
+        "id": 655
+    },
+    {
+        "reference_img_id": 432240,
+        "relative_caption": "is older, is bringing more hot dogs and the photo is shot from the same angle",
+        "shared_concept": "a person in the foreground holding a plate with hot dogs outdoors",
+        "id": 656
+    },
+    {
+        "reference_img_id": 416947,
+        "relative_caption": "has a different color and some people are visible in the background",
+        "shared_concept": "a bird on a dining table",
+        "id": 657
+    },
+    {
+        "reference_img_id": 86792,
+        "relative_caption": "is wearing a garment related to Star Wars",
+        "shared_concept": "a person playing the Nintendo Wii",
+        "id": 658
+    },
+    {
+        "reference_img_id": 282019,
+        "relative_caption": "has a child seen from the front in front of it",
+        "shared_concept": "a birthday cake with multiple lit candles",
+        "id": 659
+    },
+    {
+        "reference_img_id": 276998,
+        "relative_caption": "is held in one hand and is seen from a closer distance",
+        "shared_concept": "a broken phone",
+        "id": 660
+    },
+    {
+        "reference_img_id": 12388,
+        "relative_caption": "has a graphics tablet next to it",
+        "shared_concept": "a laptop on a table",
+        "id": 661
+    },
+    {
+        "reference_img_id": 171989,
+        "relative_caption": "is black and the person is not visible",
+        "shared_concept": "a Blackberry-style phone held in a hand",
+        "id": 662
+    },
+    {
+        "reference_img_id": 475201,
+        "relative_caption": "is fishing instead of milking, the photo shows no animals, has the sky in the background, has one fishing rod and is zoomed out",
+        "shared_concept": "an old man with a cowboy hat",
+        "id": 663
+    },
+    {
+        "reference_img_id": 574439,
+        "relative_caption": "has black support and there are white walls in the background",
+        "shared_concept": "a double bed",
+        "id": 664
+    },
+    {
+        "reference_img_id": 139851,
+        "relative_caption": "is sitting on it and the photo is taken outdoors",
+        "shared_concept": "a woman with a suitcase",
+        "id": 665
+    },
+    {
+        "reference_img_id": 343594,
+        "relative_caption": "is hanging on the wall",
+        "shared_concept": "a clock with an animal above it",
+        "id": 666
+    },
+    {
+        "reference_img_id": 541362,
+        "relative_caption": "has a CRT monitor next to them",
+        "shared_concept": "two laptops on a desk",
+        "id": 667
+    },
+    {
+        "reference_img_id": 79885,
+        "relative_caption": "shows a bowl of a non-solid color instead of a cup and is taken from a lower angle",
+        "shared_concept": "a cat inside an object",
+        "id": 668
+    },
+    {
+        "reference_img_id": 28412,
+        "relative_caption": "is yellow instead of white and the photo is shot from the same angle",
+        "shared_concept": "a city bus seen from the front-right",
+        "id": 669
+    },
+    {
+        "reference_img_id": 565498,
+        "relative_caption": "has no island and has a parquet floor",
+        "shared_concept": "a tidy white kitchen with a window",
+        "id": 670
+    },
+    {
+        "reference_img_id": 394646,
+        "relative_caption": "are resting on a newspaper",
+        "shared_concept": "a donut and a filled mug",
+        "id": 671
+    },
+    {
+        "reference_img_id": 443930,
+        "relative_caption": "has one double-decker bus of the same color",
+        "shared_concept": "a green and white bus",
+        "id": 672
+    },
+    {
+        "reference_img_id": 571844,
+        "relative_caption": "shows more people and a cloudy sky in the background",
+        "shared_concept": "people going on skateboards on a road",
+        "id": 673
+    },
+    {
+        "reference_img_id": 258082,
+        "relative_caption": "are piled up on top of a person",
+        "shared_concept": "several teddy bears",
+        "id": 674
+    },
+    {
+        "reference_img_id": 94771,
+        "relative_caption": "is in greyscale with a different background",
+        "shared_concept": "two newlyweds",
+        "id": 675
+    },
+    {
+        "reference_img_id": 272201,
+        "relative_caption": "has the same color and is on a sidewalk",
+        "shared_concept": "a white microwave",
+        "id": 676
+    },
+    {
+        "reference_img_id": 83927,
+        "relative_caption": "has only one of them, is near a trainer and the photo is shot during a show",
+        "shared_concept": "a elephant animal",
+        "id": 677
+    },
+    {
+        "reference_img_id": 176706,
+        "relative_caption": "has only two paws on the ground",
+        "shared_concept": "a man sitting with a dog",
+        "id": 678
+    },
+    {
+        "reference_img_id": 282743,
+        "relative_caption": "has a child instead of cats",
+        "shared_concept": "a fridge with something inside",
+        "id": 679
+    },
+    {
+        "reference_img_id": 297636,
+        "relative_caption": "is closed and has a fish instead of ice",
+        "shared_concept": "a mixer",
+        "id": 680
+    },
+    {
+        "reference_img_id": 530077,
+        "relative_caption": "is lying on a bed",
+        "shared_concept": "a girl holding a teddy bear",
+        "id": 681
+    },
+    {
+        "reference_img_id": 27489,
+        "relative_caption": "has the same color, it is seen through a rearview mirror and there is only one of them",
+        "shared_concept": "a yellow school bus",
+        "id": 682
+    },
+    {
+        "reference_img_id": 577132,
+        "relative_caption": "has two hanging lights and the fridge has a silver color",
+        "shared_concept": "a kitchen",
+        "id": 683
+    },
+    {
+        "reference_img_id": 515690,
+        "relative_caption": "shows only one of them and it is in an oven",
+        "shared_concept": "a pan",
+        "id": 684
+    },
+    {
+        "reference_img_id": 163338,
+        "relative_caption": "is a tomato instead of a bagel",
+        "shared_concept": "a person cutting food with a knife",
+        "id": 685
+    },
+    {
+        "reference_img_id": 409818,
+        "relative_caption": "is taken from a closer distance, shows a snowboard instead of skis and there are no people in the background",
+        "shared_concept": "a person on a snowboard rail",
+        "id": 686
+    },
+    {
+        "reference_img_id": 346783,
+        "relative_caption": "is shot in a skatepark and has trees in the background",
+        "shared_concept": "a child with a skateboard held vertically in his hands",
+        "id": 687
+    },
+    {
+        "reference_img_id": 386874,
+        "relative_caption": "is more vintage and is not blue",
+        "shared_concept": "a cat in a suitcase",
+        "id": 688
+    },
+    {
+        "reference_img_id": 359488,
+        "relative_caption": "is facing the camera and there are multiple bottles behind him",
+        "shared_concept": "a standing person pouring wine into a glass",
+        "id": 689
+    },
+    {
+        "reference_img_id": 412368,
+        "relative_caption": "has a different color and is seen from a farther distance",
+        "shared_concept": "a whistling kettle on a stove burner",
+        "id": 690
+    },
+    {
+        "reference_img_id": 368463,
+        "relative_caption": "has at least a child next to her and the photo has a higher quality",
+        "shared_concept": "an old woman on a chair seen from the front",
+        "id": 691
+    },
+    {
+        "reference_img_id": 55841,
+        "relative_caption": "has the same color and a person is riding it",
+        "shared_concept": "a yellow motorbike",
+        "id": 692
+    },
+    {
+        "reference_img_id": 77731,
+        "relative_caption": "is zoomed out and there are plants next to it",
+        "shared_concept": "a double parking meter",
+        "id": 693
+    },
+    {
+        "reference_img_id": 142003,
+        "relative_caption": "is on a couch and using a mouse",
+        "shared_concept": "a person using a laptop",
+        "id": 694
+    },
+    {
+        "reference_img_id": 532677,
+        "relative_caption": "is in the countryside, the photo is taken from a farther distance and has a hill in the background",
+        "shared_concept": "a fire hydrant",
+        "id": 695
+    },
+    {
+        "reference_img_id": 442397,
+        "relative_caption": "has a bathtub instead of a shower and there is a white window",
+        "shared_concept": "a bathroom with a sink and toilet",
+        "id": 696
+    },
+    {
+        "reference_img_id": 268207,
+        "relative_caption": "has a solar panel on top and there is a person next to it",
+        "shared_concept": "a parking meter",
+        "id": 697
+    },
+    {
+        "reference_img_id": 177209,
+        "relative_caption": "has the same color, is surrounded by leaves, is seen from a farther distance and no flowers are visible",
+        "shared_concept": "a red fire hydrant",
+        "id": 698
+    },
+    {
+        "reference_img_id": 74190,
+        "relative_caption": "shows a person getting food from it",
+        "shared_concept": "a close-up open fridge",
+        "id": 699
+    },
+    {
+        "reference_img_id": 273842,
+        "relative_caption": "shows fewer cars and a skyscraper in the background",
+        "shared_concept": "a tree-lined avenue in a city seen from an in-road angle",
+        "id": 700
+    },
+    {
+        "reference_img_id": 126648,
+        "relative_caption": "is surrounded by darkness and no trees are visible",
+        "shared_concept": "a man with an umbrella",
+        "id": 701
+    },
+    {
+        "reference_img_id": 352764,
+        "relative_caption": "is a woman with black curly hair",
+        "shared_concept": "a person looking at their phone in the foreground",
+        "id": 702
+    },
+    {
+        "reference_img_id": 376134,
+        "relative_caption": "has more of them and they are made of clear glass",
+        "shared_concept": "vases seen from a close distance",
+        "id": 703
+    },
+    {
+        "reference_img_id": 280509,
+        "relative_caption": "is white and has magnets only in the upper section",
+        "shared_concept": "a refrigerator in the foreground",
+        "id": 704
+    },
+    {
+        "reference_img_id": 8611,
+        "relative_caption": "has the same color and there is person in front of it",
+        "shared_concept": "a white fridge with photos attached to it",
+        "id": 705
+    },
+    {
+        "reference_img_id": 542721,
+        "relative_caption": "is hitting a forehand and she wears a black cap",
+        "shared_concept": "a professional woman tennis player hitting the ball",
+        "id": 706
+    },
+    {
+        "reference_img_id": 227650,
+        "relative_caption": "has the colors of the American flag",
+        "shared_concept": "a fire hydrant in the foreground",
+        "id": 707
+    },
+    {
+        "reference_img_id": 330820,
+        "relative_caption": "has a different shape, is more colorful and is surrounded by greenery",
+        "shared_concept": "a close-up vase",
+        "id": 708
+    },
+    {
+        "reference_img_id": 456327,
+        "relative_caption": "has more of them, they are arranged in a tower and are located in a large room",
+        "shared_concept": "some suitcases",
+        "id": 709
+    },
+    {
+        "reference_img_id": 581800,
+        "relative_caption": "is taken from the front and shows the sky in the background",
+        "shared_concept": "a truck carrying logs",
+        "id": 710
+    },
+    {
+        "reference_img_id": 362204,
+        "relative_caption": "is a professional skier and the track is bordered in blue",
+        "shared_concept": "a skier making a turn around a red gate",
+        "id": 711
+    },
+    {
+        "reference_img_id": 45474,
+        "relative_caption": "has only one of them and has a darker background",
+        "shared_concept": "an elephant during a circus show",
+        "id": 712
+    },
+    {
+        "reference_img_id": 42036,
+        "relative_caption": "has eyeglasses and a black shirt",
+        "shared_concept": "a man wearing a tie looking at the camera",
+        "id": 713
+    },
+    {
+        "reference_img_id": 358277,
+        "relative_caption": "has only one of them and the photo shows a microwave in the background",
+        "shared_concept": "a bottle of wine next to a filled wine glass",
+        "id": 714
+    },
+    {
+        "reference_img_id": 456668,
+        "relative_caption": "is shot from the same angle and there is a picture on the wall behind it",
+        "shared_concept": "a queen-size bed",
+        "id": 715
+    },
+    {
+        "reference_img_id": 468995,
+        "relative_caption": "has scissors instead of a phone and the photo has a whiter background",
+        "shared_concept": "an object half hidden in a pouch",
+        "id": 716
+    },
+    {
+        "reference_img_id": 252207,
+        "relative_caption": "is only one, is glossier and has a white background behind it",
+        "shared_concept": "a foreground vase",
+        "id": 717
+    },
+    {
+        "reference_img_id": 436001,
+        "relative_caption": "is shot from the same angle and both players are women",
+        "shared_concept": "two amateur tennis players playing a double",
+        "id": 718
+    },
+    {
+        "reference_img_id": 273636,
+        "relative_caption": "is on a work desk in front of a screen and a keyboard is visible",
+        "shared_concept": "a pizza",
+        "id": 719
+    },
+    {
+        "reference_img_id": 543952,
+        "relative_caption": "is orange and is half inside a toilet",
+        "shared_concept": "a cat",
+        "id": 720
+    },
+    {
+        "reference_img_id": 428037,
+        "relative_caption": "has a teapot instead of a to-go cup",
+        "shared_concept": "a slice of cake on a plate in the foreground next to an object",
+        "id": 721
+    },
+    {
+        "reference_img_id": 533322,
+        "relative_caption": "is shot in color and the sink is black",
+        "shared_concept": "a kitchen sink with a window behind it",
+        "id": 722
+    },
+    {
+        "reference_img_id": 252026,
+        "relative_caption": "shows a car instead of a bench and the photo is shot in color",
+        "shared_concept": "a cat under an object",
+        "id": 723
+    },
+    {
+        "reference_img_id": 212280,
+        "relative_caption": "shows more teddy bears",
+        "shared_concept": "a teddy bear on a bed",
+        "id": 724
+    },
+    {
+        "reference_img_id": 375711,
+        "relative_caption": "is dressed as a bear and the photo shows more people in the background",
+        "shared_concept": "a skier",
+        "id": 725
+    },
+    {
+        "reference_img_id": 528464,
+        "relative_caption": "is in a station with a lot of people",
+        "shared_concept": "a red train seen from the front",
+        "id": 726
+    },
+    {
+        "reference_img_id": 460472,
+        "relative_caption": "shows a different fruit and has a glass of water",
+        "shared_concept": "a fruit connected to wires",
+        "id": 727
+    },
+    {
+        "reference_img_id": 218905,
+        "relative_caption": "is white and black and there is a suitcase instead of a sink",
+        "shared_concept": "a cat inside an object",
+        "id": 728
+    },
+    {
+        "reference_img_id": 156989,
+        "relative_caption": "is shot from a closer distance and has a bridge in the background",
+        "shared_concept": "a seagull",
+        "id": 729
+    },
+    {
+        "reference_img_id": 487991,
+        "relative_caption": "has no jacket and the photo is shot outdoors and in greyscale",
+        "shared_concept": "a man wearing a tie and a shirt",
+        "id": 730
+    },
+    {
+        "reference_img_id": 571533,
+        "relative_caption": "is of a different color, is seen from the side and the photo shows the sky in the background",
+        "shared_concept": "a single cow in the countryside",
+        "id": 731
+    },
+    {
+        "reference_img_id": 381912,
+        "relative_caption": "has the same color and there is a person sitting on it",
+        "shared_concept": "a white toilet outdoors",
+        "id": 732
+    },
+    {
+        "reference_img_id": 87575,
+        "relative_caption": "shows a lake in the background",
+        "shared_concept": "a group of skiers standing",
+        "id": 733
+    },
+    {
+        "reference_img_id": 223108,
+        "relative_caption": "is in a worse condition and has no microwave door",
+        "shared_concept": "an abandoned microwave oven",
+        "id": 734
+    },
+    {
+        "reference_img_id": 391569,
+        "relative_caption": "have a different color and more people sitting",
+        "shared_concept": "multiple set round tables",
+        "id": 735
+    },
+    {
+        "reference_img_id": 262675,
+        "relative_caption": "wears a black wetsuit and the surfboard has a different color",
+        "shared_concept": "a person holding a surfboard under their arm standing in the shallow water",
+        "id": 736
+    },
+    {
+        "reference_img_id": 338273,
+        "relative_caption": "shows two sandwiches with baked potatoes instead of the pizza",
+        "shared_concept": "food on a white plate in the foreground",
+        "id": 737
+    },
+    {
+        "reference_img_id": 216433,
+        "relative_caption": "is taken indoors and has fewer people in the background",
+        "shared_concept": "a man in the foreground putting a pizza in a pizza oven",
+        "id": 738
+    },
+    {
+        "reference_img_id": 296003,
+        "relative_caption": "has a surfboard under his arm and the image is taken from the same angle",
+        "shared_concept": "a man riding a bicycle seen from the side",
+        "id": 739
+    },
+    {
+        "reference_img_id": 38271,
+        "relative_caption": "is new and wrapped in plastic wrap and is seen from a farther distance",
+        "shared_concept": "a stove",
+        "id": 740
+    },
+    {
+        "reference_img_id": 62080,
+        "relative_caption": "is red and is next to a stop sign",
+        "shared_concept": "a fire hydrant",
+        "id": 741
+    },
+    {
+        "reference_img_id": 415371,
+        "relative_caption": "has the same color and is on a fire hydrant",
+        "shared_concept": "an orange traffic cone",
+        "id": 742
+    },
+    {
+        "reference_img_id": 352543,
+        "relative_caption": "is closed and has flowers",
+        "shared_concept": "a toilet",
+        "id": 743
+    },
+    {
+        "reference_img_id": 385106,
+        "relative_caption": "has the same color and there is a soft toy next to it",
+        "shared_concept": "a white laptop on a table",
+        "id": 744
+    },
+    {
+        "reference_img_id": 337360,
+        "relative_caption": "shows no people and has more plates",
+        "shared_concept": "plated dishes on a table",
+        "id": 745
+    },
+    {
+        "reference_img_id": 292083,
+        "relative_caption": "has a different animal and is set on a beach",
+        "shared_concept": "a silhouette of an animal",
+        "id": 746
+    },
+    {
+        "reference_img_id": 308435,
+        "relative_caption": "has one couch and a wall that is not white",
+        "shared_concept": "a bedroom",
+        "id": 747
+    },
+    {
+        "reference_img_id": 320124,
+        "relative_caption": "is sitting and has a beverage in front of him",
+        "shared_concept": "a man wearing a tie",
+        "id": 748
+    },
+    {
+        "reference_img_id": 3970,
+        "relative_caption": "shows beach chairs instead of chairs and is set next to a pool",
+        "shared_concept": "an umbrella next to chairs",
+        "id": 749
+    },
+    {
+        "reference_img_id": 529469,
+        "relative_caption": "is taken from the height of the sea",
+        "shared_concept": "thatched umbrellas with the sea in the background",
+        "id": 750
+    },
+    {
+        "reference_img_id": 390713,
+        "relative_caption": "has two boxes and is shot from the same angle",
+        "shared_concept": "a lunch box with food in it and cutlery seen from the top",
+        "id": 751
+    },
+    {
+        "reference_img_id": 253218,
+        "relative_caption": "is seen from a higher angle and the photo shows people and a greener background",
+        "shared_concept": "a barbecue outdoors",
+        "id": 752
+    },
+    {
+        "reference_img_id": 212356,
+        "relative_caption": "is eating grass and is next to an ostrich",
+        "shared_concept": "a zebra",
+        "id": 753
+    },
+    {
+        "reference_img_id": 308542,
+        "relative_caption": "depicts a head",
+        "shared_concept": "a white vase with flowers",
+        "id": 754
+    },
+    {
+        "reference_img_id": 221944,
+        "relative_caption": "has sand instead of water",
+        "shared_concept": "a child surfing in the foreground",
+        "id": 755
+    },
+    {
+        "reference_img_id": 442780,
+        "relative_caption": "shows more people and a potted plant",
+        "shared_concept": "airport luggage carts",
+        "id": 756
+    },
+    {
+        "reference_img_id": 59899,
+        "relative_caption": "has no water in the background",
+        "shared_concept": "a woman holding a little girl with an umbrella",
+        "id": 757
+    },
+    {
+        "reference_img_id": 14742,
+        "relative_caption": "is of a different color and the photo shows fewer people in the foreground",
+        "shared_concept": "people cutting a ribbon at an inauguration",
+        "id": 758
+    },
+    {
+        "reference_img_id": 541061,
+        "relative_caption": "is set on the grass and the woman dressed in a different color",
+        "shared_concept": "a woman standing in front of an airplane",
+        "id": 759
+    },
+    {
+        "reference_img_id": 490983,
+        "relative_caption": "has the same shape and the plate has a different color",
+        "shared_concept": "a doughnut cake with a missing part on a plate",
+        "id": 760
+    },
+    {
+        "reference_img_id": 212613,
+        "relative_caption": "has a wooden background and the plate is white",
+        "shared_concept": "a plate with food seen from above",
+        "id": 761
+    },
+    {
+        "reference_img_id": 31173,
+        "relative_caption": "has a circular shape and the photo is taken from the same angle",
+        "shared_concept": "a circular close-up stop sign",
+        "id": 762
+    },
+    {
+        "reference_img_id": 30773,
+        "relative_caption": "shows snowboarding instead of surfing and there is a photographer in the foreground",
+        "shared_concept": "a person in the air holding a board with his hand",
+        "id": 763
+    },
+    {
+        "reference_img_id": 457321,
+        "relative_caption": "is shot from the same angle and the tie is black",
+        "shared_concept": "a close-up man whose face is not shown who is wearing a white shirt and a tie",
+        "id": 764
+    },
+    {
+        "reference_img_id": 495630,
+        "relative_caption": "has more people",
+        "shared_concept": "playground equipment",
+        "id": 765
+    },
+    {
+        "reference_img_id": 576352,
+        "relative_caption": "has more of them on a plate",
+        "shared_concept": "an orange slice",
+        "id": 766
+    },
+    {
+        "reference_img_id": 375403,
+        "relative_caption": "is held by a hand and the photo is shot on a beach",
+        "shared_concept": "a close-up hot dog",
+        "id": 767
+    },
+    {
+        "reference_img_id": 5518,
+        "relative_caption": "has bread instead of carrots",
+        "shared_concept": "a knife next to a piece of food on a cutting board",
+        "id": 768
+    },
+    {
+        "reference_img_id": 375946,
+        "relative_caption": "has clocks of a non-standard shape and the wall are of a different color",
+        "shared_concept": "multiple clocks attached to a wall",
+        "id": 769
+    },
+    {
+        "reference_img_id": 282469,
+        "relative_caption": "has a statue instead of a stadium",
+        "shared_concept": "a hot dog in the foreground held on a hand",
+        "id": 770
+    },
+    {
+        "reference_img_id": 465954,
+        "relative_caption": "has a greenish-colored wall and there is a window in on the left wall",
+        "shared_concept": "a sink and a bathtub in a bathroom",
+        "id": 771
+    },
+    {
+        "reference_img_id": 437777,
+        "relative_caption": "shows only one person and a brighter background",
+        "shared_concept": "a person facing the camera taking a picture with a flip phone outdoors",
+        "id": 772
+    },
+    {
+        "reference_img_id": 271376,
+        "relative_caption": "are packaged in white boxes and are of a single color",
+        "shared_concept": "multiple donuts",
+        "id": 773
+    },
+    {
+        "reference_img_id": 5645,
+        "relative_caption": "is shot indoors and the man is looking at the camera",
+        "shared_concept": "a man wearing a tie and a bowler hat",
+        "id": 774
+    },
+    {
+        "reference_img_id": 52896,
+        "relative_caption": "shows a kitchen in the background",
+        "shared_concept": "a black couch in a living room",
+        "id": 775
+    },
+    {
+        "reference_img_id": 438310,
+        "relative_caption": "has two of them and has wine instead of beer",
+        "shared_concept": "a pizza in a box in the foreground",
+        "id": 776
+    },
+    {
+        "reference_img_id": 283015,
+        "relative_caption": "are sitting on a semaphore",
+        "shared_concept": "several pigeons",
+        "id": 777
+    },
+    {
+        "reference_img_id": 335689,
+        "relative_caption": "has two of them and they are on a cutting board next to a knife",
+        "shared_concept": "a carrot",
+        "id": 778
+    },
+    {
+        "reference_img_id": 400473,
+        "relative_caption": "is taking a sip and the photo has a more everyday background",
+        "shared_concept": "a person talking on the phone",
+        "id": 779
+    },
+    {
+        "reference_img_id": 428058,
+        "relative_caption": "is shot in greyscale and shows no books",
+        "shared_concept": "a bedroom",
+        "id": 780
+    },
+    {
+        "reference_img_id": 436398,
+        "relative_caption": "has a knife and the vegetable is of a different type",
+        "shared_concept": "a person holding freshly picked vegetables",
+        "id": 781
+    },
+    {
+        "reference_img_id": 13321,
+        "relative_caption": "shows a bench instead of a chair and there is no umbrella",
+        "shared_concept": "an old man with a beard wearing a hat",
+        "id": 782
+    },
+    {
+        "reference_img_id": 27532,
+        "relative_caption": "has a different color and shows writing on it",
+        "shared_concept": "a person standing holding an umbrella seen from the back",
+        "id": 783
+    },
+    {
+        "reference_img_id": 157077,
+        "relative_caption": "shows a notebook with writings on it and the photo is shot indoors",
+        "shared_concept": "a turned-on laptop on a desk",
+        "id": 784
+    },
+    {
+        "reference_img_id": 129413,
+        "relative_caption": "is shot indoors and there is a person in the background",
+        "shared_concept": "a laptop seen from the front with a beverage next to it",
+        "id": 785
+    },
+    {
+        "reference_img_id": 392749,
+        "relative_caption": "is full of food and the photo shows only the interior",
+        "shared_concept": "a white refrigerator in the foreground",
+        "id": 786
+    },
+    {
+        "reference_img_id": 66260,
+        "relative_caption": "is turned on and has some food in it",
+        "shared_concept": "a small electric oven",
+        "id": 787
+    },
+    {
+        "reference_img_id": 87988,
+        "relative_caption": "has no visible stove and there is a laptop on it",
+        "shared_concept": "a kitchen countertop",
+        "id": 788
+    },
+    {
+        "reference_img_id": 70656,
+        "relative_caption": "has a banana instead of the cake",
+        "shared_concept": "a white plate with food on a wooden table",
+        "id": 789
+    },
+    {
+        "reference_img_id": 71231,
+        "relative_caption": "is only one and there is a keyboard under it, the photo is shot from the same angle",
+        "shared_concept": "a laptop on a desk seen from the front",
+        "id": 790
+    },
+    {
+        "reference_img_id": 305818,
+        "relative_caption": "shows people and has a french door in the background",
+        "shared_concept": "a living room with a sofa",
+        "id": 791
+    },
+    {
+        "reference_img_id": 140749,
+        "relative_caption": "are drinking water and there is no bench",
+        "shared_concept": "some sheep",
+        "id": 792
+    },
+    {
+        "reference_img_id": 360457,
+        "relative_caption": "has an open window and the photo is darker",
+        "shared_concept": "a living room with a CRT TV",
+        "id": 793
+    },
+    {
+        "reference_img_id": 272178,
+        "relative_caption": "has a whale instead of an octopus",
+        "shared_concept": "a big inflatable kite on the beach",
+        "id": 794
+    },
+    {
+        "reference_img_id": 195881,
+        "relative_caption": "shows an orange cat instead of a baby and the cat has the eyes closed",
+        "shared_concept": "something inside an open suitcase",
+        "id": 795
+    },
+    {
+        "reference_img_id": 158464,
+        "relative_caption": "has the same color and is closed and the photo has a CRT TV",
+        "shared_concept": "a white fridge",
+        "id": 796
+    },
+    {
+        "reference_img_id": 277154,
+        "relative_caption": "has more people and the table is U-shaped",
+        "shared_concept": "a group of people using laptops at a table",
+        "id": 797
+    },
+    {
+        "reference_img_id": 359573,
+        "relative_caption": "are seen from a higher perspective and have a white glaze with sprinkles",
+        "shared_concept": "multiple close-up donuts",
+        "id": 798
+    },
+    {
+        "reference_img_id": 222734,
+        "relative_caption": "is a man and is doing dishes in the kitchen sink",
+        "shared_concept": "a person in a kitchen looking at the camera",
+        "id": 799
+    }
+]
