@@ -6,7 +6,7 @@ This is the **anonymous  repository** of the paper "***LDRE**: **L**LM-based **D
 
 ## Overview
 
-![framework](https://github.com/yzy-bupt/LDRE/blob/main/images/examples.png)
+![framework](https://github.com/yzy-bupt/LDRE/blob/main/images/framework.png)
 
 ### Abstract
 
@@ -133,3 +133,9 @@ python src/divergent_caption_ensemble.py
 The predictions file will be saved in the `data/test_submissions/{dataset}/` folder.
 
 We have provided the experimental results of our LDRE for your evaluation on the [CIRR Evaluation Server](https://cirr.cecs.anu.edu.au/) or on the [CIRCO Evaluation Server](https://circo.micc.unifi.it/), in the `data/test_submissions/{dataset}/` folder, which have achieved state-of-the-art (SOTA) results as shown in the paper.
+
+### 4. Qualitative Results
+
+Qualitative results on the test set of CIRCO:
+
+![framework](https://github.com/yzy-bupt/LDRE/blob/main/images/examples.png)
