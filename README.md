@@ -6,7 +6,7 @@ This is the **anonymous  repository** of the paper "***LDRE**: **L**LM-based **D
 
 ## Overview
 
-![framework](https://github.com/347a45c5-0039-4d3b-a29b-46e181394e7c)
+![framework](https://github.com/yzy-bupt/LDRE/blob/main/images/examples.png)
 
 ### Abstract
 
