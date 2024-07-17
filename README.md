@@ -4,7 +4,7 @@
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/ldre-llm-based-divergent-reasoning-and/zero-shot-composed-image-retrieval-zs-cir-on-2)](https://paperswithcode.com/sota/zero-shot-composed-image-retrieval-zs-cir-on-2?p=ldre-llm-based-divergent-reasoning-and)
 ### LDRE: LLM-based Divergent Reasoning and Ensemble for Zero-Shot Composed Image Retrieval
 
-This is the **code  repository** of the paper "***LDRE**: **L**LM-based **D**ivergent **R**easoning and **E**nsemble for Zero-Shot Composed Image Retrieval*".
+This is the **code  repository** of the paper "***LDRE**: **L**LM-based **D**ivergent **R**easoning and **E**nsemble for Zero-Shot Composed Image Retrieval*". [**Paper**](https://dl.acm.org/doi/pdf/10.1145/3626772.3657740)
 
 ## Overview
 
