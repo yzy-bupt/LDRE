@@ -16,9 +16,6 @@ Zero-Shot Composed Image Retrieval (ZS-CIR) has garnered increasing interest in 
 
 ## Getting Started
 
-We recommend using the [**Anaconda**](https://www.anaconda.com/) package manager to avoid dependency/reproducibility problems.
-For Linux systems, you can find a conda installation guide [here](https://docs.conda.io/projects/conda/en/latest/user-guide/install/linux.html).
-
 ### Installation
 
 1. Clone the repository, click  `Download file`
@@ -145,7 +142,7 @@ Qualitative results on the test set of CIRCO:
 ## Citation 
 We hope you find our paper/code useful in your research and cite it as follows. Thanks!
 
-```sh
+```bibtex
 @inproceedings{yang2024ldre,
   title={LDRE: LLM-based Divergent Reasoning and Ensemble for Zero-Shot Composed Image Retrieval},
   author={Yang, Zhenyu and Xue, Dizhan and Qian, Shengsheng and Dong, Weiming and Xu, Changsheng},
