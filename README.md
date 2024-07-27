@@ -141,3 +141,16 @@ We have provided the experimental results of our LDRE for your evaluation on the
 Qualitative results on the test set of CIRCO:
 
 ![framework](https://github.com/yzy-bupt/LDRE/blob/main/images/examples.png)
+
+## Citation 
+We hope you find our paper/code useful in your research and cite it as follows. Thanks!
+
+```sh
+@inproceedings{yang2024ldre,
+  title={LDRE: LLM-based Divergent Reasoning and Ensemble for Zero-Shot Composed Image Retrieval},
+  author={Yang, Zhenyu and Xue, Dizhan and Qian, Shengsheng and Dong, Weiming and Xu, Changsheng},
+  booktitle={Proceedings of the 47th International ACM SIGIR Conference on Research and Development in Information Retrieval},
+  pages={80--90},
+  year={2024}
+}
+```
