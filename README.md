@@ -4,7 +4,8 @@
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/ldre-llm-based-divergent-reasoning-and/zero-shot-composed-image-retrieval-zs-cir-on-1)](https://paperswithcode.com/sota/zero-shot-composed-image-retrieval-zs-cir-on-1?p=ldre-llm-based-divergent-reasoning-and)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/ldre-llm-based-divergent-reasoning-and/zero-shot-composed-image-retrieval-zs-cir-on-2)](https://paperswithcode.com/sota/zero-shot-composed-image-retrieval-zs-cir-on-2?p=ldre-llm-based-divergent-reasoning-and)
 
-🔥🔥 [2024/11/16] The extended version of our ACM MM 2024 paper is now public: "***SEIZE**: **S**emantic **E**diting **I**ncrement Benefits **ZE**ro-Shot Composed Image Retrieval*". [**[Paper]**](https://dl.acm.org/doi/pdf/10.1145/3664647.3681649)[**[GitHub]**](https://github.com/yzy-bupt/SEIZE)
+🔥🔥🔥 [2024/11/17] We release the JSON files edited by the GPT-3.5 Turbo for CIRCO. You don't need to go through generating captions and reasoning for combinations; just retrieve!!!
+🔥🔥🔥 [2024/11/16] The extended version of our ACM MM 2024 paper is now public: "***SEIZE**: **S**emantic **E**diting **I**ncrement Benefits **ZE**ro-Shot Composed Image Retrieval*". [**[Paper]**](https://dl.acm.org/doi/pdf/10.1145/3664647.3681649)[**[GitHub]**](https://github.com/yzy-bupt/SEIZE)
 
 This is the **official  repository** of the paper "***LDRE**: **L**LM-based **D**ivergent **R**easoning and **E**nsemble for Zero-Shot Composed Image Retrieval*". [**[Paper]**](https://dl.acm.org/doi/pdf/10.1145/3626772.3657740). 
 
