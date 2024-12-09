@@ -1,0 +1,11 @@
+numpy==1.24.3
+transformers==4.26.1
+tqdm==4.66.1
+openai==0.28
+salesforce-lavis==1.0.2
+scipy==1.10.1
+blis==0.7.11
+thinc==8.2.2
+spacy==3.7.2
+open_clip_torch==2.24.0
+git+https://github.com/openai/CLIP.git
