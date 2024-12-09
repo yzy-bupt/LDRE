@@ -27,10 +27,10 @@ Zero-Shot Composed Image Retrieval (ZS-CIR) has garnered increasing interest in 
 2. Install Python dependencies
 
 ```sh
-conda create -n LDRE -y python=3.8.18
+conda create -n LDRE -y python=3.9.20
 conda activate LDRE
 conda install -y -c pytorch pytorch=1.11.0 torchvision=0.12.0
-pip install transformers==4.26.1 tqdm==4.66.1 openai==0.28 salesforce-lavis==1.0.2 open_clip_torch==2.24.0
+pip install numpy==1.24.3 transformers==4.26.1 tqdm==4.66.1 openai==0.28 salesforce-lavis==1.0.2 open_clip_torch==2.24.0
 pip install git+https://github.com/openai/CLIP.git
 ```
 
@@ -40,12 +40,18 @@ pip install git+https://github.com/openai/CLIP.git
 
 Download the CIRCO dataset following the instructions in the [**official repository**](https://github.com/miccunifi/CIRCO).
 
+Alternatively, you can directly download the dataset (more straightforward):
+
+- Download the images from [unlabeled2017.zip](http://images.cocodataset.org/zips/unlabeled2017.zip)
+
+- Download the annotations from [image_info_unlabeled2017.zip](http://images.cocodataset.org/annotations/image_info_unlabeled2017.zip)
+
 After downloading the dataset, ensure that the folder structure matches the following:
 
 ```
 ├── CIRCO
 │   ├── annotations
-|   |   ├── [val | test].json
+|   |   ├── [test | test_multi_gpt3-5].json
 
 │   ├── COCO2017_unlabeled
 |   |   ├── annotations
