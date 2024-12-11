@@ -4,6 +4,8 @@
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/ldre-llm-based-divergent-reasoning-and/zero-shot-composed-image-retrieval-zs-cir-on-1)](https://paperswithcode.com/sota/zero-shot-composed-image-retrieval-zs-cir-on-1?p=ldre-llm-based-divergent-reasoning-and)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/ldre-llm-based-divergent-reasoning-and/zero-shot-composed-image-retrieval-zs-cir-on-2)](https://paperswithcode.com/sota/zero-shot-composed-image-retrieval-zs-cir-on-2?p=ldre-llm-based-divergent-reasoning-and)
 
+🔥🔥🔥 [2024/12/11] We've completed a thorough code cleanup! Now you can easily set up the environment and reproduce results. Give it a try! You can watch our oral presentation through the following link: https://www.youtube.com/watch?v=GZ2fv5No4Xc.
+
 🔥🔥🔥 [2024/11/17] We release the JSON files edited by the GPT-3.5 Turbo for CIRCO. You don't need to go through generating captions and reasoning for combinations; just retrieve!!!
 
 🔥🔥🔥 [2024/11/16] The extended version of our ACM MM 2024 paper is now public: "***SEIZE**: **S**emantic **E**diting **I**ncrement Benefits **ZE**ro-Shot Composed Image Retrieval*". [**[Paper]**](https://dl.acm.org/doi/pdf/10.1145/3664647.3681649)[**[GitHub]**](https://github.com/yzy-bupt/SEIZE)
@@ -12,7 +14,7 @@ This is the **official  repository** of the paper "***LDRE**: **L**LM-based **D*
 
 ## Overview
 
-![framework](https://github.com/yzy-bupt/LDRE/blob/main/images/framework.png)
+![framework](./assets/framework.png)
 
 ### Abstract
 
@@ -30,8 +32,7 @@ Zero-Shot Composed Image Retrieval (ZS-CIR) has garnered increasing interest in 
 conda create -n LDRE -y python=3.9.20
 conda activate LDRE
 conda install -y -c pytorch pytorch=1.11.0 torchvision=0.12.0
-pip install numpy==1.24.3 transformers==4.26.1 tqdm==4.66.1 openai==0.28 salesforce-lavis==1.0.2 open_clip_torch==2.24.0
-pip install git+https://github.com/openai/CLIP.git
+pip install -r requirements.txt
 ```
 
 ### Data Preparation
@@ -147,7 +148,7 @@ We have provided the experimental results of our LDRE for your evaluation on the
 
 Qualitative results on the test set of CIRCO:
 
-![framework](https://github.com/yzy-bupt/LDRE/blob/main/images/examples.png)
+![framework](./assets/examples.png)
 
 ## Citation 
 We hope you find our paper/code useful in your research and cite it as follows. Thanks!
