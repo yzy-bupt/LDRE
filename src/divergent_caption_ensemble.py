@@ -1,4 +1,5 @@
 import json
+import os
 import pickle
 from args import args_define
 from typing import List, Tuple, Dict
@@ -31,13 +32,12 @@ def cirr_generate_test_submission_file(dataset_path: str, clip_model_name: str, 
 
     # Compute the index features
     classic_test_dataset = CIRRDataset(dataset_path, 'test1', 'classic', preprocess)
-    # if args.xxx:
-    #     index_features = torch.load('feature/{}/index_features_G14.pt'.format(args.dataset))
-    #     index_names = np.load('feature/{}/index_names_G14.npy'.format(args.dataset))
-    #     index_names = index_names.tolist()
-    # else:
-    
-    index_features, index_names = extract_image_features(classic_test_dataset, clip_model)
+    if os.path.exists(f'feature/{args.dataset}/{args.eval_type}/index_features.pt'):
+        index_features = torch.load(f'feature/{args.dataset}/{args.eval_type}/index_features.pt')
+        index_names = np.load(f'feature/{args.dataset}/{args.eval_type}/index_names.npy')
+        index_names = index_names.tolist()
+    else: 
+        index_features, index_names = extract_image_features(classic_test_dataset, clip_model)
 
     relative_test_dataset = CIRRDataset(dataset_path, 'test1', 'relative', preprocess)
 
@@ -61,10 +61,10 @@ def cirr_generate_test_submission_file(dataset_path: str, clip_model_name: str, 
     submissions_folder_path = PROJECT_ROOT / 'data' / "test_submissions" / 'cirr'
     submissions_folder_path.mkdir(exist_ok=True, parents=True)
 
-    with open(submissions_folder_path / f"{submission_name}.json", 'w+') as file:
+    with open(submissions_folder_path / f"{args.eval_type}_{submission_name}.json", 'w+') as file:
         json.dump(submission, file, sort_keys=True)
 
-    with open(submissions_folder_path / f"subset_{submission_name}.json", 'w+') as file:
+    with open(submissions_folder_path / f"{args.eval_type}_{submission_name}.json", 'w+') as file:
         json.dump(group_submission, file, sort_keys=True)
 
 
@@ -125,7 +125,7 @@ def cirr_generate_test_predictions(clip_model: CLIP, relative_test_dataset: CIRR
     reference_names_list = []
     pair_id_list = []
     group_members_list = []
-    if args.type == 'G':
+    if args.eval_type == 'LDRE-G':
         tokenizer = open_clip.get_tokenizer('ViT-g-14')
     else:
         tokenizer = clip.tokenize
@@ -143,11 +143,11 @@ def cirr_generate_test_predictions(clip_model: CLIP, relative_test_dataset: CIRR
 
         # input_captions = [
         #     f"a photo of $ that {rel_caption}" for rel_caption in relative_captions]
-        if args.is_gpt_caption:
+        if args.use_gpt_caption:
             input_captions = multi_gpt_caption
 
         else:
-            if args.is_rel_caption:
+            if args.use_rel_caption:
                 input_captions = [f"a photo that {caption}" for caption in relative_captions]
             else:
                 input_captions = multi_caption[0]
@@ -193,7 +193,12 @@ def circo_generate_test_submission_file(dataset_path: str, clip_model_name: str,
 
     # Compute the index features
     classic_test_dataset = CIRCODataset(dataset_path, 'test', 'classic', preprocess)
-    index_features, index_names = extract_image_features(classic_test_dataset, clip_model)
+    if os.path.exists(f'feature/{args.dataset}/{args.eval_type}/index_features.pt'):
+        index_features = torch.load(f'feature/{args.dataset}/{args.eval_type}/index_features.pt')
+        index_names = np.load(f'feature/{args.dataset}/{args.eval_type}/index_names.npy')
+        index_names = index_names.tolist()
+    else: 
+        index_features, index_names = extract_image_features(classic_test_dataset, clip_model)
 
     relative_test_dataset = CIRCODataset(dataset_path, 'test', 'relative', preprocess)
 
@@ -216,12 +221,12 @@ def circo_generate_test_submission_file(dataset_path: str, clip_model_name: str,
     submissions_folder_path = PROJECT_ROOT / 'data' / "test_submissions" / 'circo'
     submissions_folder_path.mkdir(exist_ok=True, parents=True)
 
-    with open(submissions_folder_path / f"{submission_name}.json", 'w+') as file:
+    with open(submissions_folder_path / f"{args.eval_type}_{submission_name}.json", 'w+') as file:
         json.dump(queryid_to_retrieved_images, file, sort_keys=True)
 
 
 def circo_generate_test_predictions(clip_model: CLIP, relative_test_dataset: CIRCODataset,
-                                    use_momentum_strategy=False, debiased_id=-1) -> [torch.Tensor, List[List[str]]]:
+                                    use_semantic_relevance_score=False, debiased_id=-1) -> [torch.Tensor, List[List[str]]]:
     """
     Generate the test prediction features for the CIRCO dataset given the pseudo tokens
     """
@@ -233,7 +238,7 @@ def circo_generate_test_predictions(clip_model: CLIP, relative_test_dataset: CIR
 
     predicted_features_list = []
     query_ids_list = []
-    if args.type == 'G':
+    if args.eval_type == 'LDRE-G':
         tokenizer = open_clip.get_tokenizer('ViT-g-14')
     else:
         tokenizer = clip.tokenize
@@ -248,9 +253,9 @@ def circo_generate_test_predictions(clip_model: CLIP, relative_test_dataset: CIR
         multi_caption = batch['multi_{}'.format(args.caption_type)]
         multi_gpt_caption = batch['multi_gpt_{}'.format(args.caption_type)]
 
-        if args.is_gpt_caption:
+        if args.use_gpt_caption:
             if args.multi_caption:
-                if use_momentum_strategy:
+                if use_semantic_relevance_score:
                     if debiased_id != -1:
                         input_captions = multi_caption[debiased_id]
                     else:
@@ -261,12 +266,12 @@ def circo_generate_test_predictions(clip_model: CLIP, relative_test_dataset: CIR
                     else:
                         input_captions = multi_gpt_caption
             else:
-                if use_momentum_strategy:
+                if use_semantic_relevance_score:
                     input_captions = blip2_caption
                 else:
                     input_captions = [f"{caption}" for caption in gpt_caption]
         else:
-            if args.multi_caption and args.is_rel_caption:
+            if args.multi_caption and args.use_rel_caption:
                 input_captions = multi_caption
                 for i in range(len(input_captions)): 
                     input_captions[i] = [f"a photo of {input_captions[i][inx]} that {relative_captions[inx]}" for inx in range(len(input_captions[i]))]
@@ -302,56 +307,58 @@ def circo_generate_test_dict(relative_test_dataset: CIRCODataset, clip_model: CL
     """
 
     # Get the predicted features
-    if args.is_gpt_predicted_features:
-        if args.use_debiased_sample:
+    if args.use_gpt_predicted_features:
+        if args.use_adaptive_ensemble:
             predicted_features_list = []
             for i in range(nums_caption):
-                predicted_features = torch.load('feature/debiased/gpt_predicted_features_{}.pt'.format(i))
+                predicted_features = torch.load(f'feature/{args.dataset}/{args.eval_type}/debiased/gpt_predicted_features_{i}.pt')
                 predicted_features_list.append(predicted_features)
-            query_ids = np.load('feature/query_ids.npy')
-
+            query_ids = np.load(f'feature/{args.dataset}/query_ids.npy')
         else:
-            predicted_features = torch.load('feature/gpt_predicted_features.pt')
-            query_ids = np.load('feature/query_ids.npy')
+            predicted_features = torch.load(f'feature/{args.dataset}/{args.eval_type}/gpt_predicted_features.pt')
+            query_ids = np.load(f'feature/{args.dataset}/query_ids.npy')
     else:
-        if args.use_debiased_sample:
+        if args.use_adaptive_ensemble:
             predicted_features_list = []
             for i in range(nums_caption):
                 predicted_features, query_ids = circo_generate_test_predictions(clip_model, relative_test_dataset, debiased_id=i)
-                torch.save(predicted_features, 'feature/debiased/gpt_predicted_features_{}.pt'.format(i))
+                if args.save_features:
+                    torch.save(predicted_features, f'feature/{args.dataset}/{args.eval_type}/debiased/gpt_predicted_features_{i}.pt')
+                    np.save(f'feature/{args.dataset}/query_ids.npy', query_ids)
                 predicted_features_list.append(predicted_features)
         else:
             predicted_features, query_ids = circo_generate_test_predictions(clip_model, relative_test_dataset)
-            if args.features_save_path:
-                np.save('feature/query_ids.npy', query_ids)
-                torch.save(predicted_features, 'feature/gpt_predicted_features.pt')
+            if args.save_features:
+                np.save(f'feature/{args.dataset}/query_ids.npy', query_ids)
+                torch.save(predicted_features, f'feature/{args.dataset}/{args.eval_type}/gpt_predicted_features.pt')
     
     # Normalize the features
     index_features = index_features.float().to(device)
     index_features = F.normalize(index_features, dim=-1)
 
-    if args.use_momentum_strategy:
-        if args.is_blip_predicted_features:
-            if args.use_debiased_sample:
+    if args.use_semantic_relevance_score:
+        if args.use_blip_predicted_features:
+            if args.use_adaptive_ensemble:
                 blip_predicted_features_list = []
                 for i in range(nums_caption):
-                    blip_predicted_features = torch.load('feature/debiased/blip_predicted_features_{}.pt'.format(i))
+                    blip_predicted_features = torch.load(f'feature/{args.dataset}/{args.eval_type}/debiased/blip_predicted_features_{i}.pt')
                     blip_predicted_features_list.append(blip_predicted_features)
             else:
-                blip_predicted_features = torch.load('feature/blip_predicted_features.pt')
+                blip_predicted_features = torch.load(f'feature/{args.dataset}/{args.eval_type}/blip_predicted_features.pt')
         else:
-            if args.use_debiased_sample:
+            if args.use_adaptive_ensemble:
                 blip_predicted_features_list = []
                 for i in range(nums_caption):
                     blip_predicted_features, _ = circo_generate_test_predictions(clip_model, relative_test_dataset, True, debiased_id=i)
-                    torch.save(blip_predicted_features, 'feature/debiased/blip_predicted_features_{}.pt'.format(i))
+                    if args.save_features:
+                        torch.save(blip_predicted_features, f'feature/{args.dataset}/{args.eval_type}/debiased/blip_predicted_features_{i}.pt')
                     blip_predicted_features_list.append(blip_predicted_features)
             else:
                 blip_predicted_features, _ = circo_generate_test_predictions(clip_model, relative_test_dataset, True)
-                if args.features_save_path:
-                    torch.save(blip_predicted_features, 'feature/blip_predicted_features.pt')
+                if args.save_features:
+                    torch.save(blip_predicted_features, f'feature/{args.dataset}/{args.eval_type}/blip_predicted_features.pt')
         
-        if args.use_debiased_sample:
+        if args.use_adaptive_ensemble:
             neg_diff_val = []
             for i in range(nums_caption):
                 gpt_features = predicted_features_list[i]
@@ -363,24 +370,25 @@ def circo_generate_test_dict(relative_test_dataset: CIRCODataset, clip_model: CL
                 diff = similarity_after - similarity_before
                 diff[diff > 0] = 0
                 diff = -diff
-                diff = torch.topk(diff, dim=-1, k=50).values
+                diff = torch.topk(diff, dim=-1, k=args.adaptive_topk).values
                 sum_diff = torch.sum(diff)
                 # sum_diff = torch.sum(diff < 0)
                 neg_diff_val.append(sum_diff.item())
 
             neg_diff_val_tensor = torch.tensor(neg_diff_val).float().to(device)
-            print(neg_diff_val_tensor)
-            debiased_weight = torch.softmax(neg_diff_val_tensor / torch.max(neg_diff_val_tensor) / args.debiased_temperature, 0)
-            print(debiased_weight)
+            debiased_weight = torch.softmax(neg_diff_val_tensor / torch.max(neg_diff_val_tensor) / args.adaptive_temperature, 0)
             predicted_features_tensor = torch.stack(predicted_features_list)
-            if 0:
+            if False:
+                ### mean exp
                 debiased_features = torch.mean(predicted_features_tensor, dim=0)
             else:
+                ### LDRE 
                 debiased_features = torch.sum(predicted_features_tensor * debiased_weight.unsqueeze(1).unsqueeze(2), dim=0)
             similarity = debiased_features @ index_features.T
 
 
         else:
+            # simple SEIZE, TODO
             similarity_after = predicted_features @ index_features.T
             similarity_before = blip_predicted_features @ index_features.T
 
@@ -388,27 +396,6 @@ def circo_generate_test_dict(relative_test_dataset: CIRCODataset, clip_model: CL
 
             similarity = similarity_after + args.momentum_factor * diff
         
-
-        # sorted_indices_before = torch.topk(similarity_before, dim=-1, k=similarity_before.shape[-1]).indices.cpu()
-        # sorted_indices_after = torch.topk(similarity_after, dim=-1, k=similarity_after.shape[-1]).indices.cpu()
-
-        # rank_blip = sorted_indices_before
-        # rank_gpt = sorted_indices_after
-
-        # # 转换第一个向量为字典
-        # first_dict = {id: index for index, id in enumerate(rank_blip)}
-
-        # # 创建前进和后退的列表
-        # forward_ids = []
-        # backward_ids = []
-
-        # # 遍历第二个向量
-        # for id in rank_gpt:
-        #     if first_dict[id] > rank_gpt.index(id):
-        #         backward_ids.append(id)
-        #     elif first_dict[id] < rank_gpt.index(id):
-        #         forward_ids.append(id)
-
     # Compute the similarity
     else:
         similarity = predicted_features @ index_features.T
@@ -447,17 +434,13 @@ def main():
         else:
             raise ValueError("Preprocess type not supported")
 
-        if args.dataset.lower() == 'cirr':
-            relative_test_dataset = CIRRDataset(args.dataset_path, 'test', 'relative', preprocess, no_duplicates=True)
-        elif args.dataset.lower() == 'circo':
-            relative_test_dataset = CIRCODataset(args.dataset_path, 'test', 'relative', preprocess)
-        else:
-            raise ValueError("Dataset not supported")
-
         clip_model = clip_model.float().to(device)
         
 
-    print(f"Eval type = {args.eval_type} \t exp name = {args.exp_name} \t")
+    print(f"Eval type = {args.eval_type} \t")
+    folder_path = f'feature/{args.dataset}/{args.eval_type}/debiased/'
+    if not os.path.exists(folder_path):
+        os.makedirs(folder_path)
 
     if args.dataset == 'cirr':
         cirr_generate_test_submission_file(args.dataset_path, clip_model_name, preprocess, args.submission_name)

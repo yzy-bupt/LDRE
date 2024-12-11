@@ -1,2 +1,3 @@
 __pycache__/
 CIRCO/COCO2017_unlabeled
+*.pt

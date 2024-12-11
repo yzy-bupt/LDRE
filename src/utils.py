@@ -114,6 +114,6 @@ def extract_image_features(dataset: Dataset, clip_model: CLIP, batch_size: Optio
             index_names.extend(names)
 
     index_features = torch.vstack(index_features)
-    # np.save('feature/{}/index_names_{}.npy'.format(args.dataset, args.type), index_names)
-    # torch.save(index_features, 'feature/{}/index_features_{}.pt'.format(args.dataset, args.type))
+    np.save(f'feature/{args.dataset}/{args.eval_type}/index_names.npy', index_names)
+    torch.save(index_features, f'feature/{args.dataset}/{args.eval_type}/index_features.pt')
     return index_features, index_names
