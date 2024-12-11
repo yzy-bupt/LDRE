@@ -4,7 +4,7 @@ class args_define():
     parser = ArgumentParser()
     parser.add_argument("--dataset", type=str, default='circo', choices=['cirr', 'circo', 'fashioniq'], help="Dataset to use")
     parser.add_argument("--dataset-path", type=str, help="Path to the dataset", default='CIRCO')
-    parser.add_argument("--eval-type", type=str, choices=['LDRE-B', 'LDRE-L', 'LDRE-G'], default='LDRE-G',
+    parser.add_argument("--eval-type", type=str, choices=['LDRE-B', 'LDRE-L', 'LDRE-G'], default='LDRE-L',
                         help="if 'LDRE-B' uses the pre-trained CLIP ViT-B/32, "
                              "if 'LDRE-L' uses the pre-trained CLIP ViT-L/14, "
                              "if 'LDRE-G' uses the pre-trained CLIP ViT-G/14")
