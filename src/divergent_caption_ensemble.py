@@ -1,6 +1,5 @@
 import json
 import os
-import pickle
 from args import args_define
 from typing import List, Tuple, Dict
 
@@ -16,6 +15,25 @@ from tqdm import tqdm
 from datasets import CIRRDataset, CIRCODataset
 from utils import extract_image_features, device, collate_fn, PROJECT_ROOT, targetpad_transform
 
+name2model = {
+    'LDRE-B':'ViT-B-32',
+    'LDRE-L':'ViT-L-14',
+    'LDRE-H':'ViT-H-14',
+    'LDRE-g':'ViT-g-14',
+    'LDRE-G':'ViT-bigG-14',
+    'LDRE-CoCa-B':'coca_ViT-B-32',
+    'LDRE-CoCa-L':'coca_ViT-L-14'
+}
+
+pretrained = {
+    'ViT-B-32':'openai',
+    'ViT-L-14':'openai', # For fair comparison, previous work used opanai's CLIP instead of open_clip
+    'ViT-H-14':'laion2b_s32b_b79k', # Models larger than ViT-H only on open_clip, using laion2b uniformly
+    'ViT-g-14':'laion2b_s34b_b88k',
+    'ViT-bigG-14':'laion2b_s39b_b160k',
+    'coca_ViT-B-32':'mscoco_finetuned_laion2b_s13b_b90k', # 'laion2b_s13b_b90k'
+    'coca_ViT-L-14':'mscoco_finetuned_laion2b_s13b_b90k'  # 'laion2b_s13b_b90k'
+}
 
 @torch.no_grad()
 def cirr_generate_test_submission_file(dataset_path: str, clip_model_name: str, preprocess: callable, submission_name: str) -> None:
@@ -185,10 +203,7 @@ def circo_generate_test_submission_file(dataset_path: str, clip_model_name: str,
     """
 
     # Load the CLIP model
-    if clip_model_name == 'ViT-g-14':
-        clip_model, _, _ = open_clip.create_model_and_transforms('ViT-g-14', device=device, pretrained='laion2b_s34b_b88k')
-    else:
-        clip_model, _ = clip.load(clip_model_name, device=device, jit=False)
+    clip_model, _, _ = open_clip.create_model_and_transforms(clip_model_name, device=device, pretrained=pretrained[clip_model_name])
     clip_model = clip_model.float().eval().requires_grad_(False)
 
     # Compute the index features
@@ -201,18 +216,6 @@ def circo_generate_test_submission_file(dataset_path: str, clip_model_name: str,
         index_features, index_names = extract_image_features(classic_test_dataset, clip_model)
 
     relative_test_dataset = CIRCODataset(dataset_path, 'test', 'relative', preprocess)
-
-
-    # for idx in range(15):
-    #     # Get the predictions dict
-    #     queryid_to_retrieved_images = circo_generate_test_dict(relative_test_dataset, clip_model, index_features,
-    #                                                         index_names, ref_names_list, pseudo_tokens, idx + 1)
-
-    #     submissions_folder_path = PROJECT_ROOT / 'data' / "test_submissions" / 'circo'
-    #     submissions_folder_path.mkdir(exist_ok=True, parents=True)
-
-    #     with open(submissions_folder_path / f"{submission_name}_{idx + 1}.json", 'w+') as file:
-    #         json.dump(queryid_to_retrieved_images, file, sort_keys=True)
 
     # Get the predictions dict
     queryid_to_retrieved_images = circo_generate_test_dict(relative_test_dataset, clip_model, index_features,
@@ -238,10 +241,7 @@ def circo_generate_test_predictions(clip_model: CLIP, relative_test_dataset: CIR
 
     predicted_features_list = []
     query_ids_list = []
-    if args.eval_type == 'LDRE-G':
-        tokenizer = open_clip.get_tokenizer('ViT-g-14')
-    else:
-        tokenizer = clip.tokenize
+    tokenizer = open_clip.get_tokenizer(name2model[args.eval_type])
 
     # Compute the predictions
     for batch in tqdm(relative_test_loader):
@@ -281,14 +281,21 @@ def circo_generate_test_predictions(clip_model: CLIP, relative_test_dataset: CIR
         if args.multi_caption and debiased_id == -1:
             text_features_list = []
             for cap in input_captions:
-                tokenized_input_captions = tokenizer(cap, context_length=77).to(device)
+                if 'coca' in args.eval_type.lower(): 
+                    # CoCa uses one more token to pass it to the contrastive side
+                    tokenized_input_captions = tokenizer(cap, context_length=76).to(device)
+                else:
+                    tokenized_input_captions = tokenizer(cap, context_length=77).to(device)
                 text_features = clip_model.encode_text(tokenized_input_captions)
                 text_features_list.append(text_features)
             text_features_list = torch.stack(text_features_list)
             text_features = torch.mean(text_features_list, dim=0)
 
         else:
-            tokenized_input_captions = tokenizer(input_captions, context_length=77).to(device)
+            if 'coca' in args.eval_type.lower():
+                tokenized_input_captions = tokenizer(input_captions, context_length=76).to(device)
+            else:
+                tokenized_input_captions = tokenizer(input_captions, context_length=77).to(device)
             text_features = clip_model.encode_text(tokenized_input_captions)
         predicted_features = F.normalize(text_features)
 
@@ -303,7 +310,7 @@ def circo_generate_test_dict(relative_test_dataset: CIRCODataset, clip_model: CL
                              index_names: List[str], nums_caption) \
         -> Dict[str, List[str]]:
     """
-    Generate the test submission dicts for the CIRCO dataset given the pseudo tokens
+    Generate the test submission dicts for the CIRCO dataset
     """
 
     # Get the predicted features
@@ -311,11 +318,11 @@ def circo_generate_test_dict(relative_test_dataset: CIRCODataset, clip_model: CL
         if args.use_adaptive_ensemble:
             predicted_features_list = []
             for i in range(nums_caption):
-                predicted_features = torch.load(f'feature/{args.dataset}/{args.eval_type}/debiased/gpt_predicted_features_{i}.pt')
+                predicted_features = torch.load(f'feature/{args.dataset}/{args.eval_type}/debiased/{args.gpt_version}_predicted_features_{i}.pt')
                 predicted_features_list.append(predicted_features)
             query_ids = np.load(f'feature/{args.dataset}/query_ids.npy')
         else:
-            predicted_features = torch.load(f'feature/{args.dataset}/{args.eval_type}/gpt_predicted_features.pt')
+            predicted_features = torch.load(f'feature/{args.dataset}/{args.eval_type}/{args.gpt_version}_predicted_features.pt')
             query_ids = np.load(f'feature/{args.dataset}/query_ids.npy')
     else:
         if args.use_adaptive_ensemble:
@@ -323,14 +330,14 @@ def circo_generate_test_dict(relative_test_dataset: CIRCODataset, clip_model: CL
             for i in range(nums_caption):
                 predicted_features, query_ids = circo_generate_test_predictions(clip_model, relative_test_dataset, debiased_id=i)
                 if args.save_features:
-                    torch.save(predicted_features, f'feature/{args.dataset}/{args.eval_type}/debiased/gpt_predicted_features_{i}.pt')
+                    torch.save(predicted_features, f'feature/{args.dataset}/{args.eval_type}/debiased/{args.gpt_version}_predicted_features_{i}.pt')
                     np.save(f'feature/{args.dataset}/query_ids.npy', query_ids)
                 predicted_features_list.append(predicted_features)
         else:
             predicted_features, query_ids = circo_generate_test_predictions(clip_model, relative_test_dataset)
             if args.save_features:
                 np.save(f'feature/{args.dataset}/query_ids.npy', query_ids)
-                torch.save(predicted_features, f'feature/{args.dataset}/{args.eval_type}/gpt_predicted_features.pt')
+                torch.save(predicted_features, f'feature/{args.dataset}/{args.eval_type}/{args.gpt_version}_predicted_features.pt')
     
     # Normalize the features
     index_features = index_features.float().to(device)
@@ -412,31 +419,12 @@ def circo_generate_test_dict(relative_test_dataset: CIRCODataset, clip_model: CL
 args = args_define.args
 
 def main():
-    if args.eval_type in ['LDRE-B', 'LDRE-L', 'LDRE-G']:
-        if args.eval_type == 'LDRE-B':
-            clip_model_name = 'ViT-B/32'
-        elif args.eval_type == 'LDRE-L':
-            clip_model_name = 'ViT-L/14'
-        else:
-            clip_model_name = 'ViT-g-14'
-
-        if clip_model_name == 'ViT-g-14':
-            clip_model, _, clip_preprocess = open_clip.create_model_and_transforms('ViT-g-14', pretrained='laion2b_s34b_b88k')
-        else:
-            clip_model, clip_preprocess = clip.load(clip_model_name, device=device, jit=False)
-
-        if args.preprocess_type == 'targetpad':
-            print('Target pad preprocess pipeline is used')
-            preprocess = targetpad_transform(1.25, 224)
-        elif args.preprocess_type == 'clip':
-            print('CLIP preprocess pipeline is used')
-            preprocess = clip_preprocess
-        else:
-            raise ValueError("Preprocess type not supported")
-
-        clip_model = clip_model.float().to(device)
+    if args.eval_type in ['LDRE-B', 'LDRE-L', 'LDRE-H', 'LDRE-g', 'LDRE-G', 'LDRE-CoCa-B', 'LDRE-CoCa-L']:
+        clip_model_name = name2model[args.eval_type]
+        preprocess = targetpad_transform(1.25, 224)
+    else:
+        raise ValueError("Model type not supported")
         
-
     print(f"Eval type = {args.eval_type} \t")
     folder_path = f'feature/{args.dataset}/{args.eval_type}/debiased/'
     if not os.path.exists(folder_path):
@@ -446,7 +434,6 @@ def main():
         cirr_generate_test_submission_file(args.dataset_path, clip_model_name, preprocess, args.submission_name)
     elif args.dataset == 'circo':
         circo_generate_test_submission_file(args.dataset_path, clip_model_name, preprocess, args.submission_name)
-
     else:
         raise ValueError("Dataset not supported")
 

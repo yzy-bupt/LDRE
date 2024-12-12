@@ -4,17 +4,18 @@ class args_define():
     parser = ArgumentParser()
     parser.add_argument("--dataset", type=str, default='circo', choices=['cirr', 'circo', 'fashioniq'], help="Dataset to use")
     parser.add_argument("--dataset-path", type=str, help="Path to the dataset", default='CIRCO')
-    parser.add_argument("--eval-type", type=str, choices=['LDRE-B', 'LDRE-L', 'LDRE-G'], default='LDRE-L',
-                        help="if 'LDRE-B' uses the pre-trained CLIP ViT-B/32, "
-                             "if 'LDRE-L' uses the pre-trained CLIP ViT-L/14, "
-                             "if 'LDRE-G' uses the pre-trained CLIP ViT-G/14")
-    parser.add_argument("--preprocess-type", default="targetpad", type=str, choices=['clip', 'targetpad'],
-                        help="Preprocess pipeline to use")
+    parser.add_argument("--eval-type", type=str, choices=['LDRE-B', 'LDRE-L', 'LDRE-H', 'LDRE-g', 'LDRE-G', 'LDRE-CoCa-B', 'LDRE-CoCa-L'], default='LDRE-G',
+                        help="if 'LDRE-B' uses the pre-trained CLIP ViT-B/32,"
+                             "if 'LDRE-L' uses the pre-trained CLIP ViT-L/14,"
+                             "if 'LDRE-g' uses the pre-trained CLIP ViT-g/14,"
+                             "if 'LDRE-G' uses the pre-trained CLIP ViT-G/14,"
+                             "if 'LDRE-CoCa-L' uses the pre-trained CoCa ViT-L/14")
     ### 
     parser.add_argument("--submission-name", type=str, default='test', help="Filename of the generated submission file")
     parser.add_argument("--caption_type", type=str, default='opt', choices=['none', 't5', 'opt'], 
                         help="language model of blip-2, 't5' or 'opt'")
     parser.add_argument("--use_gpt_caption", type=bool, default=True)
+    parser.add_argument("--gpt_version", type=str, choices=['gpt-3.5', 'gpt-4', 'gpt-4o'], default='gpt-3.5')
     parser.add_argument("--use_rel_caption", type=bool, default=True)
     parser.add_argument("--multi_caption", type=bool, default=True)
     parser.add_argument("--nums_caption", type=int, default=15)

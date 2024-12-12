@@ -7550,7 +7550,7 @@
             "a crowded group of people sitting on benches.",
             "two men sit on a bench at a park, surrounded by more people.",
             "Several people are sitting on park benches overlooking the water.",
-            "Image Content: three men sit on benches overlooking the ocean.\nInstruction: is zoomed in and has more people.\na crowded bench with people overlooking the ocean.",
+            "a crowded bench with people overlooking the ocean.",
             "More people sitting on a bench next to a lake.",
             "three men sitting on benches looking out to the sea, with additional people around them.",
             "A group of people sitting on park benches, looking out to the ocean.",
@@ -7596,7 +7596,7 @@
             "a tall clock tower with clear sky and surrounded by water.",
             "a tower with a clock on top of it surrounded by water with a clear sky",
             "a large clock tower surrounded by water with a clear sky",
-            "Image Content: a clock tower stands tall under dark skies.\nInstruction: is surrounded by water and the sky is clearer.\na clock tower stands tall surrounded by water, under clear skies.",
+            "a clock tower stands tall surrounded by water, under clear skies.",
             "a large clock tower surrounded by water on top of a grassy hillside",
             "a large clock tower on a clear day with water surrounding it",
             "a tall clock tower surrounded by water on a clear day.",
@@ -13984,7 +13984,7 @@
             "a white cat with a blue face is sitting at a dining table.",
             "a small white cat sitting at a dining table.",
             "a white cat sitting at a dining table",
-            "Image Content: a white cat on a blue sofa with a light blue blanket\nInstruction: is sitting at a dining table\na white cat sitting at a dining table.",
+            "a white cat sitting at a dining table.",
             "a white cat sitting at a dining table",
             "a white cat sitting at a dining table.",
             "a white cat sitting at a dining table.",
@@ -18207,7 +18207,7 @@
             "a dog holding a blue frisbee in its mouth"
         ],
         "multi_gpt-3.5_opt": [
-            "Image Content: the dog is standing in the snow holding a frisbee\nInstruction: has a white frisbee and is set on sand\nthe dog is standing on sand holding a white frisbee.",
+            "the dog is standing on sand holding a white frisbee.",
             "a dog is in the sand holding a white frisbee.",
             "a white dog with a frisbee in his mouth on sand",
             "a dog holding a frisbee in his mouth on sand.",
@@ -25868,7 +25868,7 @@
             "Four people dressed up as zombies with blood all over their faces, taken indoors.",
             "Four people wearing suits and ties, with their faces and heads covered in makeup, inside a room.",
             "Four people indoors with fake blood all over their faces and hair.",
-            "Image Content: a man with blood painted all over his face.\nInstruction: has four people and is taken indoors.\nfour people with blood painted all over their faces, taken indoors.",
+            "four people with blood painted all over their faces, taken indoors.",
             "Four people with painted faces wearing suits inside.",
             "A group of four people having a scary makeover indoors.",
             "Four people dressed up in zombie costumes, taken indoors."
@@ -28524,7 +28524,7 @@
             "a kitchen with multiple wooden stools in it.",
             "a kitchen counter is covered with food and spices and there are multiple stools made of wood.",
             "a very large kitchen filled with lots of food and multiple stools made of wood.",
-            "Image Content: the kitchen is a mess with a lot of dishes.\nInstruction: has multiple stools made of wood.\nthe kitchen is a mess with a lot of dishes and multiple wooden stools.",
+            "the kitchen is a mess with a lot of dishes and multiple wooden stools.",
             "a kitchen that has a counter top with food on it and multiple wooden stools.",
             "a cluttered kitchen with a stove, sink, and multiple wooden stools."
         ]
@@ -32116,7 +32116,7 @@
             "a man dressed up in a suit and tie, wearing eyeglasses and a black shirt.",
             "a man in a black suit with eyeglasses and a black shirt.",
             "a person with a black shirt and eyeglasses on, looking at the camera",
-            "Image Content: a person dressed in a black suit with a tie\nInstruction: has eyeglasses and a black shirt\na person dressed in a black suit with a tie, wearing eyeglasses and a black shirt.",
+            "a person dressed in a black suit with a tie, wearing eyeglasses and a black shirt.",
             "a bearded man wearing eyeglasses, a black suit, and a black shirt",
             "a man in a black shirt and eyeglasses, dressed for a formal occasion",
             "a man with eyeglasses and a black shirt is standing by people.",
