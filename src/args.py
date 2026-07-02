@@ -1,4 +1,4 @@
-from argparse import ArgumentParser
+from argparse import ArgumentParser, BooleanOptionalAction
 
 class args_define():
     parser = ArgumentParser()
@@ -14,14 +14,14 @@ class args_define():
     parser.add_argument("--submission-name", type=str, default='test', help="Filename of the generated submission file")
     parser.add_argument("--caption_type", type=str, default='opt', choices=['none', 't5', 'opt'], 
                         help="language model of blip-2, 't5' or 'opt'")
-    parser.add_argument("--use_gpt_caption", type=bool, default=True)
+    parser.add_argument("--use_gpt_caption", action=BooleanOptionalAction, default=True)
     parser.add_argument("--gpt_version", type=str, choices=['gpt-3.5', 'gpt-4', 'gpt-4o'], default='gpt-3.5')
-    parser.add_argument("--use_rel_caption", type=bool, default=True)
-    parser.add_argument("--multi_caption", type=bool, default=True)
+    parser.add_argument("--use_rel_caption", action=BooleanOptionalAction, default=True)
+    parser.add_argument("--multi_caption", action=BooleanOptionalAction, default=True)
     parser.add_argument("--nums_caption", type=int, default=15)
     
     ### 
-    parser.add_argument("--use_semantic_relevance_score", type=bool, default=True,
+    parser.add_argument("--use_semantic_relevance_score", action=BooleanOptionalAction, default=True,
                         help="True: calculate features for both reference captions (blip_predicted_features)"
                              "and edited captions (gpt_predicted_features)."
                              "False: calculate features for the edited caption only."
@@ -29,17 +29,17 @@ class args_define():
     parser.add_argument("--momentum_factor", type=float, default=0.0, help="TODO for SEIZE, can be ignored for now")
     
     ### 
-    parser.add_argument("--use_adaptive_ensemble", type=bool, default=True,
+    parser.add_argument("--use_adaptive_ensemble", action=BooleanOptionalAction, default=True,
                         help="Whether to calculate weights for each pair of captions. True for LDRE")
     parser.add_argument("--adaptive_temperature", type=float, default=0.04)
     parser.add_argument("--adaptive_topk", type=int, default=5, 
                         help="Select the top k largest differences as weights, with k=5 to 50 yielding the best results")
     
-    parser.add_argument("--use_gpt_predicted_features", type=bool, default=False,
+    parser.add_argument("--use_gpt_predicted_features", action=BooleanOptionalAction, default=False,
                         help="Whether to use predicted features for edited captions by GPT. False for the first time")
-    parser.add_argument("--use_blip_predicted_features", type=bool, default=False,
+    parser.add_argument("--use_blip_predicted_features", action=BooleanOptionalAction, default=False,
                         help="Whether to use predicted features for reference captions by BLIP2. False for the first time")
-    parser.add_argument("--save_features", type=bool, default=True)
+    parser.add_argument("--save_features", action=BooleanOptionalAction, default=True)
     
 
     args = parser.parse_args()

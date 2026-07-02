@@ -82,7 +82,7 @@ def cirr_generate_test_submission_file(dataset_path: str, clip_model_name: str, 
     with open(submissions_folder_path / f"{args.eval_type}_{submission_name}.json", 'w+') as file:
         json.dump(submission, file, sort_keys=True)
 
-    with open(submissions_folder_path / f"{args.eval_type}_{submission_name}.json", 'w+') as file:
+    with open(submissions_folder_path / f"subset_{args.eval_type}_{submission_name}.json", 'w+') as file:
         json.dump(group_submission, file, sort_keys=True)
 
 

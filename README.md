@@ -24,7 +24,12 @@ Zero-Shot Composed Image Retrieval (ZS-CIR) has garnered increasing interest in 
 
 ### Installation
 
-1. Clone the repository, click  `Download file`
+1. Clone the repository:
+
+```sh
+git clone https://github.com/yzy-bupt/LDRE.git
+cd LDRE
+```
 
 2. Install Python dependencies
 
