@@ -1,4 +1,5 @@
 import json
+import os
 import time
 import traceback
 
@@ -6,7 +7,9 @@ from tqdm import tqdm
 import openai
 from pathlib import Path
 
-openai.api_key = "your_api_key"
+openai.api_key = os.environ.get("OPENAI_API_KEY", "your_api_key")
+
+MAX_RETRIES = 5  # avoid retrying forever when a request keeps failing
 
 DATASET = 'circo' # 'cirr', 'fashioniq'
 
@@ -18,6 +21,8 @@ elif DATASET == 'cirr':
     SPLIT = 'test1'
     input_json = 'CIRR/cirr/captions/cap.rc2.test1.json'
     dataset_path = Path('CIRR')
+else:
+    raise ValueError(f"Unsupported DATASET '{DATASET}', expected 'circo' or 'cirr'")
 
 BLIP2_MODEL = 'opt' # or 'opt' or 't5'
 MULTI_CAPTION = True
@@ -47,7 +52,7 @@ for ans in tqdm(annotations):
         for cap in blip2_caption:
             usr_prompt = "I will put my image content beginning with \"Image Content:\". The instruction I provide will begin with \"Instruction:\". The edited description you generate should begin with \"Edited Description:\". You just generate one edited description only begin with \"Edited Description:\". The edited description needs to be as simple as possible and only reflects image content. Just one line.\nA example:\nImage Content: a man adjusting a woman's tie.\nInstruction: has the woman and the man with the roles switched.\nEdited Description: a woman adjusting a man's tie.\n\nImage Content: {}\nInstruction: {}\nEdited Description:".format(cap, rel_cap)
             # print(prompt)
-            while True:
+            for attempt in range(MAX_RETRIES):
                 try:
                     completion = openai.ChatCompletion.create(
                         model="gpt-3.5-turbo",
@@ -58,15 +63,17 @@ for ans in tqdm(annotations):
                     ret = completion['choices'][0]["message"]["content"].strip('\n')
                     multi_gpt.append(ret)
                     break
-                except:
+                except Exception:
                     traceback.print_exc()
                     time.sleep(3)
+            else:
+                multi_gpt.append("")
         ans["multi_gpt-3.5_{}".format(BLIP2_MODEL)] = multi_gpt
         
     else:
         usr_prompt = "I will put my image content beginning with \"Image Content:\". The instruction I provide will begin with \"Instruction:\". The edited description you generate should begin with \"Edited Description:\". You just generate one edited description only begin with \"Edited Description:\". The edited description needs to be as simple as possible and only reflects image content. Just one line.\nA example:\nImage Content: a man adjusting a woman's tie.\nInstruction: has the woman and the man with the roles switched.\nEdited Description: a woman adjusting a man's tie.\n\nImage Content: {}\nInstruction: {}\nEdited Description:".format(blip2_caption, rel_cap)
         # print(prompt)
-        while True:
+        for attempt in range(MAX_RETRIES):
             try:
                 completion = openai.ChatCompletion.create(
                     model="gpt-3.5-turbo",
@@ -80,7 +87,7 @@ for ans in tqdm(annotations):
                 else:
                     ans["gpt-3.5-turbo_{}".format(BLIP2_MODEL)] = ret
                 break
-            except:
+            except Exception:
                 traceback.print_exc()
                 time.sleep(3)
 
